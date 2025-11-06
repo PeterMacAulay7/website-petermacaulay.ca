@@ -7,8 +7,8 @@
 </head>
     <body>
     <div class = "outter">
-        <h2><a href="https://github.com/PeterMacAulay7/petermacaulay.ca/tree/main">This Website!</a></h2><br>
-        <a href="https://github.com/PeterMacAulay7/petermacaulay.ca/tree/main"><div class = "projectbox">
+        <h2><a href="https://github.com/PeterMacAulay7/website-petermacaulay.ca">This Website!</a></h2><br>
+        <a href="https://github.com/PeterMacAulay7/website-petermacaulay.ca"><div class = "projectbox">
             <ul>
                 <li>This is the github repository for the website you are currently on!</li>
                 <br>
