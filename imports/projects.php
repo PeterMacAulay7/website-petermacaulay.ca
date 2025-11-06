@@ -13,8 +13,7 @@
                 <li>This is the github repository for the website you are currently on!</li>
                 <br>
                 <li>    
-                    it contains &#40mostly&#41
-                    up to date files, that you are free to peruse. You can learn from them, or if you think I have something to learn,
+                    it contains up to date files, that you are free to peruse. You can learn from them, or if you think I have something to learn,
                     which I can tell you right now, I do, please use my contact page to let me know.
                 </li>
             </ul>
