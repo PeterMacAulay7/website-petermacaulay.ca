@@ -8,7 +8,7 @@
     <body>
         <div class = "outter">
             <h2><a href=""></a></h2><br>
-            <a href=""><div class = "blogbox">
+            <a href=""><div class = "contentbox">
                 <ul>
                     <li>
                         Coming soon!

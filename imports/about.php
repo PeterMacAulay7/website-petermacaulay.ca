@@ -25,7 +25,7 @@
         <div class ="intro">
         Some of my interests include:
         </div>
-        <div class="blogbox">
+        <div class="contentbox">
             <ul>
               <li>Improv Comedy</li>
               <li>Philosophy</li>

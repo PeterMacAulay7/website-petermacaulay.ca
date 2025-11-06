@@ -80,7 +80,7 @@ switch ($nav) {
     <div class="main-content">
       <?php include $pageFile; ?>
     </div>
-
+    
     <?php include 'imports/right-sidebar.php'; ?>
   </main>
 

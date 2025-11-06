@@ -29,13 +29,13 @@
     <h2>Most Recent:</h2>
 
     <h3>Blog Post</h3>
-    <?php echo get_first_div('imports/blog.php', 'blogbox'); ?>
+    <?php echo get_first_div('imports/blog.php', 'contentbox'); ?>
 
     <h3>Essay</h3>
-    <?php echo get_first_div('imports/essays.php', 'essaybox'); ?>
+    <?php echo get_first_div('imports/essays.php', 'contentbox'); ?>
 
     <h3>Project</h3>
-    <?php echo get_first_div('imports/projects.php', 'projectbox'); ?>
+    <?php echo get_first_div('imports/projects.php', 'contentbox'); ?>
   </div>
 
 </body>

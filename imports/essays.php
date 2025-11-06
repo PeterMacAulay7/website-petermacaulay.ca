@@ -8,7 +8,7 @@
     <body>
         <div class = "outter">
             <h2><a href="imports/Zwicky_Paper.html">Zwicky Essay- Duck Season or Rabbit Season: Ethically It's Both </a></h2><br>
-            <a href="imports/Zwicky_Paper.html"><div class = "essaybox">
+            <a href="imports/Zwicky_Paper.html"><div class = "contentbox">
                 <ul>
                     <li>
                         An essay I wrote in March 2025 about Jan Zwicky's book 'The Experience of Meaning'.
@@ -24,7 +24,7 @@
             </div></a>
 
             <h2><a href="imports/McDowell_Paper.html">McDowell Essay- John McDowell and the Cure for Philosophical Vertigo </a></h2><br>
-            <a href="imports/McDowell_Paper.html"><div class = "essaybox">
+            <a href="imports/McDowell_Paper.html"><div class = "contentbox">
                 <ul>
                     <li>
                         An essay I wrote in Febuary 2025 about John McDowell's book 'Mind and World'.
@@ -39,7 +39,7 @@
             </div></a>
 
                         <h2><a href="imports/Peter_MacAulay_PHIL_3301_Term_Paper1.html">Analytic Philosophy-In Origin Term Paper</a></h2><br>
-            <a href="imports/Peter_MacAulay_PHIL_3301_Term_Paper1.html"><div class = "essaybox">
+            <a href="imports/Peter_MacAulay_PHIL_3301_Term_Paper1.html"><div class = "contentbox">
                 <ul>
                     <li>
                         An essay I wrote in december of 2024 for my analytic philosophy-in origin class. This class preceeded my analytic philosophy-in progress class, which was a continuation of this class and can be seen in my John McDowell, and Jan Zwicky papers.

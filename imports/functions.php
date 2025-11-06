@@ -6,7 +6,7 @@ function get_first_div($file, $class) {
 
     $html = file_get_contents($file);
 
-    // This pattern finds the FIRST occurrence of <div class="blogbox"> ... </div>
+    // This pattern finds the FIRST occurrence of <div class="contentbox"> ... </div>
     // even if it’s wrapped in <a> tags, spans multiple lines, etc.
     $pattern = '/(<a[^>]*>\s*)?<div[^>]*class\s*=\s*["\']\s*' 
                 . preg_quote($class, '/') . '\s*["\'][^>]*>.*?<\/div>(\s*<\/a>)?/si';
