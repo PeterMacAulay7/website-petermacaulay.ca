@@ -1,0 +1,213 @@
+/* ====== GLOBAL STYLES ====== */
+:root {
+--lp: rgb(255, 222, 222);
+--dp: rgb(249, 178, 239);
+}
+body {
+  text-align: center;
+  background-color: black;
+  background-image: url("images/firephoto_blur.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps background still as you scroll */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12pt;
+  color: var(--lp);
+  margin: 0;
+  padding: 0;
+}
+
+/* ====== CUSTOM BOX STYLES ====== */
+
+.scroll-box{
+  overflow-y: scroll;
+  max-height: 150px;
+  padding-bottom: 20px;
+  scrollbar-color: var(--lp);
+  text-align: left;
+}
+
+.blogbox{
+  display: flex;           /* puts children side by side */
+  gap: 40px;
+  background-color:rgba(249, 178, 239, 0.374);
+  border-radius: 20px;
+  max-height: 200px;
+  overflow-y: scroll;
+
+
+}
+.blogbox img {
+  max-width: 200px;        /* scale the image */
+  border-radius: 20px;
+  margin-left: auto;
+}
+
+.projectbox{
+  display: flex;           /* puts children side by side */
+  gap: 40px;
+  background-color:rgba(249, 178, 239, 0.374);
+  border-radius: 20px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.projectbox img {
+  max-width: 200px;        /* scale the image */
+  border-radius: 20px;
+  margin-left: auto;
+}
+
+.essaybox{
+  display: flex;           /* puts children side by side */
+  gap: 40px;
+  background-color:rgba(249, 178, 239, 0.374);
+  border-radius: 20px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.essaybox img {
+  max-width: 200px;        /* scale the image */
+  border-radius: 20px;
+  margin-left: auto;
+}
+
+.outter{
+  text-align: left;
+  display: flex;          /* puts children side by side */
+  flex-direction: column;
+}
+
+.contact_box{
+  .fname, .lname, .email, .message{
+    border-radius: 20px;
+    border-color: var(--dp);
+    background-color: var(--lp);
+  }
+}
+
+
+/* ====== HEADER ====== */
+
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background: rgba(0, 0, 0, 0.5); /* translucent overlay for readability */
+  top: 0;
+  z-index: 10;
+}
+
+.header-bar img {
+  width: 80px;
+  height: auto;
+}
+
+.nav-buttons button {
+  background-color: transparent;
+  border: 1px solid var(--lp);
+  color: var(--lp);
+  font-family: inherit;
+  font-size: 1rem;
+  margin: 0 5px;
+  padding: 6px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-buttons button:hover {
+  background-color: var(--lp);
+  transform: translateY(-3px);
+  color: black;
+}
+
+/* ====== GRID LAYOUT ====== */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr min(900px, 70%) 1fr; /* sidebars + centered content */
+  gap: 20px;
+  margin-top: 40px;
+  padding: 0 10px;
+}
+
+/* Side columns (narrow transparent panels) */
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+/* Main content column */
+.main-content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  padding: 25px;
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* ====== GENERAL CONTENT ====== */
+
+h1, h2, h3 {
+  color: var(--dp);
+}
+
+a {
+  color: var(--lp);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+img {
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ====== FOOTER ====== */
+
+footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: rgb(200, 200, 200);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ====== RESPONSIVE ====== */
+
+/* Mobile-friendly responsive layout */
+@media (max-width: 900px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .main-content {
+    width: 100%;
+    max-width: 700px;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}
+
+
