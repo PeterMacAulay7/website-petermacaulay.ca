@@ -38,7 +38,7 @@
         </div></a>
 
         <h2><a href="https://github.com/PeterMacAulay7/BarbieVsZombie">Barbie vs Zombie</a></h2><br>
-        <a href="https://github.com/PeterMacAulay7/BarbieVsZombie"><div class = "projectbox">
+        <a href="https://github.com/PeterMacAulay7/BarbieVsZombie"><div class = "contentbox">
             <ul>
                 <li>Barbie vs Zombie is a small game I also made in my object oriented design class.</li>
                 <br>
