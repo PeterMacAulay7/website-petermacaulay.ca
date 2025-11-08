@@ -20,7 +20,7 @@
         <p>I’ve always wanted a space to learn, build, and reflect in public — 
           this site is where I’m figuring that out. Everything here is handmade and in progress.</p>
         <p>
-          *note* if you haven't been here in a while, try ctrl + f5 to refresh the page so you don't miss the latest updates!
+          *note* if you haven't been here in a while, try ctrl + f5 (or cmd + option + r on safari) to refresh the page so you don't miss the latest updates!
         </p>
     </section>
   </div>
