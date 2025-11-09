@@ -4,6 +4,7 @@
         </h2>
         <div class = "scroll-box">
           <ul>
+            <li> Once upon a Time in the West by Jan Zwicky</li>
             <li>Little Women by Louisa May Alcott </li>
           </ul>
         </div>
