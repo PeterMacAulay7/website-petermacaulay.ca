@@ -4,7 +4,6 @@
         </h2>
         <div class = "scroll-box">
           <ul>
-            <li>Kant's Prolegomena to any Future Metaphysics</li>
             <li>Little Women by Louisa May Alcott </li>
           </ul>
         </div>
