@@ -10,11 +10,14 @@
         </div>
 
         <h2>
-          Currently Listenting To:
+          Currently On Repeat:
         </h2>
         <div class = "scroll-box">
           <ul>
+            <li>Unoriginal/Black-Eyed Susan Climb -Magdalena Bay</li>
+            <li>West End Girl -Lily Allen</li>
             <li>Let God Sort Em Out -Clipse</li>
+            <li>We got it from Here... Thank You 4 Your Service -A Tribe Called Quest</li>
           </ul>
         </div>
 
