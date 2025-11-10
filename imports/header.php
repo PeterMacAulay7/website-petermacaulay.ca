@@ -5,6 +5,7 @@
     <a href="/">
       <img src="/images/PMsignature.png" alt="PM">
     </a>
+    <img src ="/images/PMBanner.png" alt="Peter MacAulay" class = "banner">
 
     <nav class="nav-buttons">
       <?php
