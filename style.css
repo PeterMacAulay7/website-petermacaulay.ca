@@ -32,7 +32,7 @@ body {
   flex-grow: 1;               /* take up space between logo and nav */
   max-height: 120px;          /* keep it from being too tall */
   object-fit: contain;        /* keep the aspect ratio */
-  margin: 0 40px;             /* space between logo and buttons */
+  margin: 0 15px;             /* space between logo and buttons */
 }
 
 .contentbox{

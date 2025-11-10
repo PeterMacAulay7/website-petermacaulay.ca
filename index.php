@@ -63,7 +63,7 @@ switch ($nav) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Peter MacAulay | <?php echo ucfirst($nav); ?></title>
   <link rel="icon" href="PMsignature.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=1.1">
 </head>
 
 <body>
