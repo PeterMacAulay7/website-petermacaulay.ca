@@ -20,8 +20,7 @@ if (isset($_GET['nav'])) {
 switch ($nav) {
   case 'home':
     $pageHeaderHTML = '
-      <h1>Hello, my name is Peter MacAulay</h1>
-      <h2>Welcome to my website!</h2>
+      <h1>Welcome to my website!</h1>
       <p><b>Improvisor, Philosopher, Developer, and Neo-Polymath</b></p>';
     $pageFile = 'imports/home.php';
     break;
