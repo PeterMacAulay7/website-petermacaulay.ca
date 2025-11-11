@@ -27,11 +27,13 @@
         </div>
 
         <h2>Recent Watches/Current Favourites</h2>
-        <ul>
-          <li>Adults on FX</li>
-          <li>Arrested Development</li>
-          <li>Only Murders In the Building</li>
-          <li>Over Compensating</li>
-        </ul>
+        <div class = "scroll-box">
+          <ul>
+            <li>Adults on FX</li>
+            <li>Arrested Development</li>
+            <li>Only Murders In the Building</li>
+            <li>Over Compensating</li>
+          </ul>
+        </div>
         
       </div>
