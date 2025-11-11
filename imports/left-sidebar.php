@@ -33,6 +33,8 @@
             <li>Arrested Development</li>
             <li>Only Murders In the Building</li>
             <li>Over Compensating</li>
+            <li>Make Some Noise</li>
+            <li>Crowd Control</li>
           </ul>
         </div>
         
