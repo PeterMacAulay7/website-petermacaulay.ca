@@ -20,9 +20,18 @@
             <li>We got it from Here... Thank You 4 Your Service -A Tribe Called Quest</li>
             <li>God Does Like Ugly -J.I.D</li>
             <li>Alfredo2 -Freddy Gibbs</li>
+            <li>Blonde -Frank Ocean</li>
             <li>Don't Tap The Glass -Tyler The Creator</li>
             <li>Call Me If You Get Lost -Tyler The Creator</li>
           </ul>
         </div>
+
+        <h2>Recent Watches/Current Favourites</h2>
+        <ul>
+          <li>Adults on FX</li>
+          <li>Arrested Development</li>
+          <li>Only Murders In the Building</li>
+          <li>Over Compensating</li>
+        </ul>
         
       </div>
