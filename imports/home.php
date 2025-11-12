@@ -27,15 +27,16 @@
 
   <div class="outter">
     <h2>Most Recent:</h2>
+    <nav>
+      <h3><a href = "?nav=blog">Latest Blog Post</a></h3>
+      <?php echo get_first_div('imports/blog.php', 'contentbox'); ?>
 
-    <h3>Blog Post</h3>
-    <?php echo get_first_div('imports/blog.php', 'contentbox'); ?>
+      <h3><a href = "?nav=essays">Latest Essay</a></h3>
+      <?php echo get_first_div('imports/essays.php', 'contentbox'); ?>
 
-    <h3>Essay</h3>
-    <?php echo get_first_div('imports/essays.php', 'contentbox'); ?>
-
-    <h3>Project</h3>
-    <?php echo get_first_div('imports/projects.php', 'contentbox'); ?>
+      <h3><a href = "?nav=projects">Latest Project</a></h3>
+      <?php echo get_first_div('imports/projects.php', 'contentbox'); ?>
+    </nav>
   </div>
 
 </body>

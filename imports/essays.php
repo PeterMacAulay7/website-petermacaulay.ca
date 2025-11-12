@@ -7,6 +7,22 @@
 </head>
     <body>
         <div class = "outter">
+
+            <h2><a href="imports/Prolegomena-Paper.html">Prolegomena Paper: Kant and Hume&#39s Situationship</a></h2><br>
+            <a href="imports/Prolegomena-Paper.html"><div class = "contentbox">
+                <ul>
+                    <li>
+                        This is a paper I wrote in my Kant on Freedom and Knowledge class.
+                        I'm still in this class so I will have another paper coming about Kant on Freedom.
+                        For now this is an essay about Kant's view on the world post awakening from his dogmatic slumber.
+                        It goes over how Kant differs from Hume and any tradeoffs Kant accepts with his solution.
+                        I don't think this is my best essay but If you're really interested or need a refresher on Kant give it a read.
+                        You can lmk of anything I got wrong about Kant through my contact page because I'm sure I got things wrong.
+                    </li>
+                </ul>
+                <img src="images/awakenFromYourSlumber.webp" alt="Hume awakening Kant from his dogmatic slumber but Kant is sleeping beauty and Hume is prince charming" style="width:200px;height:200px;">
+
+            </div></a>
             <h2><a href="imports/Zwicky_Paper.html">Zwicky Essay- Duck Season or Rabbit Season: Ethically It's Both </a></h2><br>
             <a href="imports/Zwicky_Paper.html"><div class = "contentbox">
                 <ul>
@@ -38,7 +54,7 @@
                 <img src="/images/JMcD_logo.webp" alt="JMcD_logo" style="width:200px;height:200px;">
             </div></a>
 
-                        <h2><a href="imports/Peter_MacAulay_PHIL_3301_Term_Paper1.html">Analytic Philosophy-In Origin Term Paper</a></h2><br>
+            <h2><a href="imports/Peter_MacAulay_PHIL_3301_Term_Paper1.html">Analytic Philosophy-In Origin Term Paper</a></h2><br>
             <a href="imports/Peter_MacAulay_PHIL_3301_Term_Paper1.html"><div class = "contentbox">
                 <ul>
                     <li>
@@ -52,6 +68,7 @@
                 </ul>
                 <img src="images/inorigin_logo.webp" alt="Image will be an avengers poster style iamge of all philosophers involved" style="width:200px;height:200px;">
             </div></a>
+            
         </div>
     </body>
 </html>
