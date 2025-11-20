@@ -6,6 +6,7 @@
           </h2>
         <div class = "scroll-box">
           <ul>
+            <li>I have an essay and a project coming soon. They are both school assignments so I will likely add them mid December after exams</li>
             <li>Added functionality for displaying content in Blog, Essays, and Projects.
               I also created fun little images for a couple of projects and an essay.
             Additionally I wrote a function that can scrap the most recent of each page to display on the home page. -Nov/04/25</li>
@@ -28,7 +29,7 @@
         </h2>
         <div class = "scroll-box">
           <ul>
-            <li>Wed, Nov 19 @8:30 in the pond</li>
+            <li>Wed, Dec 03&#63 @8:30 in the pond</li>
           </ul>
         </div>
         <h2>
