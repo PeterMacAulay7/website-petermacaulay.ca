@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homepage|Peter MacAulay</title>
-  <meta name="description" content="Improvisor, Philosopher, Developer, and Neo-Polymath">
+  <meta name="description" content="Developer, Philosopher, Improvisor, and Neo-Polymath">
 </head>
 
 <body>
@@ -19,9 +19,6 @@
       <h2>Why I Made This</h2>
         <p>I’ve always wanted a space to learn, build, and reflect in public — 
           this site is where I’m figuring that out. Everything here is handmade and in progress.</p>
-        <p>
-          *note* if you haven't been here in a while, try ctrl + f5 &#40on Windows&#41 or cmd + shift + r &#40on Mac using chrome&#41 or cmd + option + r &#40on safari&#41 to refresh the page so you don't miss the latest updates!
-        </p>
     </section>
   </div>
 
