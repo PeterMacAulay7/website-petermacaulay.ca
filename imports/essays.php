@@ -23,6 +23,7 @@
                 <img src="images/awakenFromYourSlumber.webp" alt="Hume awakening Kant from his dogmatic slumber but Kant is sleeping beauty and Hume is prince charming" style="width:200px;height:200px;">
 
             </div></a>
+            
             <h2><a href="imports/Zwicky_Paper.html">Zwicky Essay- Duck Season or Rabbit Season: Ethically It's Both </a></h2><br>
             <a href="imports/Zwicky_Paper.html"><div class = "contentbox">
                 <ul>
