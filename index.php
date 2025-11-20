@@ -21,7 +21,7 @@ switch ($nav) {
   case 'home':
     $pageHeaderHTML = '
       <h1>Welcome to my website!</h1>
-      <p><b>Improvisor, Philosopher, Developer, and Neo-Polymath</b></p>';
+      <p><b>Developer, Philosopher, Improvisor, and Neo-Polymath</b></p>';
     $pageFile = 'imports/home.php';
     break;
 
