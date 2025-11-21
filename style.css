@@ -167,23 +167,43 @@ footer {
 
 /* Mobile-friendly responsive layout */
 @media (max-width: 900px) {
-  main {
+
+  .nav-buttons button {
+    margin: 5px;                 /* spread buttons out a bit */
+  }
+
+  .header-bar {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+    align-items: center;      /* <— THIS actually centers children */
+    padding-left: 0;          /* remove left weight */
+    padding-right: 0;         /* remove right weight */
+  }
+
+  .header-bar .banner {
+    width: 80%;
+    max-width: 80%;
+  }
+
+
+    main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 20px;
   }
 
-  .sidebar {
-    display: none;
-  }
+  .main-content { order: 1; }      /* appears first */
+  .sidebar { order: 2; }     /* appears second */
 
-  .main-content {
+  /* fallback styling for mobile */
+  .main-content, .sidebar {
     width: 100%;
     max-width: 700px;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 15px;
+    display: block;
   }
 }
 
