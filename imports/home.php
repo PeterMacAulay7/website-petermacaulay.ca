@@ -26,7 +26,22 @@
     <h2>Most Recent:</h2>
     <nav>
       <h3><a href = "?nav=blog">Latest Blog Post</a></h3>
-      <?php echo get_first_div('imports/blog.php', 'contentbox'); ?>
+      <?php
+        $posts = glob('blogposts/*.html');
+
+        // sort newest first
+        usort($posts, function($a, $b) {
+            return filemtime($b) - filemtime($a);
+        });
+
+        $latest = $posts[0] ?? null;
+
+        if ($latest) {
+            echo get_first_div($latest, 'contentbox');
+        } else {
+            echo "<p>No blog posts yet.</p>";
+        }
+      ?>
 
       <h3><a href = "?nav=essays">Latest Essay</a></h3>
       <?php echo get_first_div('imports/essays.php', 'contentbox'); ?>
