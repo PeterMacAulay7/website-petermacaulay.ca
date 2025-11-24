@@ -1,3 +1,4 @@
+<div class = "outter">
 <?php
 $blogFolder = __DIR__ . "/../blogposts";
 
@@ -42,20 +43,22 @@ if (isset($_GET["page"]) && isset($posts[$_GET["page"]])) {
     return;
 }
 ?>
+</div>
 
 <h2>Blog Posts</h2>
-
-<?php foreach ($posts as $post): ?>
-    <a href="?nav=blog&page=<?php echo $post['slug']; ?>" class="post-link">
-        <h2><?php echo htmlspecialchars($post['title']); ?></h2>
-        <p><i><?php echo htmlspecialchars($post['date']); ?></i></p>
-        <div class="contentbox">
-            <?php
-            // show preview HTML if exists
-            echo $post["preview"]
-                ? $post["preview"]
-                : "<p>No preview available.</p>";
-            ?>
-        </div>
-    </a>
-<?php endforeach; ?>
+<div class = "outter">
+    <?php foreach ($posts as $post): ?>
+        <a href="?nav=blog&page=<?php echo $post['slug']; ?>" class="post-link">
+            <h2><?php echo htmlspecialchars($post['title']); ?></h2>
+            <p><i><?php echo htmlspecialchars($post['date']); ?></i></p>
+            <div class="contentbox">
+                <?php
+                // show preview HTML if exists
+                echo $post["preview"]
+                    ? $post["preview"]
+                    : "<p>No preview available.</p>";
+                ?>
+            </div>
+        </a>
+    <?php endforeach; ?>
+</div>
