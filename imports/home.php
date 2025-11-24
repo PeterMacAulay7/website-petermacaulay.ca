@@ -27,24 +27,15 @@
     <nav>
       <h3><a href = "?nav=blog">Latest Blog Post</a></h3>
       <?php
-        $posts = glob('blogposts/*.html');
-
-        // sort newest first
-        usort($posts, function($a, $b) {
-            return filemtime($b) - filemtime($a);
-        });
-
-        $latest = $posts[0] ?? null;
-
-        if ($latest) {
-            echo get_first_div($latest, 'contentbox');
-        } else {
-            echo "<p>No blog posts yet.</p>";
-        }
+      $latest = get_latest_post_by_internal_date('blogposts');
+      echo $latest ? get_first_div($latest, 'contentbox') : "<p>No blog posts yet.</p>";
       ?>
 
       <h3><a href = "?nav=essays">Latest Essay</a></h3>
-      <?php echo get_first_div('imports/essays.php', 'contentbox'); ?>
+      <?php
+      $latest = get_latest_post_by_internal_date('essayfolder');
+      echo $latest ? get_first_div($latest, 'contentbox') : "<p>No essays yet.</p>";
+      ?>
 
       <h3><a href = "?nav=projects">Latest Project</a></h3>
       <?php echo get_first_div('imports/projects.php', 'contentbox'); ?>

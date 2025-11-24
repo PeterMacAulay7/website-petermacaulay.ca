@@ -1,75 +1,221 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Essays</title>
-</head>
-    <body>
-        <div class = "outter">
+<div class = "outter">
+<?php
+// essays.php - content-only for inclusion in index.php
 
-            <h2><a href="imports/Prolegomena-Paper.html">Prolegomena Paper: Kant and Hume&#39s Situationship</a></h2><br>
-            <a href="imports/Prolegomena-Paper.html"><div class = "contentbox">
-                <ul>
-                    <li>
-                        This is a paper I wrote in my Kant on Freedom and Knowledge class.
-                        I'm still in this class so I will have another paper coming about Kant on Freedom.
-                        For now this is an essay about Kant's view on the world post awakening from his dogmatic slumber.
-                        It goes over how Kant differs from Hume and any tradeoffs Kant accepts with his solution.
-                        I don't think this is my best essay but If you're really interested or need a refresher on Kant give it a read.
-                        You can lmk of anything I got wrong about Kant through my contact page because I'm sure I got things wrong.
-                    </li>
-                </ul>
-                <img src="images/awakenFromYourSlumber.webp" alt="Hume awakening Kant from his dogmatic slumber but Kant is sleeping beauty and Hume is prince charming" style="width:200px;height:200px;">
+$essayfolder = __DIR__ . "/../essayfolder";
+$files = glob($essayfolder . "/*.html");
+$posts = [];
 
-            </div></a>
-            
-            <h2><a href="imports/Zwicky_Paper.html">Zwicky Essay- Duck Season or Rabbit Season: Ethically It's Both </a></h2><br>
-            <a href="imports/Zwicky_Paper.html"><div class = "contentbox">
-                <ul>
-                    <li>
-                        An essay I wrote in March 2025 about Jan Zwicky's book 'The Experience of Meaning'.
-                        This was for my analytic philosophy class, and the topic was about the ethical part of the book.
-                        'The Experience of meaning' is potentially my favourite book. Similar to my McDowell essay,
-                        I remember being happy with this at the time but I spent most of the summer thinking about both
-                        'The Experience of Meaning' and 'Mind and World' and I have many things I might say if I were to rewrite it.
-                        Also similarly to the McDowell essay, it allowed me to distill a lot of thoughts that I had been wrestling with, and 
-                        those thoughts needed to be organized so that I could move onto the newer thoughts. 
-                    </li>
-                </ul>
-                <img src="/images/Zwicky_logo.webp" alt="Zwicky_logo" style="width:200px;height:200px;">
-            </div></a>
+if (!function_exists('get_dom_outer_html')) {
+    function get_dom_outer_html($node) {
+        $doc = new DOMDocument();
+        $doc->appendChild($doc->importNode($node, true));
+        return $doc->saveHTML();
+    }
+}
 
-            <h2><a href="imports/McDowell_Paper.html">McDowell Essay- John McDowell and the Cure for Philosophical Vertigo </a></h2><br>
-            <a href="imports/McDowell_Paper.html"><div class = "contentbox">
-                <ul>
-                    <li>
-                        An essay I wrote in Febuary 2025 about John McDowell's book 'Mind and World'.
-                        This was for my analytic philosophy class, and I believe the topic was specifically
-                        about the intollerable oscillation. I now have a million other thoughts on this book
-                        since writing the essay, but I remember being happy with this at the time. It allowed
-                        me to distill a lot of thoughts that I had been wrestling with. Those thoughts needed
-                        to be organized so that I could move onto the newer thoughts I wanted to think about.
-                    </li>
-                </ul>
-                <img src="/images/JMcD_logo.webp" alt="JMcD_logo" style="width:200px;height:200px;">
-            </div></a>
+function try_parse_date_to_ts($candidate, $pathFallback = null) {
+    $candidate = trim($candidate);
+    if ($candidate === '') return false;
 
-            <h2><a href="imports/Peter_MacAulay_PHIL_3301_Term_Paper1.html">Analytic Philosophy-In Origin Term Paper</a></h2><br>
-            <a href="imports/Peter_MacAulay_PHIL_3301_Term_Paper1.html"><div class = "contentbox">
-                <ul>
-                    <li>
-                        An essay I wrote in december of 2024 for my analytic philosophy-in origin class. This class preceeded my analytic philosophy-in progress class, which was a continuation of this class and can be seen in my John McDowell, and Jan Zwicky papers.
-                        This essay was me trying to weave together a through line with honestly too many philosophers for one paper.
-                        In this essay I cover early and late Wittgenstein, Richard Rorty, Iris Murdoch, and Lorraine Code. At the time, this was my
-                        most comphrehensive essay, and I think it was an important step in my philosophy writing progress.
-                        This class sort of taught me what writing philosophy is all about. I didn't come out a master, but
-                        after going back to some earlier essays I wrote at the start of this class, they don't compare.
-                    </li>
-                </ul>
-                <img src="images/inorigin_logo.webp" alt="Image will be an avengers poster style iamge of all philosophers involved" style="width:200px;height:200px;">
-            </div></a>
-            
-        </div>
-    </body>
-</html>
+    // Try native strtotime first
+    $ts = @strtotime($candidate);
+    if ($ts !== false && $ts !== -1) return $ts;
+
+    // Try explicit formats common in your content
+    $formats = [
+        'd/m/Y', 'd-m-Y', 'Y-m-d', 'j F Y', 'j M Y', 'F j, Y', 'M j, Y',
+        'd M Y', 'd F Y', 'm/d/Y', 'n/j/Y', 'Y/m/d'
+    ];
+    foreach ($formats as $fmt) {
+        $d = DateTime::createFromFormat($fmt, $candidate);
+        if ($d && $d->getTimestamp() > 0) return $d->getTimestamp();
+    }
+
+    // Try to extract a dd/mm/yyyy or dd-mm-yyyy pattern
+    if (preg_match('/\b(\d{1,2})[\/-](\d{1,2})[\/-](\d{4})\b/', $candidate, $m)) {
+        $dstr = sprintf('%02d-%02d-%04d', $m[1], $m[2], $m[3]);
+        $d = DateTime::createFromFormat('d-m-Y', $dstr);
+        if ($d) return $d->getTimestamp();
+    }
+
+    // Try to find a year and parse a small snippet around it
+    if (preg_match('/(19|20)\d{2}/', $candidate, $ym)) {
+        $pos = strpos($candidate, $ym[0]);
+        if ($pos !== false) {
+            $snippet = substr($candidate, max(0, $pos - 30), 60);
+            $ts2 = @strtotime($snippet);
+            if ($ts2 !== false && $ts2 !== -1) return $ts2;
+        }
+    }
+
+    // Fallback to file mtime if available
+    if ($pathFallback && file_exists($pathFallback)) {
+        $mt = @filemtime($pathFallback);
+        if ($mt) return $mt;
+    }
+
+    return false;
+}
+
+// Build posts list
+foreach ($files as $path) {
+    $filename = basename($path, ".html");
+    $html = @file_get_contents($path);
+    if ($html === false) continue;
+
+    // Load DOM for reliable extraction
+    $dom = new DOMDocument();
+    libxml_use_internal_errors(true);
+    $dom->loadHTML('<?xml encoding="utf-8" ?>' . $html); // keep encoding sane
+    libxml_clear_errors();
+    $xpath = new DOMXPath($dom);
+
+    // Title detection: try h1, h2, title, then first plain top line, else friendly filename
+    $title = $filename;
+    if ($node = $xpath->query('//h1')->item(0)) {
+        $title = trim($node->textContent);
+    } elseif ($node = $xpath->query('//h2')->item(0)) {
+        $title = trim($node->textContent);
+    } elseif ($node = $xpath->query('//title')->item(0)) {
+        $title = trim($node->textContent);
+    } else {
+        // check top-of-file plain lines
+        $lines = preg_split("/\r\n|\n|\r/", $html, 4);
+        if (isset($lines[0]) && trim($lines[0]) !== '' && $lines[0][0] !== '<') {
+            $title = trim(strip_tags($lines[0]));
+        } else {
+            $title = ucwords(str_replace(['-','_'], ' ', $filename));
+        }
+    }
+
+    // Date detection: several heuristics
+    $dateCandidate = null;
+    // 1) second top line if plain text
+    $lines = preg_split("/\r\n|\n|\r/", $html, 4);
+    if (isset($lines[1]) && trim($lines[1]) !== '' && $lines[1][0] !== '<') {
+        $dateCandidate = trim(strip_tags($lines[1]));
+    }
+
+    // 2) time[datetime] or time
+    if (!$dateCandidate) {
+        $time = $xpath->query('//time[@datetime]')->item(0);
+        if ($time) $dateCandidate = trim($time->textContent ?: $time->getAttribute('datetime'));
+    }
+    if (!$dateCandidate) {
+        $time = $xpath->query('//time')->item(0);
+        if ($time) $dateCandidate = trim($time->textContent);
+    }
+
+    // 3) meta tags
+    if (!$dateCandidate) {
+        $meta = $xpath->query('//meta[@name="date" or @property="article:published_time"]')->item(0);
+        if ($meta) $dateCandidate = trim($meta->getAttribute('content'));
+    }
+
+    // 4) <p class="date"> or <p id="date">
+    if (!$dateCandidate) {
+        $pdate = $xpath->query('//p[contains(@class,"date") or @id="date"]')->item(0);
+        if ($pdate) $dateCandidate = trim($pdate->textContent);
+    }
+
+    // 5) first <p> containing a year
+    if (!$dateCandidate) {
+        $ps = $xpath->query('//p');
+        foreach ($ps as $p) {
+            if (preg_match('/\b(19|20)\d{2}\b/', $p->textContent)) {
+                $dateCandidate = trim($p->textContent);
+                break;
+            }
+        }
+    }
+
+    // Parse to timestamp (robust)
+    $timestamp = false;
+    if (!empty($dateCandidate)) {
+        $timestamp = try_parse_date_to_ts($dateCandidate, $path);
+    }
+    if ($timestamp === false) {
+        $timestamp = @filemtime($path) ?: time();
+    }
+
+    // PREVIEW extraction: use DOM to find the first element whose class list contains 'contentbox'
+    $previewBox = "";
+    $nodes = $xpath->query("//*[contains(concat(' ', normalize-space(@class), ' '), ' contentbox ')]");
+    if ($nodes && $nodes->length > 0) {
+        // take first matching node and get its outer HTML
+        $first = $nodes->item(0);
+        $previewBox = get_dom_outer_html($first);
+    } else {
+        // Fallback: try get_first_div() if available and returns a legitimate div
+        if (function_exists('get_first_div')) {
+            $maybe = get_first_div($path, 'contentbox'); // expects file path
+            if (stripos($maybe, '<div') !== false && stripos($maybe, 'contentbox') !== false) {
+                $previewBox = $maybe;
+            }
+        }
+    }
+
+    // If still empty, create a tiny generated preview from first 1-2 <p> nodes (not the entire body)
+    if (empty($previewBox)) {
+        $pNodes = $xpath->query('//p');
+        $previewParts = [];
+        $max = min(2, $pNodes->length);
+        for ($i = 0; $i < $max; $i++) {
+            $previewParts[] = $dom->saveHTML($pNodes->item($i));
+        }
+        if (!empty($previewParts)) {
+            $previewBox = '<div class="contentbox">' . implode("\n", $previewParts) . '</div>';
+        }
+    }
+
+    $posts[] = [
+        'slug'      => $filename,
+        'title'     => $title,
+        'date'      => $dateCandidate ?: date('Y-m-d', $timestamp),
+        'timestamp' => $timestamp,
+        'content'   => $html,
+        'preview'   => $previewBox,
+        'path'      => $path
+    ];
+}
+
+// Sort by timestamp, newest first
+usort($posts, function($a, $b) {
+    return $b['timestamp'] <=> $a['timestamp'];
+});
+
+// SINGLE POST view: look up by slug within indexed $posts
+if (isset($_GET['page'])) {
+    $slug = $_GET['page'];
+    foreach ($posts as $post) {
+        if ($post['slug'] === $slug) {
+            echo "<a href='?nav=essays'>&larr; Back to all essays</a>";
+            echo "<h2>" . htmlspecialchars($post['title']) . "</h2>";
+            echo "<p><i>" . htmlspecialchars($post['date']) . "</i></p>";
+            echo $post['content']; // raw html
+            return;
+        }
+    }
+    echo "<p style='color:red;'>Essay not found.</p>";
+    return;
+}
+// LIST view
+?>
+</div>
+<div class="outter">
+<?php foreach ($posts as $post): ?>
+    <a href="?nav=essays&page=<?php echo urlencode($post['slug']); ?>" class="post-link">
+        <h2><?php echo htmlspecialchars($post['title']); ?></h2>
+        <p><i><?php echo htmlspecialchars($post['date']); ?></i></p>
+
+        <?php
+        if (!empty($post['preview'])) {
+            echo $post['preview']; // already contains contentbox wrapper
+        } else {
+            echo "<div class='contentbox'><p>No preview available.</p></div>";
+        }
+        ?>
+    </a>
+<?php endforeach; ?>
+</div>
