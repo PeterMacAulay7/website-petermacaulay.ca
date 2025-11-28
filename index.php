@@ -49,7 +49,46 @@ switch ($nav) {
     $pageHeaderHTML = '<h1>Contact : &#41</h1>';
     $pageFile = 'imports/contact.php';
     break;
-
+  case 'forum':
+    $pageHeaderHTML = '<h1>Forum</h1>';
+    $pageFile = 'ForumFolder/forum.php';
+    break;
+  case 'new_post':
+    $pageHeaderHTML = '<h1>New Post</h1>';
+    $pageFile = 'ForumFolder/new_post.php';
+    break;
+  case 'register':
+    $pageHeaderHTML = '<h1>Register For Forum</h1>';
+    $pageFile = 'ForumFolder/register.php';
+    break;
+  case 'post':
+    $pageHeaderHTML = '<h1>Post</h1>';
+    $pageFile = 'ForumFolder/post.php';
+    break;
+  case 'login':
+    $pageHeaderHTML = '<h1>login</h1>';
+    $pageFile = 'ForumFolder/login.php';
+    break;
+  case 'logout':
+    $pageHeaderHTML = '<h1>logout</h1>';
+    $pageFile = 'ForumFolder/logout.php';
+    break;
+  case 'add_comment':
+    $pageHeaderHTML = '<h1>add comment</h1>';
+    $pageFile = 'ForumFolder/add_comment.php';
+    break;
+  case 'add_post':
+    $pageHeaderHTML = '<h1>add post</h1>';
+    $pageFile = 'ForumFolder/add_post.php';
+    break;
+  case 'upload_profile':
+    $pageHeaderHTML = '<h1>upload profile</h1>';
+    $pageFile = 'ForumFolder/upload_profile.php';
+    break;
+  case 'delete_post':
+    $pageHeaderHTML = '<h1>delete post</h1>';
+    $pageFile = 'ForumFolder/delete_post.php';
+    break;
   default:
     $pageHeaderHTML = '<h1>Page Not Found</h1>';
     $pageFile = '404.php';

@@ -163,6 +163,7 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+
 /* ====== RESPONSIVE ====== */
 
 /* Mobile-friendly responsive layout */
@@ -205,6 +206,7 @@ footer {
     padding: 15px;
     display: block;
   }
+  
 }
 
 
