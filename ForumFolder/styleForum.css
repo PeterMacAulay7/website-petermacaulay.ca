@@ -130,31 +130,3 @@ button:hover {
     height: 48px;
   }
 }
-
-
-/* styleForum.css - minimal, responsive timeline 
-:root{--bg:#f7f8fb;--card:#fff;--muted:#666}
-*{box-sizing:border-box}
-body{font-family:Inter,system-ui,Arial,Helvetica,sans-serif;background:var(--bg);margin:0;color:#111}
-.container{max-width:760px;margin:0 auto;padding:16px}
-.topbar{background:#fff;border-bottom:1px solid #eee}
-.topbar .container{display:flex;align-items:center;justify-content:space-between}
-.brand{font-weight:700;text-decoration:none;color:#111}
-.topbar nav a{margin-left:12px;text-decoration:none;color:#333}
-
-.card{background:var(--card);border:1px solid #e6e9ef;padding:12px;margin:12px 0;border-radius:8px}
-.post-head{display:flex;gap:12px}
-.avatar{width:56px;height:56px;border-radius:8px;object-fit:cover}
-.post-meta{font-size:14px;color:var(--muted)}
-.post-content{margin-top:8px;white-space:pre-wrap}
-.actions{margin-top:10px}
-.small{font-size:13px;color:var(--muted)}
-
-form textarea{width:100%;min-height:80px;padding:8px;border-radius:6px;border:1px solid #ddd}
-form input[type=text], form input[type=password]{width:100%;padding:8px;border-radius:6px;border:1px solid #ddd}
-button{background:#2563eb;color:#fff;border:none;padding:8px 12px;border-radius:6px;cursor:pointer}
-
-.site-footer{padding:18px;text-align:center;color:var(--muted);font-size:13px}
-
-@media (max-width:600px){.post-head{flex-direction:row}.avatar{width:48px;height:48px}}
-*/
