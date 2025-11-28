@@ -2,6 +2,8 @@
 :root {
 --lp: rgb(255, 222, 222);
 --dp: rgb(249, 178, 239);
+/*--lp: rgb(231, 255, 222);
+--dp: rgb(80, 145, 87);*/
 }
 body {
   text-align: center;
