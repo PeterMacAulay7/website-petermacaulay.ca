@@ -1,3 +1,4 @@
+
 <div class = "outter">
 <?php
 // essays.php - content-only for inclusion in index.php

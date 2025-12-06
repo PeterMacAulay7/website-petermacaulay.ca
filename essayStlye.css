@@ -1,0 +1,50 @@
+ /* PDF-style essay formatting */
+.essay-format {
+  max-width: 700px;           /* typical printed page width */
+  margin: 40px auto;          /* center it on the page */
+  padding: 40px 50px;         /* inner whitespace like a document */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* subtle PDF viewer shadow */
+  
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 18px;            /* readable academic size */
+  line-height: 2;           /* paper-like spacing */
+  color: rgb(255, 222, 222);
+  
+  text-align: left;
+  border-radius: 4px;         /* optional, can remove */
+}
+
+/* Centered title style */
+.essay-format .title-center {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* Paragraph spacing like a typeset document */
+.essay-format p {
+  margin: 1rem 0;
+  color: rgb(255, 222, 222);
+}
+
+/* Title + header formatting */
+.essay-format h1, 
+.essay-format h2, 
+.essay-format h3 {
+  font-family: "Times New Roman", Georgia, serif;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Indent paragraphs if you want textbook style */
+.essay-format p + p {
+  text-indent: 2em;
+}
+
+/* Optional: fake page margins for that PDF feel */
+.essay-format {
+  border: 1px solid #ddd;
+}
