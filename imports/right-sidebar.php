@@ -30,6 +30,10 @@
         <div class = "scroll-box">
           <ul>
             <li>Wed, Dec 03&#63 @8:30 in the pond</li>
+            <ul>
+              <li>didn't end up going, I know, I&#39m sad, you&#39re sad, we&#39re all sad</li>
+              <li>We will be back in january though&#33</li>
+            </ul>
           </ul>
         </div>
         <h2>
