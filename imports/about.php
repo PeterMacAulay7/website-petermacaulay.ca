@@ -50,7 +50,7 @@
       </p>
       <p>
           This website is soemthing that I've wanted to make for a while, and it wasn't until I started to see some people that I'm interested
-          in talking about a more human internet, where everyone makes their own websites, and shares with the world their creations, thoughts, and life 
+          in, talking about a more human internet, where everyone makes their own websites, and shares with the world their creations, thoughts, and life 
           that I decided to actually do it. For a while I was stuck. I didn't know what mattered to me, and I didn't know what I needed to do.
           Once I started to find my values, and goals, I was able to start seeing a bit clearer. I was able to start seeking understanding again.
           I started learning again. But something was missing, I still couldn't create; I couldn't create much more than something on a whim in a rush of
