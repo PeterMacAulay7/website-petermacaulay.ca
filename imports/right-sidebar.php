@@ -6,6 +6,9 @@
           </h2>
         <div class = "scroll-box">
           <ul>
+            <li>Just posted a blog post that I'm actually pretty happy with for a quick little post.
+              I&#39ve found that these things really help me know what I&#39m thinking about, so that irl
+              I have somehting to back up my thoughts, and I think it will long term help to practice writing</li>
             <li>I have an essay and a project coming soon. They are both school assignments so I will likely add them mid December after exams</li>
             <li>Added functionality for displaying content in Blog, Essays, and Projects.
               I also created fun little images for a couple of projects and an essay.

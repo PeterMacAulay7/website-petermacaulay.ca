@@ -14,9 +14,7 @@ $cstmt->execute([$id]);
 $comments = $cstmt->fetchAll();
 ?>
 
-<div class ="card">
-    <?php include 'ForumFolder/headerF.php';?>
-</div>
+<?php include 'ForumFolder/headerF.php';?>
 <div class="card">
   <div class="post-head">
     <?php $avatar = $post['profile_pic'] ? ('/ForumFolder/' . $post['profile_pic']) : '/ForumFolder/img/default_avatar.png'; ?>

@@ -2,8 +2,8 @@
 
 /* Use your site's pink theme */
 :root {
-  --forum-bg: rgba(0, 0, 0, 0);         /* main-content already has its own bg */
-  --forum-card-bg: rgba(0, 0, 0, 0.35); /* translucent boxes like your site */
+  --forum-bg: rgba(0, 0, 0, 0);
+  --forum-card-bg: rgba(0, 0, 0, 0.35);
   --forum-border: rgba(255, 222, 222, 0.25);
   --forum-text: var(--lp);
   --forum-muted: rgba(255, 222, 222, 0.55);
@@ -16,20 +16,20 @@
 }
 
 body.forum-body {
-  /* Prevent overriding your main site — forum pages should add this class */
   font-family: 'Times New Roman', Times, serif;
   color: var(--forum-text);
-  background: none; /* Don't fight your main background */
+  background: none;
   margin: 0;
 }
 
-/* Container fits naturally in your existing .main-content box */
+/* ===== Container ===== */
+
 .forum-container {
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
   padding: 10px;
-  text-align: left; /* Your main content centers, forum should not */
+  text-align: left;
 }
 
 /* ===== Post Cards ===== */
@@ -46,16 +46,15 @@ body.forum-body {
 }
 
 .post-head {
-    display: flex;
-    gap: 12px;
-    align-items: flex-start; /* keeps username block top-aligned */
-    text-align: left;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .post-head > div {
-    flex: 1; /* prevents flex compression & keeps left alignment */
+  flex: 1;
 }
-
 
 .avatar {
   width: 56px;
@@ -88,7 +87,7 @@ body.forum-body {
 form textarea,
 form input[type=text],
 form input[type=password] {
-  width: 100%;
+  width: 70%;
   padding: 10px;
   background: rgba(0,0,0,0.4);
   color: var(--forum-text);
@@ -119,7 +118,93 @@ button:hover {
   transform: translateY(-2px);
 }
 
+/* ===== Header Styling (fixed & isolated) ===== */
+
+/* 1) make sure .header-div never wraps items to next line */
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap; /* <-- prevent wrapping */
+}
+
+/* 2) let the left group take only the space it needs,
+   and push the right group to the far edge */
+.header-left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex: 0 1 auto;   /* can shrink if needed */
+  min-width: 0;     /* important so children can shrink properly */
+}
+
+/* Push the right block to the far right reliably */
+.header-right {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* <-- ensures it stays right */
+  flex: 0 0 auto;
+}
+
+/* 3) make sure buttons/anchors inside don't force line breaks */
+.header-left a,
+.header-right a,
+.header-left button,
+.header-right button {
+  white-space: nowrap; /* prevent internal wrapping */
+}
+
+/* 4) protect against very long username text breaking layout */
+.header-left a button,
+.header-left button {
+  max-width: 300px; /* or choose appropriate max */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Remove top margin from header buttons */
+.header-div button {
+  margin-top: 0;
+}
+
+/* Profile menu container */
+.profile-menu {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hidden by default */
+.header-dropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  margin-top: 6px;
+  background: var(--forum-card-bg);
+  border: 1px solid var(--forum-border);
+  border-radius: 14px;
+  padding: 10px;
+  z-index: 9999;
+  backdrop-filter: blur(4px);
+  width: 180px;
+}
+
+/* CSS-only dropdown: open when the container (button or dropdown) is focused */
+.profile-menu:focus-within .header-dropdown {
+  display: block;
+}
+
+/* Ensure dropdown items are full-width */
+.header-dropdown input[type=file],
+.header-dropdown button {
+  width: 100%;
+  margin-top: 8px;
+}
+
+
 /* ===== Mobile ===== */
+
 @media (max-width: 600px) {
   .post-head {
     flex-direction: row;
@@ -128,5 +213,16 @@ button:hover {
   .avatar {
     width: 48px;
     height: 48px;
+  }
+
+  .header-div {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-left,
+  .header-right {
+    width: 100%;
+    justify-content: space-between;
   }
 }

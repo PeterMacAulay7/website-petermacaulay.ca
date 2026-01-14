@@ -5,9 +5,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/../db.php';
 if (!isset($_SESSION['user_id'])) { header('Location: /?nav=forum'); exit; }
 //include __DIR__ . '/headerF.php';
 ?>
-<div class ="card">
-    <?php include 'ForumFolder/headerF.php';?>
-</div>
+<?php include 'ForumFolder/headerF.php';?>
 <div class="card">
   <h2>New Post</h2>
   <form action="/?nav=add_post" method="post">

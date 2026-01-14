@@ -36,8 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 }
-//include __DIR__ . '/headerF.php';
 ?>
+<?php include 'ForumFolder/headerF.php';?>
+
 <div class="card">
   <h2>Register</h2>
   <?php foreach ($errors as $err): ?>
@@ -46,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <form method="post">
     <input name="csrf" type="hidden" value="<?php echo e(csrf_token()); ?>">
     <label>Username</label>
-    <input name="username" required>
+    <input name="username" type="text" required><br>
     <label>Password</label>
     <input name="password" type="password" required>
     <div style="margin-top:8px">

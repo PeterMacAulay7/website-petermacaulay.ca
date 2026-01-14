@@ -5,20 +5,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/../db.php';
 $stmt = $pdo->query('SELECT posts.*, users.username, users.profile_pic FROM posts JOIN users ON posts.user_id = users.id ORDER BY posts.created_at DESC LIMIT 50');
 $posts = $stmt->fetchAll();
 ?>
-<div class ="card">
-    <?php include 'ForumFolder/headerF.php';?>
-</div>
+<?php include 'ForumFolder/headerF.php';?>
 <div class="card">
   <h2>Timeline</h2>
   <?php if (isset($_SESSION['user_id'])): ?>
     <div style="margin-bottom:10px">
       <a href="/?nav=new_post"><button>Write a new post</button></a>
-      <!-- Profile pic upload small form -->
-      <form action="/?nav=upload_profile" method="post" enctype="multipart/form-data" style="display:inline-block;margin-left:12px">
-        <input type="hidden" name="csrf" value="<?php echo e(csrf_token()); ?>">
-        <input type="file" name="profile_pic" accept="image/*" style="display:inline-block">
-        <button type="submit">Upload</button>
-      </form>
     </div>
   <?php endif; ?>
 
