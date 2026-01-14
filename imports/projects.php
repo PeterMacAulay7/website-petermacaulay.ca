@@ -7,6 +7,22 @@
 </head>
     <body>
     <div class = "outter">
+        <h2><a href="https://github.com/PeterMacAulay7/SoftwareDesign-DSMS">Document Search and Management Tool</a></h2><br>
+        <a href="https://github.com/PeterMacAulay7/SoftwareDesign-DSMS"><div class = "contentbox">
+            <ul>
+                <li>
+                    This is a document search and management tool that was created in a team consisting of myself, Abdullah Elashy, and Faycal Kilali as a final project for our Software Design class.
+                </li>
+                <br>
+                <li>
+                    The Document Search & Management Tool is designed to provide a usability-friendly document storage and retrieval system. 
+                    Unlike simple file systems, this tool abstracts the storage layer, allowing users to interact with a database through a clean command-line interface. 
+                    Users can upload files from their local machine, search for them by file name or file content, and perform actions like downloading or removing them.
+                </li>
+            </ul>
+            <img src="/images/DSMSLogo.webp" alt="Website Image" style="width:200px;height:200px;">
+        </div></a>
+
         <h2><a href="https://github.com/PeterMacAulay7/website-petermacaulay.ca">This Website!</a></h2><br>
         <a href="https://github.com/PeterMacAulay7/website-petermacaulay.ca"><div class = "contentbox">
             <ul>
