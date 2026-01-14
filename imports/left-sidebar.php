@@ -27,6 +27,7 @@
             <li>R.A.P. Music -Killer Mike</li><br>
             <li>Magic,Alive! -McKinley Dixon</li><br>
             <li>Cabin In The Sky -De La Soul</li><br>
+            <li>Voodoo -D'Angelo</li>
             <li>Unoriginal/Black-Eyed Susan Climb -Magdalena Bay</li><br>
             <li>West End Girl -Lily Allen</li><br>
             <li>Let God Sort Em Out -Clipse</li><br>
