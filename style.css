@@ -44,12 +44,21 @@ body {
   border-radius: 20px;
   max-height: 200px;
   overflow-y: scroll;
+  text-decoration:none;
+
+
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .contentbox img {
   max-width: 200px;        /* scale the image */
   border-radius: 20px;
   margin-left: auto;
 }
+
+.contentbox:hover {
+  transform: translateY(-4px);
+}
+
 
 .outter{
   text-align: left;
