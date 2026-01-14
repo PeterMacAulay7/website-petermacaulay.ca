@@ -35,47 +35,52 @@
       <?php echo get_first_div('imports/projects.php', 'contentbox'); ?>
 
     <?php
-    $latestPath = get_latest_post_by_internal_date('blogposts');
+    $latestBlogPath = get_latest_post_by_internal_date('blogposts');
 
-    $latestSlug = $latestPath
-        ? basename($latestPath, '.html')
+    $latestBlogSlug = $latestBlogPath
+        ? basename($latestBlogPath, '.html')
         : null;
     ?>
 
     <h3>
-      <a href="?nav=blog&page=<?php echo urlencode($latestSlug); ?>">
+      <a href="?nav=blog&page=<?php echo urlencode($latestBlogSlug); ?>">
         Latest Blog Post
       </a>
     </h3>
 
+    <a href="?nav=blog&page=<?php echo urlencode($latestBlogSlug); ?>">
     <?php
-    echo $latestPath
-      ? get_first_div($latestPath, 'contentbox')
+    echo $latestBlogPath
+      ? get_first_div($latestBlogPath, 'contentbox')
       : "<p>No blog posts yet.</p>";
     ?>
+    </a>
 
 
-<?php
-$latestPath = get_latest_post_by_internal_date('essayfolder');
+    <?php
+    $latestEssayPath = get_latest_post_by_internal_date('essayfolder');
 
-$latestSlug = $latestPath
-    ? basename($latestPath, '.html')
-    : null;
-?>
+    $latestEssaySlug = $latestEssayPath
+        ? basename($latestEssayPath, '.html')
+        : null;
+    ?>
 
-<h3>
-  <a href="?nav=essays&page=<?php echo urlencode($latestSlug); ?>">
-    Latest Essay
+    <h3>
+      <a href="?nav=essays&page=<?php echo urlencode($latestEssaySlug); ?>">
+        Latest Essay
+      </a>
+    </h3>
+
+
+
+    <a href="?nav=essays&page=<?php echo urlencode($latestEssaySlug); ?>">
+    <?php
+    echo $latestEssayPath
+      ? get_first_div($latestEssayPath, 'contentbox')
+      : "<p>No essays yet.</p>";
+    ?>
   </a>
-</h3>
 
-<?php
-echo $latestPath
-  ? get_first_div($latestPath, 'contentbox')
-  : "<p>No essays yet.</p>";
-?>
-
-    </nav>
   </div>
 
 </body>
