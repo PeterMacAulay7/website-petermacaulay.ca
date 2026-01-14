@@ -6,13 +6,10 @@
           </h2>
         <div class = "scroll-box">
           <ul>
-            <li>Just posted a blog post that I'm actually pretty happy with for a quick little post.
-              I&#39ve found that these things really help me know what I&#39m thinking about, so that irl
-              I have somehting to back up my thoughts, and I think it will long term help to practice writing</li>
-            <li>I have an essay and a project coming soon. They are both school assignments so I will likely add them mid December after exams</li>
-            <li>Added functionality for displaying content in Blog, Essays, and Projects.
-              I also created fun little images for a couple of projects and an essay.
-            Additionally I wrote a function that can scrap the most recent of each page to display on the home page. -Nov/04/25</li>
+            <li>I just posted my latest project that I was working on in the fall semester. It's a group project that was created as a term project in my Software Design class</li><br>
+            <li>Just posted a blog post that I'm actually pretty happy with for a quick little post. I&#39ve found that these things really help me know what I&#39m thinking about, so that irl I have something to back up my thoughts, and I think it will long term help to practice writing</li><br>
+            <li>I have an essay and a project coming soon. They are both school assignments so I will likely add them mid December after exams</li><br>
+            <li>Added functionality for displaying content in Blog, Essays, and Projects. I also created fun little images for a couple of projects and an essay. Additionally I wrote a function that can scrap the most recent of each page to display on the home page. -Nov/04/25</li>
             <br>
             <li>Just updated the page to use the index.php file as a directory for all other pages. 
               It took a lot longer than expected. &#40I guess thats to be expected&#41 -Nov/03/25</li>
@@ -32,11 +29,8 @@
         </h2>
         <div class = "scroll-box">
           <ul>
-            <li>Wed, Dec 03&#63 @8:30 in the pond</li>
-            <ul>
-              <li>didn't end up going, I know, I&#39m sad, you&#39re sad, we&#39re all sad</li>
-              <li>We will be back in january though&#33</li>
-            </ul>
+            <li>Great News! MtA Presents: The Improv is back for 2026!</li><br>
+            <li>Shows will now be on Mondays at 9:30 @ The Pond</li>
           </ul>
         </div>
         <h2>
@@ -44,12 +38,7 @@
         </h2>
         <div class = "scroll-box">
           <ul>
-            <li>Add more stuff from my backlog of essays and projects</li>
+            <li>Survive This Semester</li>
             <br>
-            <li>Write a blog post</li>
-            <br>
-            <li>manage status updates better</li>
-            <br>
-            <li>A bunch of other stuff, but it's almost 10pm and I'm not supposed to be working on this rn</li>
           </ul>
     </div>
