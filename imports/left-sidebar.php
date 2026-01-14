@@ -5,7 +5,7 @@
         <div class = "scroll-box">
           <ul>
             <li>Circe by Madeline Miller</li><br>
-            <li>Little Women by Louisa May Alcott </li><br>
+            <li>Little Women by Louisa May Alcott </li>
           </ul>
           <h3>readings for class</h3>
           <ul>
