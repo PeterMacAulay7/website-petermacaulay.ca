@@ -126,6 +126,23 @@ main {
   border-radius: 12px;
 }
 
+.sidebar li{
+  margin-bottom: 0.75em;
+}
+
+.sidebar-section {
+  border: 1px solid var(--dp);
+  border-radius: 10px;
+  padding: 0.75em;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+.sidebar-section h2 {
+  text-align: center;
+}
+
+
 
 /* Main content column */
 .main-content {
