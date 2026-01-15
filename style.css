@@ -45,6 +45,8 @@ body {
   max-height: 200px;
   overflow-y: scroll;
   text-decoration:none;
+  border: 1px solid var(--dp);
+
 
 
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -53,6 +55,8 @@ body {
   max-width: 200px;        /* scale the image */
   border-radius: 20px;
   margin-left: auto;
+  border: 1px solid var(--dp);
+
 }
 
 .contentbox:hover {
@@ -93,7 +97,7 @@ body {
 
 .nav-buttons button {
   background-color: transparent;
-  border: 1px solid var(--lp);
+  border: 1px solid var(--dp);
   color: var(--lp);
   font-family: inherit;
   font-size: 1rem;
@@ -132,7 +136,7 @@ main {
 
 .sidebar-section {
   border: 1px solid var(--dp);
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 0.75em;
   margin-bottom: 1em;
   text-align: left;
@@ -148,6 +152,7 @@ main {
 .main-content {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--dp);
   border-radius: 20px;
   padding: 25px;
   backdrop-filter: blur(3px);
