@@ -39,7 +39,7 @@
               $link = $latest["html_url"];
 
               echo "<li>";
-              echo "<a href='$link' target='_blank'>$message</a>";
+              echo "<a href='$link' target='_blank'>$message </a>";
               echo "<small>$date</small>";
               echo "</li>";
             }
