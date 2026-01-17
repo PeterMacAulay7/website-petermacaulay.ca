@@ -36,7 +36,7 @@ foreach ($files as $path) {
 // serve a single post if ?page=slug
 if (isset($_GET["page"]) && isset($posts[$_GET["page"]])) {
     $post = $posts[$_GET["page"]];
-    echo "<a href='?nav=blog'>&larr; Back to all posts</a>";
+    echo "<a href='/blog'>&larr; Back to all posts</a>";
     echo "<h2>{$post['title']}</h2>";
     echo "<p><i>{$post['date']}</i></p>";
     echo $post["content"];
@@ -48,7 +48,7 @@ if (isset($_GET["page"]) && isset($posts[$_GET["page"]])) {
 <h2>Blog Posts</h2>
 <div class = "outter">
     <?php foreach ($posts as $post): ?>
-        <a href="?nav=blog&page=<?php echo $post['slug']; ?>" class="post-link">
+        <a href="/blog/<?php echo urlencode($post['slug']); ?>" class="post-link">
             <h2><?php echo htmlspecialchars($post['title']); ?></h2>
             <p><i><?php echo htmlspecialchars($post['date']); ?></i></p>
             <div class="contentbox">

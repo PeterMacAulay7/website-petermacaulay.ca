@@ -1,4 +1,13 @@
 RewriteEngine On
+
+# Blog posts
+RewriteRule ^blog/([^/]+)/?$ /index.php?nav=blog&page=$1 [L,QSA]
+
+# Essay posts
+RewriteRule ^essays/([^/]+)/?$ /index.php?nav=essays&page=$1 [L,QSA]
+
+# Everything else
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.php [QSA,L]
+RewriteRule ^ index.php [L,QSA]
+RewriteRule ^sitemap\.xml$ /sitemap.php [L]

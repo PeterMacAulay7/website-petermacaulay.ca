@@ -191,7 +191,7 @@ if (isset($_GET['page'])) {
     $slug = $_GET['page'];
     foreach ($posts as $post) {
         if ($post['slug'] === $slug) {
-            echo "<a href='?nav=essays'>&larr; Back to all essays</a>";
+            echo "<a href='/essays'>&larr; Back to all essays</a>";
             echo "<h2>" . htmlspecialchars($post['title']) . "</h2>";
             echo "<p><i>" . htmlspecialchars($post['date']) . "</i></p>";
             echo $post['content']; // raw html
@@ -206,7 +206,7 @@ if (isset($_GET['page'])) {
 </div>
 <div class="outter">
 <?php foreach ($posts as $post): ?>
-    <a href="?nav=essays&page=<?php echo urlencode($post['slug']); ?>" class="post-link">
+    <a href="/essays/<?php echo urlencode($post['slug']); ?>" class="post-link">
         <h2><?php echo htmlspecialchars($post['title']); ?></h2>
         <p><i><?php echo htmlspecialchars($post['date']); ?></i></p>
 

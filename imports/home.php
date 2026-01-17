@@ -43,12 +43,12 @@
     ?>
 
     <h3>
-      <a href="?nav=blog&page=<?php echo urlencode($latestBlogSlug); ?>">
+      <a href="/blog/<?php echo urlencode($latestBlogSlug); ?>">
         Latest Blog Post
       </a>
     </h3>
 
-    <a href="?nav=blog&page=<?php echo urlencode($latestBlogSlug); ?>">
+    <a href="/blog/<?php echo urlencode($latestBlogSlug); ?>">
     <?php
     echo $latestBlogPath
       ? get_first_div($latestBlogPath, 'contentbox')
@@ -66,14 +66,14 @@
     ?>
 
     <h3>
-      <a href="?nav=essays&page=<?php echo urlencode($latestEssaySlug); ?>">
+      <a href="/essays/<?php echo urlencode($latestEssaySlug); ?>">
         Latest Essay
       </a>
     </h3>
 
 
 
-    <a href="?nav=essays&page=<?php echo urlencode($latestEssaySlug); ?>">
+    <a href="/essays/<?php echo urlencode($latestEssaySlug); ?>">
     <?php
     echo $latestEssayPath
       ? get_first_div($latestEssayPath, 'contentbox')

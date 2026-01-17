@@ -102,7 +102,14 @@ switch ($nav) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Peter MacAulay | <?php echo ucfirst($nav); ?></title>
   <link rel="icon" href="PMsignature.png">
-  <link rel="stylesheet" href="style.css?v=1.1">
+  <link rel="stylesheet" href="/style.css?v=1.1">
+
+  <?php if (isset($_GET['page'])): ?>
+  <link rel="canonical" href="https://petermacaulay.ca/<?php echo $nav; ?>/<?php echo htmlspecialchars($_GET['page']); ?>">
+  <?php else: ?>
+  <link rel="canonical" href="https://petermacaulay.ca/<?php echo $nav; ?>">
+  <?php endif; ?>
+
 </head>
 
 <body>
