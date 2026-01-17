@@ -34,6 +34,7 @@
         <li>Magic, Alive! — McKinley Dixon</li>
         <li>Cabin in the Sky — De La Soul</li>
         <li>Voodoo — D'Angelo</li>
+        <li>Mommas Gun- Erykah Badu</li>
         <li>Unoriginal / Black-Eyed Susan Climb — Magdalena Bay</li>
         <li>West End Girl — Lily Allen</li>
         <li>Let God Sort Em Out — Clipse</li>
@@ -43,6 +44,7 @@
         <li>Stankonia — Outkast</li>
         <li>Alfredo 2 — Freddie Gibbs</li>
         <li>Blonde — Frank Ocean</li>
+        <li>Purple Rain -Prince</li>
         <li>Don’t Tap the Glass — Tyler, The Creator</li>
         <li>Call Me If You Get Lost — Tyler, The Creator</li>
       </ul>
