@@ -1,64 +1,113 @@
-<div class = "outter">
+<div class="outter">
 <?php
+// blog.php
+
 $blogFolder = __DIR__ . "/../blogposts";
-
-// read all .html blog post files
 $files = glob($blogFolder . "/*.html");
-
-// extract structured information for each post
 $posts = [];
 
+/* ---------------------------
+   Date parsing (shared idea)
+---------------------------- */
+function parse_date_to_ts($date, $fallbackPath = null) {
+    $date = trim($date);
+    if ($date !== '') {
+        $ts = @strtotime($date);
+        if ($ts !== false && $ts !== -1) {
+            return $ts;
+        }
+    }
+
+    // fallback: file modification time
+    if ($fallbackPath && file_exists($fallbackPath)) {
+        $mt = @filemtime($fallbackPath);
+        if ($mt) return $mt;
+    }
+
+    return time();
+}
+
+/* ---------------------------
+   Load posts
+---------------------------- */
 foreach ($files as $path) {
     $filename = basename($path, ".html");
-    $raw = file($path, FILE_IGNORE_NEW_LINES);
+    $raw = @file($path, FILE_IGNORE_NEW_LINES);
+    if ($raw === false) continue;
 
-    $title = $raw[0] ?? $filename;
-    $date  = $raw[1] ?? "Unknown date";
+    // Title and date from first two lines
+    $title = $raw[0] ?? ucwords(str_replace(['-','_'], ' ', $filename));
+    $date  = $raw[1] ?? '';
 
-    // everything after line 2 is the full content
+    $timestamp = parse_date_to_ts($date, $path);
+
+    // Everything after line 2 is content
     $fullContent = implode("\n", array_slice($raw, 2));
 
-    // extract the preview (first contentbox)
+    // Extract preview (first .contentbox)
     $previewBox = "";
-    if (preg_match('/<div[^>]*class=["\']contentbox["\'][^>]*>.*?<\/div>/si', $fullContent, $match)) {
+    if (preg_match(
+        '/<div[^>]*class=["\'][^"\']*\bcontentbox\b[^"\']*["\'][^>]*>.*?<\/div>/si',
+        $fullContent,
+        $match
+    )) {
         $previewBox = $match[0];
     }
 
-    $posts[$filename] = [
-        "slug"     => $filename,
-        "title"    => $title,
-        "date"     => $date,
-        "content"  => $fullContent,
-        "preview"  => $previewBox
+    $posts[] = [
+        "slug"      => $filename,
+        "title"     => trim($title),
+        "date"      => trim($date) ?: date("Y-m-d", $timestamp),
+        "timestamp" => $timestamp,
+        "content"   => $fullContent,
+        "preview"   => $previewBox,
+        "path"      => $path
     ];
 }
 
-// serve a single post if ?page=slug
-if (isset($_GET["page"]) && isset($posts[$_GET["page"]])) {
-    $post = $posts[$_GET["page"]];
-    echo "<a href='/blog'>&larr; Back to all posts</a>";
-    echo "<h2>{$post['title']}</h2>";
-    echo "<p><i>{$post['date']}</i></p>";
-    echo $post["content"];
+/* ---------------------------
+   Sort newest → oldest
+---------------------------- */
+usort($posts, function ($a, $b) {
+    return $b['timestamp'] <=> $a['timestamp'];
+});
+
+/* ---------------------------
+   Single post view
+---------------------------- */
+if (isset($_GET["page"])) {
+    $slug = $_GET["page"];
+    foreach ($posts as $post) {
+        if ($post["slug"] === $slug) {
+            echo "<a href='/blog'>&larr; Back to all posts</a>";
+            echo "<h2>" . htmlspecialchars($post["title"]) . "</h2>";
+            echo "<p><i>" . htmlspecialchars($post["date"]) . "</i></p>";
+            echo $post["content"];
+            return;
+        }
+    }
+
+    echo "<p style='color:red;'>Post not found.</p>";
     return;
 }
 ?>
 </div>
 
 <h2>Blog Posts</h2>
-<div class = "outter">
-    <?php foreach ($posts as $post): ?>
-        <a href="/blog/<?php echo urlencode($post['slug']); ?>" class="post-link">
-            <h2><?php echo htmlspecialchars($post['title']); ?></h2>
-            <p><i><?php echo htmlspecialchars($post['date']); ?></i></p>
-            <div class="contentbox">
-                <?php
-                // show preview HTML if exists
-                echo $post["preview"]
-                    ? $post["preview"]
-                    : "<p>No preview available.</p>";
-                ?>
-            </div>
-        </a>
-    <?php endforeach; ?>
+
+<div class="outter">
+<?php foreach ($posts as $post): ?>
+    <a href="/blog/<?php echo urlencode($post['slug']); ?>" class="post-link">
+        <h2><?php echo htmlspecialchars($post['title']); ?></h2>
+        <p><i><?php echo htmlspecialchars($post['date']); ?></i></p>
+
+        <?php
+        if (!empty($post['preview'])) {
+            echo $post['preview'];
+        } else {
+            echo "<div class='contentbox'><p>No preview available.</p></div>";
+        }
+        ?>
+    </a>
+<?php endforeach; ?>
 </div>
