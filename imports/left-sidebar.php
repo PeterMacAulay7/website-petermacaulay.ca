@@ -8,7 +8,7 @@
       <h3>Personal</h3>
       <ul>
         <li>Circe — Madeline Miller</li>
-        <li>Little Women — Louisa May Alcott</li>
+        <li>Little Women — Louisa May Alcott - On Hold for now</li>
       </ul>
 
       <h3>Readings for Class</h3>
@@ -16,10 +16,10 @@
         <li>Unspeakable Things —Silvia Jonas ✓</li>
         <li>Aesthetic Ineffability —Silvia Jonas ✓</li>
         <li>Ineffability: the Very Concept —Sebastian Gäb</li>
-        <li>What Is Ineffable? —Jan Zwicky</li>
-        <li>Meno —Plato</li>
-        <li>The Mystical Theology —Dionysius</li>
-        <li>Lectures on Ethics —Wittgenstein</li>
+        <li>What Is Ineffable? —Jan Zwicky✓</li>
+        <li>Meno —Plato✓&#9733;</li>
+        <li>The Mystical Theology —Dionysius✓&#9733;</li>
+        <li>Lectures on Ethics —Wittgenstein✓&#9733;</li>
       </ul>
 
     </div>
@@ -28,8 +28,10 @@
   <!-- Music -->
   <div class="sidebar-section">
     <h2>Currently On Repeat & Favourites:</h2>
+    <h3>Also get an MP3 player, they're cool and fun</h3>
     <div class="scroll-box">
       <ul>
+        <li>I haven't been able to keep up with this because I've been listening to so much new music lately since I got my MP3 player</li>
         <li>R.A.P. Music — Killer Mike</li>
         <li>Magic, Alive! — McKinley Dixon</li>
         <li>Cabin in the Sky — De La Soul</li>
