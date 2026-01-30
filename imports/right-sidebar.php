@@ -5,10 +5,7 @@
     <h2>Next Improv Show:</h2>
     <div class="scroll-box">
       <ul>
-        <li>Unfortunately, due to the bad weather, tonights show on Jan 26th has been cancelled.</li>
-        <li>This also means that the come try improv event is also cancelled, but both will be rescheduled</li>
-        <li>Great News! MtA Presents: The Improv is back for 2026!</li>
-        <li>Shows will now be on Mondays at 9:30 @ The Pond.</li>
+        <li>Shows are on Mondays at 9:30 @ The Pond.</li>
       </ul>
     </div>
   </div>

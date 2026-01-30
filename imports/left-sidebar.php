@@ -28,7 +28,7 @@
   <!-- Music -->
   <div class="sidebar-section">
     <h2>Currently On Repeat & Favourites:</h2>
-    <h3>Also get an MP3 player, they're cool and fun</h3>
+    <p class="sidebar-note"></p>Also get an MP3 player, they're cool and fun</p>
     <div class="scroll-box">
       <ul>
         <li>I haven't been able to keep up with this because I've been listening to so much new music lately since I got my MP3 player</li>
