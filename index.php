@@ -24,6 +24,16 @@ switch ($nav) {
       <p><b>Developer, Philosopher, Improvisor, and Neo-Polymath</b></p>';
     $pageFile = 'imports/home.php';
     break;
+  
+  case 'music':
+    $pageHeaderHTML = '<h1>My MP3 Player Music Library</h1>';
+    $pageFile = 'imports/music.php';
+    break;
+
+  case 'album':
+    $pageHeaderHTML = '<h1>Album</h1>';
+    $pageFile = 'imports/album.php';
+    break;
 
   case 'about':
     $pageHeaderHTML = '<h1>About Me!</h1>';
@@ -88,6 +98,10 @@ switch ($nav) {
   case 'delete_post':
     $pageHeaderHTML = '<h1>delete post</h1>';
     $pageFile = 'ForumFolder/delete_post.php';
+    break;
+  case 'nadia':
+    $pageHeaderHTML = '<h1>Happy Anniversary Nadia!</h1>';
+    $pageFile = 'imports/nadia.php';
     break;
   default:
     $pageHeaderHTML = '<h1>Page Not Found</h1>';

@@ -27,28 +27,20 @@
 
   <!-- Music -->
   <div class="sidebar-section">
-    <h2>Currently On Repeat & Favourites:</h2>
-    <p class="sidebar-note"></p>Also get an MP3 player, they're cool and fun</p>
+    <h2>Currently On Repeat:</h2>
+    <p class="sidebar-note"></p>Get an MP3 player, they're cool and fun</p>
     <div class="scroll-box">
       <ul>
-        <li>I haven't been able to keep up with this because I've been listening to so much new music lately since I got my MP3 player</li>
+        <li>The Cool - Lupe Fiasco</li>
         <li>R.A.P. Music — Killer Mike</li>
+        <li>e.t.d.s - IDK</li>
         <li>Magic, Alive! — McKinley Dixon</li>
-        <li>Cabin in the Sky — De La Soul</li>
         <li>Voodoo — D'Angelo</li>
-        <li>Mommas Gun- Erykah Badu</li>
-        <li>Unoriginal / Black-Eyed Susan Climb — Magdalena Bay</li>
-        <li>West End Girl — Lily Allen</li>
+        <li>Momma's Gun- Erykah Badu</li>
+        <li> Run The Jewels I, II, III, IV, IV CU4TRO - Run The Jewels</li>
         <li>Let God Sort Em Out — Clipse</li>
-        <li>We Got It from Here… Thank You 4 Your Service — A Tribe Called Quest</li>
-        <li>To Pimp a Butterfly — Kendrick Lamar (always a classic)</li>
-        <li>God Does Like Ugly — J.I.D</li>
-        <li>Stankonia — Outkast</li>
-        <li>Alfredo 2 — Freddie Gibbs</li>
-        <li>Blonde — Frank Ocean</li>
-        <li>Purple Rain -Prince</li>
-        <li>Don’t Tap the Glass — Tyler, The Creator</li>
-        <li>Call Me If You Get Lost — Tyler, The Creator</li>
+        <li>Things Fall Apart - The Roots</li>
+        <li>The velvet Rope - Janet Jackson</li>
       </ul>
     </div>
 

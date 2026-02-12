@@ -32,7 +32,7 @@
               <li>Programming</li>
               <li>Reading</li>
               <li>Writing</li>
-              <li>Spending time with my girlfriend <a href="imports/nadia.php">Nadia</a></li>
+              <li>Spending time with my girlfriend <a href="/?nav=nadia">Nadia</a></li>
               <li>Spending time with friends</li>
               <li>and more!</li>
             </ul>

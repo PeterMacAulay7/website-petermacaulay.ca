@@ -5,17 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anniversary Page</title>
 
-    <!-- Link to external CSS file -->
-    <link rel="stylesheet" href="/nadia/nadiaCSS.css">
 </head>
 <body>
-    <!-- Password form section -->
+    <!-- Password form section
     <form id="pswd">
     <img src="/nadia/locked_heart.png" alt="heart lock" style="width:50px;height:auto;">
     <h2>Enter The Key To My Heart</h2>
     <input type="password" id="validate" placeholder="Enter Password">
     <button type="submit">Submit</button>
-    </form>
+    </form> -->
 
 
     <!-- After-login content (hidden until password is correct) -->
@@ -47,12 +45,12 @@
 
     <div id="container2">
         
-        <img src="nadia/Express-collage.png" alt="Nadia and Peter" style="width:600px;height:auto;">
-        <img src="nadia/nadiasGift.png" alt="Nadia's gift she made me" style="width:600px;height:auto;">
+        <img src="/nadia/Express-collage.png" alt="Nadia and Peter" style="width:600px;height:auto;">
+        <img src="/nadia/nadiasGift.png" alt="Nadia's gift she made me" style="width:600px;height:auto;">
 
     </div>
 
     <!-- Link to external JavaScript file -->
-    <script src="/nadia/nadiaJS.js"></script>
+    <!-- <script src="/nadia/nadiaJS.js"></script> -->
 </body>
 </html>

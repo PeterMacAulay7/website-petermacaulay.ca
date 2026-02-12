@@ -193,6 +193,98 @@ footer {
   color: rgb(200, 200, 200);
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
+/* ====== MUSIC PAGES ====== */
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 40px;
+}
+
+.album {
+    text-align: center;
+}
+
+.album img {
+    width: 100%;
+    border-radius: 14px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.album img:hover {
+    transform: scale(1.04);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+}
+
+.info {
+    margin-top: 10px;
+}
+
+.info strong {
+    display: block;
+    font-weight: 600;
+}
+
+.info span {
+    font-size: 0.85rem;
+    color: #aaa;
+}
+
+.no-cover {
+    background: #222;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    color: #555;
+}
+
+/* Album Page */
+
+.album-page {
+    display: flex;
+    gap: 60px;
+    padding: 60px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.album-cover-large {
+    width: 400px;
+    border-radius: 18px;
+}
+
+.album-details h1 {
+    margin: 0;
+}
+
+.album-details h2 {
+    margin-top: 5px;
+    font-weight: 400;
+    color: #aaa;
+}
+
+.tracklist {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.tracklist li {
+    margin-bottom: 8px;
+}
+
+.back-link {
+    display: block;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #aaa;
+}
+
+.back-link:hover {
+    color: white;
+}
+
 
 /* ====== FORUM STYLES ====== */
 /* Center the form */

@@ -5,7 +5,8 @@ $navbarLinks = [
   "Blog" => "/?nav=blog",
   "Essays" => "/?nav=essays",
   "Projects" => "/?nav=projects",
-  "Contact" => "/?nav=contact",
-  "Forum" => "/?nav=forum"
+  "Music Library" => "/?nav=music",
+  "Forum" => "/?nav=forum",
+  "Contact" => "/?nav=contact"
 ];
 ?>
