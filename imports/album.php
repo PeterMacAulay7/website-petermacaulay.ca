@@ -31,12 +31,12 @@ if (!$found) {
 
 <a class="back-link" href="/music">← Back to Archive</a>
 
-<div class="album-page">
+<div class="media-page">
     <?php if ($found["cover"]): ?>
-        <img class="album-cover-large" src="/web_output/<?php echo htmlspecialchars($found["cover"]); ?>">
+        <img class="element-cover-large" src="/web_output/<?php echo htmlspecialchars($found["cover"]); ?>">
     <?php endif; ?>
 
-    <div class="album-details">
+    <div class="element-details">
         <h1><?php echo htmlspecialchars($found["album"]); ?></h1>
         <h2><?php echo htmlspecialchars($found["artist"]); ?></h2>
 

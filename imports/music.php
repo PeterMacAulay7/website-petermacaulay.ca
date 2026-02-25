@@ -16,9 +16,12 @@ if (is_array($albums)) {
 </head>
 <body>
 
-<div class="album-grid">
+<a class="back-link" href="/library">← Back to Library</a>
+
+
+<div class="media-grid">
 <?php foreach ($albums as $a): ?>
-    <div class="album">
+    <div class="element">
             <a href="/album?artist=<?php echo urlencode($a['artist']); ?>&album=<?php echo urlencode($a['album']); ?>">
             <?php if ($a["cover"]): ?>
                 <img src="/web_output/<?php echo htmlspecialchars($a["cover"]); ?>?v=<?php echo filemtime("web_output/" . $a["cover"]); ?>" loading="lazy">

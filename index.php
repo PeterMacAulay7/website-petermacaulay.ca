@@ -24,7 +24,22 @@ switch ($nav) {
       <p><b>Developer, Philosopher, Improvisor, and Neo-Polymath</b></p>';
     $pageFile = 'imports/home.php';
     break;
-  
+
+    case 'library':
+    $pageHeaderHTML = '<h1>My Library</h1>';
+    $pageFile = 'imports/library.php';
+    break;
+
+    case 'books':
+    $pageHeaderHTML = '<h1>My Bookshelf</h1>';
+    $pageFile = 'imports/books.php';
+    break;
+
+    case 'book':
+    $pageHeaderHTML = '<h1>Book</h1>';
+    $pageFile = 'imports/book.php';
+    break;
+
   case 'music':
     $pageHeaderHTML = '<h1>My MP3 Player Music Library</h1>';
     $pageFile = 'imports/music.php';

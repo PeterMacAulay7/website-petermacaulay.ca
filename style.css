@@ -194,24 +194,24 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 /* ====== MUSIC PAGES ====== */
-.album-grid {
+.media-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 30px;
     padding: 40px;
 }
 
-.album {
+.element {
     text-align: center;
 }
 
-.album img {
+.element img {
     width: 100%;
     border-radius: 14px;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.album img:hover {
+.element img:hover {
     transform: scale(1.04);
     box-shadow: 0 12px 30px rgba(0,0,0,0.6);
 }
@@ -242,7 +242,7 @@ footer {
 
 /* Album Page */
 
-.album-page {
+.media-page {
     display: flex;
     gap: 60px;
     padding: 60px;
@@ -250,19 +250,39 @@ footer {
     margin: auto;
 }
 
-.album-cover-large {
+.element-cover-large {
     width: 400px;
     border-radius: 18px;
 }
 
-.album-details h1 {
+.element-details h1 {
     margin: 0;
 }
 
-.album-details h2 {
+.element-details h2 {
     margin-top: 5px;
     font-weight: 400;
     color: #aaa;
+}
+
+.shelf-section {
+  margin-bottom: 60px;
+}
+
+  .currently-reading {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: black;
+  color: white;
+  font-size: 11px;
+  padding: 4px 6px;
+  letter-spacing: 0.5px;
 }
 
 .tracklist {

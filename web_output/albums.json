@@ -1,5 +1,172 @@
 [
   {
+    "artist": "Baby Keem",
+    "album": "Ca$ino",
+    "cover": "covers/Casino.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Billy Woods",
+    "album": "Hiding Places",
+    "cover": "covers/Hiding_Places.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Billy Woods",
+    "album": "Maps",
+    "cover": "covers/Maps.webp",
+    "tracks": []
+  },
+
+    {
+    "artist": "Billy Woods",
+    "album": "History Will Absolve Me",
+    "cover": "covers/Billy Woods - History Will Absolve Me.webp",
+    "tracks": []
+  },
+
+  {
+    "artist": "Billy Woods",
+    "album": "Golliwog",
+    "cover": "covers/golliwog.webp",
+    "tracks": []
+  },
+
+  {
+    "artist": "Billie Eilish",
+    "album": "Happier Than Ever",
+    "cover": "covers/HappierThanEver.webp",
+    "tracks": [
+      "01 - Getting Older",
+      "02 - I Didn't Change My Number",
+      "03 - Billie Bossa Nova",
+      "04 - my future",
+      "05 - Oxytocin",
+      "06 - GOLDWING",
+      "07 - Lost Cause",
+      "08 - Halley's Comet",
+      "09 - Not My Responsibility",
+      "10 - OverHeated",
+      "11 - Everybody Dies",
+      "12 - Your Power",
+      "13 - NDA",
+      "14 - Therefore I Am",
+      "15 - Happier Than Ever",
+      "16 - Male Fantasy"
+    ]
+  },
+  {
+    "artist": "Lupe Fiasco-Fahrenheit 1st - 5th 2",
+    "album": "Lupe Fiasco-Fahrenheit 2",
+    "cover": "covers/Fahrenheit1st5th2.webp",
+    "tracks": [
+      "01 Revenge Begins...",
+      "02 Much More",
+      "03 Mean & Vicious",
+      "04 Didn't U Know",
+      "05 Don't Get It Twisted",
+      "06 Fast Money",
+      "07 Lupe The Killer",
+      "08 Handcuffs",
+      "09 Jedi Mind Tricks",
+      "10 Glory",
+      "11 ...Your Attention Please!!!",
+      "12 I'm Coming Freestyle",
+      "13 Gemini Freestyle",
+      "14 Switch (The Science Project)",
+      "15 Conflict Diamonds",
+      "16 Tilted Pt. 3",
+      "17 Outty 5000",
+      "18 Tilted In Any Colour You Like"
+    ]
+  },
+  {
+    "artist": "Lupe Fiasco-Fahrenheit 1st -15th 1",
+    "album": "Lupe Fiasco-Fahrenheit 1",
+    "cover": "covers/Fahrenheit1st15th1.webp",
+    "tracks": [
+      "01 - Lupe Fiasco - Intro",
+      "02 - Lupe Fiasco - Twilight Zone",
+      "03 - Lupe Fiasco - The Pen and The Needlz",
+      "04 - Lupe Fiasco - Knockin At The Door",
+      "05 - Lupe Fiasco - Champ Is Here (Freestyle)",
+      "06 - Lupe Fiasco - Failure",
+      "07 - Lupe Fiasco - Boss Playa",
+      "08 - Lupe Fiasco - Jesus Walks (Ahk-A-Fella Version)",
+      "09 - Lupe Fiasco - WGCI Freestyle",
+      "10 - Lupe Fiasco - Hater Hop",
+      "11 - Lupe Fiasco - The Run Down",
+      "12 - Lupe Fiasco - Ooh",
+      "13 - Lupe Fiasco - Slow Down",
+      "14 - Lupe Fiasco - Comin From Where I'm From",
+      "15 - Lupe Fiasco - Shayla G Up",
+      "16 - Lupe Fiasco - Radio Broadcast",
+      "17 - Lupe Fiasco - Welcome Back Chilly"
+    ]
+  },
+
+  {
+    "artist": "Tupac",
+    "album": "All Eyez On Me",
+    "cover": "covers/AllEyezOnMe.webp",
+    "tracks": [
+      "01 - Ambitionz Az a Ridah",
+      "02 - All About U",
+      "03 - Skandalouz",
+      "04 - Got My Mind Made Up",
+      "05 - How Do U Want It",
+      "06 - 2 of Amerikaz Most Wanted",
+      "07 - No More Pain",
+      "08 - Heartz of men",
+      "09 - Life Goes On",
+      "10 - Only God Can Judge Me",
+      "11 - Tradin War Stories",
+      "12 - California Love",
+      "13 - I Ain't Mad at Cha",
+      "14 - What'z Ya Phone #",
+      "15 - Can't C Me",
+      "16 - Shorty Wanna Be a Thug",
+      "17 - Holla at Me",
+      "18 - Wonda Why They Call U Bitch",
+      "19 - When We Ride",
+      "20 - Thug Passion",
+      "21 - Picture Me Rollin'",
+      "22 - Check Out Time",
+      "23 - Ratha Be Ya",
+      "24 - All Eyez On Me",
+      "25 - Run tha Streetz",
+      "26 - Ain't Hard 2 Find",
+      "27 - Heaven Ain't Hard 2 Find"
+    ]
+  },
+  {
+    "artist": "Bo Burnham",
+    "album": "Inside",
+    "cover": "covers/Inside.webp",
+    "tracks": [
+      "01 - Content",
+      "02 - Comedy",
+      "03 - FaceTime with My Mom (Tonight)",
+      "04 - How the World Works",
+      "05 - White Woman's Instagram",
+      "06 - Unpaid Intern",
+      "07 - Bezos I",
+      "08 - Sexting",
+      "09 - Look Who's Inside Again",
+      "10 - Problematic",
+      "11 - 30",
+      "12 - Don't Wanna Know",
+      "13 - Shit",
+      "14 - All Time Low",
+      "15 - Welcome To The Internet",
+      "16 - Bezos II",
+      "17 - That Funny Feeling",
+      "18 - All Eyes On Me",
+      "19 - Goodbye",
+      "20 - Any Day Now"
+    ]
+  },
+  {
     "artist": "Lupe Fiasco",
     "album": "The Cool",
     "cover": "covers/TheCool.webp",
@@ -680,8 +847,7 @@
     "album": "chanel",
     "cover": "covers/Chanel.webp",
     "tracks": [
-      "01 - videoplayback",
-      "02 - videoplayback"
+      "01 - Chanel"
     ]
   },
   {
@@ -1008,7 +1174,7 @@
     ]
   },
   {
-    "artist": "Kenrick_Lamar",
+    "artist": "Kendrick_Lamar",
     "album": "DAMN. COLLECTORS EDITION#",
     "cover": "covers/kenrick_lamar_damn_collectors_edition.webp",
     "tracks": [
@@ -1028,7 +1194,7 @@
     ]
   },
   {
-    "artist": "Kenrick_Lamar",
+    "artist": "Kendrick_Lamar",
     "album": "GNX (2024)",
     "cover": "covers/GNX.webp",
     "tracks": [
@@ -1047,7 +1213,7 @@
     ]
   },
   {
-    "artist": "Kenrick_Lamar",
+    "artist": "Kendrick_Lamar",
     "album": "good kid, m.A.A.d city",
     "cover": "covers/kenrick_lamar_good_kid_m_a_a_d_city.webp",
     "tracks": [
@@ -1067,7 +1233,7 @@
     ]
   },
   {
-    "artist": "Kenrick_Lamar",
+    "artist": "Kendrick_Lamar",
     "album": "Mr. Morale & The Big Steppers",
     "cover": "covers/kenrick_lamar_mr_morale_the_big_steppers.webp",
     "tracks": [
@@ -1092,7 +1258,7 @@
     ]
   },
   {
-    "artist": "Kenrick_Lamar",
+    "artist": "Kendrick_Lamar",
     "album": "Section.80",
     "cover": "covers/kenrick_lamar_section_80.webp",
     "tracks": [
@@ -1114,7 +1280,7 @@
     ]
   },
   {
-    "artist": "Kenrick_Lamar",
+    "artist": "Kendrick_Lamar",
     "album": "To Pimp A Butterfly",
     "cover": "covers/kenrick_lamar_to_pimp_a_butterfly.webp",
     "tracks": [
@@ -1137,7 +1303,7 @@
     ]
   },
   {
-    "artist": "Kenrick_Lamar",
+    "artist": "Kendrick_Lamar",
     "album": "untitled unmastered#",
     "cover": "covers/kenrick_lamar_untitled_unmastered.webp",
     "tracks": [
@@ -2239,7 +2405,7 @@
     ]
   },
   {
-    "artist": "The_Beetles",
+    "artist": "The_Beatles",
     "album": "Abbey Road",
     "cover": "covers/the_beetles_abbey_road.webp",
     "tracks": [
@@ -2476,7 +2642,7 @@
       "03 - Me Against The World",
       "04 - So Many Tears",
       "05 - Temptations",
-      "06 - Young Niggaz",
+      "06 - Young",
       "07 - Heavy In The Game",
       "08 - Lord Knows",
       "09 - Dear Mama",
@@ -2610,4 +2776,4 @@
       "09 - Tearz"
     ]
   }
-]
+  ]
