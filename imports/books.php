@@ -43,12 +43,16 @@ $wanttoreadbooks = fetchShelf("to-read");
 <body>
 
 <a class="back-link" href="/library">← Back to Library</a>
-
+<br>
+<p>Nav</p>
+<a href="#Currently-Reading">Currently Reading</a><br>
+<a href="#Read">Read</a><br>
+<a href="#Want-To-Read">Want To Read</a><br>
 
 <!-- CURRENTLY READING -->
 
 <div class="shelf-section currently-reading">
-    <h2>Currently Reading</h2>
+    <h2 id = "Currently-Reading">Currently Reading</h2>
 
     <div class="media-grid">
     <?php foreach ($currentBooks as $b): ?>
@@ -72,7 +76,7 @@ $wanttoreadbooks = fetchShelf("to-read");
 <!-- READ SHELF -->
 
 <div class="shelf-section">
-    <h2>Read</h2>
+    <h2 id = "Read">Read</h2>
 
     <div class="media-grid">
     <?php foreach ($readBooks as $b): ?>
@@ -97,7 +101,7 @@ $wanttoreadbooks = fetchShelf("to-read");
 <!-- TO READ -->
 
 <div class="shelf-section want-to-read">
-    <h2>Want To Read</h2>
+    <h2 id = "Want-To-Read">Want To Read</h2>
 
     <div class="media-grid">
     <?php foreach ($wanttoreadbooks as $b): ?>

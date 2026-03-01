@@ -89,7 +89,7 @@ h1 {
         </div>
 
         <div class="library-item">
-            <a href="/clothing">
+            <a href="/clothes">
                 <h2>Clothing</h2>
                 <p>Wardrobe & Outfit Generator</p>
             </a>

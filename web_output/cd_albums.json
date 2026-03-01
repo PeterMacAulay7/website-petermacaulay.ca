@@ -1,0 +1,135 @@
+[
+  {
+    "artist": "The Rankin Family",
+    "album": "Souvenir 1989-1998",
+    "cover": "covers/Souvenir.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Neil Young & Crazy Horse",
+    "album": "Americana",
+    "cover": "covers/Americana.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Souris Regional Grad Class 2022",
+    "album": "Down the Hatch",
+    "cover": "covers/DownTheHatch.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Queen",
+    "album": "Greatest Hits I II & III",
+    "cover": "covers/QueenGreatestHits.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Billie Eilish",
+    "album": "Happier Than Ever",
+    "cover": "covers/.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Jim Croce",
+    "album": "You Don't Mess Around With Jim",
+    "cover": "covers/.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "album": "Damn",
+    "cover": "covers/Damn.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Simon & Garfunkel",
+    "album": "Simon & Garfunkel's Greatest Hits",
+    "cover": "covers/SimonAndGarfunkelGreatestHits.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Tyler, the Creator",
+    "album": "Flower Boy",
+    "cover": "covers/FlowerBoy.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Fleetwood Mac",
+    "album": "Rumours",
+    "cover": "covers/Rumours.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Lady Gaga",
+    "album": "The Fame",
+    "cover": "covers/TheFame.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Tyler, the Creator",
+    "album": "Igor",
+    "cover": "covers/Igor.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Killer Mike",
+    "album": "Michael",
+    "cover": "covers/Michael.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Doechii",
+    "album": "Alligator Bites Never Heal",
+    "cover": "covers/AlligatorBitesNeverHeal.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Boston",
+    "album": "Boston",
+    "cover": "covers/Boston.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Buffalo Springfield",
+    "album": "The Best of Buffalo Springfield",
+    "cover": "covers/TheBestOfBuffaloSpringfield.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Billie Eilish",
+    "album": "When We All Fall Asleep, Where Do We Go?",
+    "cover": "covers/.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Silk Sonic",
+    "album": "An Evening with Silk Sonic",
+    "cover": "covers/AnEveningWithSilkSonic.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "album": "Mr.Morale & the Big Steppers",
+    "cover": "covers/MrMoraleAndTheBigSteppers.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Vivaldi",
+    "album": "The Vivaldi Collection",
+    "cover": "covers/.webp",
+    "tracks": []
+  },
+  {
+    "artist": "Janet Jackson",
+    "album": "Design of a Decade: 1986-1996",
+    "cover": "covers/DesignOfADecade1986-1996.webp",
+    "tracks": []
+  },
+    {
+    "artist": "Three Dog Night",
+    "album": "Joy To the World: Their Greatest Hits",
+    "cover": "covers/JoyToTheWorldTheirGreatestHits.webp",
+    "tracks": []
+  }
+
+]

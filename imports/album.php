@@ -1,6 +1,6 @@
 <?php
 
-$jsonPath = __DIR__ . "/../web_output/albums.json";
+$jsonPath = __DIR__ . "/../web_output/mp3_albums.json";
 
 if (!file_exists($jsonPath)) {
     die("albums.json not found");
