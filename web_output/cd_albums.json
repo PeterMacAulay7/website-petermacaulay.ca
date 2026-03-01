@@ -2,134 +2,134 @@
   {
     "artist": "The Rankin Family",
     "album": "Souvenir 1989-1998",
-    "cover": "covers/Souvenir.webp",
-    "tracks": []
+    "cover": "cd_covers/Souvenir.webp",
+    "back": "cd_backs/Souvenir_back.webp"
   },
   {
     "artist": "Neil Young & Crazy Horse",
     "album": "Americana",
-    "cover": "covers/Americana.webp",
-    "tracks": []
+    "cover": "cd_covers/Americana.webp",
+    "back": "cd_backs/Americana_back.webp"
   },
   {
     "artist": "Souris Regional Grad Class 2022",
     "album": "Down the Hatch",
-    "cover": "covers/DownTheHatch.webp",
-    "tracks": []
+    "cover": "cd_covers/DownTheHatch.webp",
+    "back": "cd_backs/DTH_back.webp"
   },
   {
     "artist": "Queen",
     "album": "Greatest Hits I II & III",
-    "cover": "covers/QueenGreatestHits.webp",
-    "tracks": []
+    "cover": "cd_covers/QueenGreatestHits.webp",
+    "back": "cd_backs/QueenGreatestHits_back.webp"
   },
   {
     "artist": "Billie Eilish",
     "album": "Happier Than Ever",
-    "cover": "covers/.webp",
-    "tracks": []
+    "cover": "cd_covers/HappierThanEver.webp",
+    "back": "cd_backs/HappierThanEver_back.webp"
   },
   {
     "artist": "Jim Croce",
     "album": "You Don't Mess Around With Jim",
-    "cover": "covers/.webp",
-    "tracks": []
+    "cover": "cd_covers/YouDontMessAroundWithJim.webp",
+    "back": "cd_backs/YouDontMessAroundWithJim_back.webp"
   },
   {
     "artist": "Kendrick Lamar",
     "album": "Damn",
-    "cover": "covers/Damn.webp",
-    "tracks": []
+    "cover": "cd_covers/Damn.webp",
+    "back": "cd_backs/Damn_back.webp"
   },
   {
     "artist": "Simon & Garfunkel",
     "album": "Simon & Garfunkel's Greatest Hits",
-    "cover": "covers/SimonAndGarfunkelGreatestHits.webp",
-    "tracks": []
+    "cover": "cd_covers/SimonAndGarfunkelGreatestHits.webp",
+    "back": "cd_backs/SimonAndGarfunkelGreatestHits_back.webp"
   },
   {
     "artist": "Tyler, the Creator",
     "album": "Flower Boy",
-    "cover": "covers/FlowerBoy.webp",
-    "tracks": []
+    "cover": "cd_covers/FlowerBoy.webp",
+    "back": "cd_backs/FlowerBoy_back.webp"
   },
   {
     "artist": "Fleetwood Mac",
     "album": "Rumours",
-    "cover": "covers/Rumours.webp",
-    "tracks": []
+    "cover": "cd_covers/Rumours.webp",
+    "back": "cd_backs/Rumours_back.webp"
   },
   {
     "artist": "Lady Gaga",
     "album": "The Fame",
-    "cover": "covers/TheFame.webp",
-    "tracks": []
+    "cover": "cd_covers/TheFame.webp",
+    "back": "cd_backs/TheFame_back.webp"
   },
   {
     "artist": "Tyler, the Creator",
     "album": "Igor",
-    "cover": "covers/Igor.webp",
-    "tracks": []
+    "cover": "cd_covers/Igor.webp",
+    "back": "cd_backs/Igor_back.webp"
   },
   {
     "artist": "Killer Mike",
     "album": "Michael",
-    "cover": "covers/Michael.webp",
-    "tracks": []
+    "cover": "cd_covers/Michael.webp",
+    "back": "cd_backs/Michael_back.webp"
   },
   {
     "artist": "Doechii",
     "album": "Alligator Bites Never Heal",
-    "cover": "covers/AlligatorBitesNeverHeal.webp",
-    "tracks": []
+    "cover": "cd_covers/AlligatorBitesNeverHeal.webp",
+    "back": "cd_backs/AlligatorBitesNeverHeal_back.webp"
   },
   {
     "artist": "Boston",
     "album": "Boston",
-    "cover": "covers/Boston.webp",
-    "tracks": []
+    "cover": "cd_covers/Boston.webp",
+    "back": "cd_backs/Boston_back.webp"
   },
   {
     "artist": "Buffalo Springfield",
     "album": "The Best of Buffalo Springfield",
-    "cover": "covers/TheBestOfBuffaloSpringfield.webp",
-    "tracks": []
+    "cover": "cd_covers/TheBestOfBuffaloSpringfield.webp",
+    "back": "cd_backs/TheBestOfBuffaloSpringfield_back.webp"
   },
   {
     "artist": "Billie Eilish",
     "album": "When We All Fall Asleep, Where Do We Go?",
-    "cover": "covers/.webp",
-    "tracks": []
+    "cover": "cd_covers/WhenWeAllFallAsleepWhereDoWeGo.webp",
+    "back": "cd_backs/WhenWeAllFallAsleepWhereDoWeGo_back.webp"
   },
   {
     "artist": "Silk Sonic",
     "album": "An Evening with Silk Sonic",
-    "cover": "covers/AnEveningWithSilkSonic.webp",
-    "tracks": []
+    "cover": "cd_covers/AnEveningWithSilkSonic.webp",
+    "back": "cd_backs/AnEveningWithSilkSonic_back.webp"
   },
   {
     "artist": "Kendrick Lamar",
     "album": "Mr.Morale & the Big Steppers",
-    "cover": "covers/MrMoraleAndTheBigSteppers.webp",
-    "tracks": []
+    "cover": "cd_covers/MrMoraleAndTheBigSteppers.webp",
+    "back": "cd_backs/MrMoraleAndTheBigSteppers_back.webp"
   },
   {
     "artist": "Vivaldi",
     "album": "The Vivaldi Collection",
-    "cover": "covers/.webp",
-    "tracks": []
+    "cover": "cd_covers/TheVivaldiCollection.webp",
+    "back": "cd_backs/TheVivaldiCollection_back.webp"
   },
   {
     "artist": "Janet Jackson",
     "album": "Design of a Decade: 1986-1996",
-    "cover": "covers/DesignOfADecade1986-1996.webp",
-    "tracks": []
+    "cover": "cd_covers/DesignOfADecade1986-1996.webp",
+    "back": "cd_backs/DesignOfADecade1986-1996_back.webp"
   },
     {
     "artist": "Three Dog Night",
     "album": "Joy To the World: Their Greatest Hits",
-    "cover": "covers/JoyToTheWorldTheirGreatestHits.webp",
-    "tracks": []
+    "cover": "cd_covers/JoyToTheWorldTheirGreatestHits.webp",
+    "back": "cd_backs/JoyToTheWorldTheirGreatestHits_back.webp"
   }
 
 ]
