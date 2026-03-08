@@ -248,11 +248,14 @@ footer {
     padding: 60px;
     max-width: 1200px;
     margin: auto;
+    align-items: flex-start;
 }
 
 .element-cover-large {
     width: 400px;
     border-radius: 18px;
+    height: auto;
+    max-width: 350px;
 }
 
 .element-details h1 {

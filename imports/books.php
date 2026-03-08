@@ -20,7 +20,8 @@ function fetchShelf($shelf) {
             "link" => (string)$item->link,
             "cover" => (string)$gr->book_large_image_url,
             "review" => (string)$gr->review_text,
-            "author" => (string)$gr->author_name
+            "author" => (string)$gr->author_name,
+            "date_read" => (string)$gr->user_read_at   // ← add this
         ];
     }
 
@@ -29,6 +30,11 @@ function fetchShelf($shelf) {
 
 $currentBooks = fetchShelf("currently-reading");
 $readBooks = fetchShelf("read");
+usort($readBooks, function($a, $b) {
+    $timeA = !empty($a['date_read']) ? strtotime($a['date_read']) : 0;
+    $timeB = !empty($b['date_read']) ? strtotime($b['date_read']) : 0;
+    return $timeB - $timeA; // descending: most recently read first
+});
 $wanttoreadbooks = fetchShelf("to-read");
 
 //shuffle($readBooks); // optional

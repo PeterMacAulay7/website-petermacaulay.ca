@@ -11,8 +11,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 80px 20px;
+    align-items: stretch; /* was center */
+    padding: 20px;
 }
 
 h1 {
@@ -22,29 +22,33 @@ h1 {
 }
 
 .library-grid {
-    width: 100%;
-    max-width: 1000px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 40px;
-}
-
-.library-item a {
-    text-decoration: none;
-    color: inherit;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1000px; /* adjust if you want wider */
 }
 
 .library-item {
     padding: 60px 30px;
     text-align: center;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,1);
-    transition: 0.25s ease;
+
+    /* Strong base shadow */
+    box-shadow: 
+        0 12px 30px rgba(0,0,0,0.35),
+        0 4px 10px rgba(0,0,0,0.25);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .library-item:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+    transform: translateY(-10px) scale(1.04);
+
+    /* More intense, deeper shadow */
+    box-shadow:
+        0 30px 70px rgba(0,0,0,0.55),
+        0 10px 20px rgba(0,0,0,0.4);
 }
 
 .library-item h2 {
@@ -64,36 +68,32 @@ h1 {
 <body>
 
 <div class="library-wrapper">
-    
+    <p>My library is a place for me to catalog and share some of my media and interests.</p>
+    <p>While the library isn't a place to access the media itself, I think it can give a look into what I'm interested in or have seen, potentially influencing me as a person.
+        I also have plans to potentially add some features like my thoughts on a given piece of media, or give anyone who wants to comment a place to do that.</p>
+        <p>Going back to how the library doesn't give you access to my actual media, if you're interested in any of it, just reach out to me and I can probably give you or let you borrow anything you see on the library. Think of it like how actaul librarys have an online catalog of items you can order in to the physical library.</p>
+    </p>
     <div class="library-grid">
 
-        <div class="library-item">
-            <a href="/music">
+        <a href="/music" class = "library-item">
                 <h2>Music</h2>
                 <p>Albums & Archive</p>
-            </a>
-        </div>
+        </a>
 
-        <div class="library-item">
-            <a href="/books">
+        <a href="/books" class = "library-item">
                 <h2>Books</h2>
-                <p>Reading & Reviews</p>
-            </a>
-        </div>
+                <p>Reading & Reviews</p>  
+        </a>
 
-        <div class="library-item">
-            <a href="/movies">
+        <a href="/movies" class = "library-item">
                 <h2>Movies</h2>
                 <p>Film Collection</p>
-            </a>
-        </div>
+        </a>
 
-        <div class="library-item">
-            <a href="/clothes">
+        <a href="/clothes" class = "library-item">
                 <h2>Clothing</h2>
                 <p>Wardrobe & Outfit Generator</p>
-            </a>
-        </div>
+        </a>
 
     </div>
 

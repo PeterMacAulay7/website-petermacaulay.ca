@@ -67,7 +67,7 @@ if (!$found) {
 
     <?php if ($image): ?>
         <img class="element-cover-large"
-             src="/web_output/<?php echo htmlspecialchars($image); ?>">
+            src="/web_output/<?php echo htmlspecialchars($image); ?>">
     <?php endif; ?>
 
     <div class="element-details">
