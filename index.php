@@ -30,6 +30,16 @@ switch ($nav) {
     $pageFile = 'imports/library.php';
     break;
 
+    case 'movies':
+    $pageHeaderHTML = '<h1>My Movie Collection</h1>';
+    $pageFile = 'imports/movies.php';
+    break;
+
+    case 'clothes':
+    $pageHeaderHTML = '<h1>My Clothing Collection</h1>';
+    $pageFile = 'imports/clothes.php';
+    break;
+
     case 'books':
     $pageHeaderHTML = '<h1>My Bookshelf</h1>';
     $pageFile = 'imports/books.php';
