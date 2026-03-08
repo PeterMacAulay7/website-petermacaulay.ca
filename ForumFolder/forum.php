@@ -2,8 +2,19 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . '/../db.php';
 // fetch latest posts with author info
-$stmt = $pdo->query('SELECT posts.*, users.username, users.profile_pic FROM posts JOIN users ON posts.user_id = users.id ORDER BY posts.created_at DESC LIMIT 50');
-$posts = $stmt->fetchAll();
+$stmt = $pdo->query('
+SELECT 
+  posts.*, 
+  users.username, 
+  users.profile_pic,
+  COUNT(comments.id) AS comment_count
+FROM posts
+JOIN users ON posts.user_id = users.id
+LEFT JOIN comments ON comments.post_id = posts.id
+GROUP BY posts.id
+ORDER BY posts.created_at DESC
+LIMIT 50
+');$posts = $stmt->fetchAll();
 ?>
 <?php include 'ForumFolder/headerF.php';?>
 <div class="card">
@@ -26,7 +37,7 @@ $posts = $stmt->fetchAll();
           <div class="post-content"><?php echo e($p['content']); ?></div>
             <div class="actions small">
               <button onclick="location.href='/?nav=post&id=<?= urlencode($p['id']) ?>'">
-                Comments
+                Comments <?= $p['comment_count'] ?>
               </button>
             </div>
         </div>
