@@ -1,4 +1,112 @@
 [
+  {"artist":"A Tribe Called Quest",
+    "album":"Midnight Marauders",
+    "cover":"covers/MidnightMarauders.webp",
+    "tracks":[]
+  },
+  {"artist":"Marvin Gaye",
+    "album":"In The Groove",
+    "cover":"covers/InTheGroove.webp",
+    "tracks":[]
+  },
+  {"artist":"Marvin Gaye",
+    "album":"Let's Get It On",
+    "cover":"covers/LetsGetItOn.webp",
+    "tracks":[]
+  },
+  {"artist":"Converge",
+    "album":"Jane Doe",
+    "cover":"covers/JaneDoe.webp",
+    "tracks":[]
+  },
+  {"artist":"Converge",
+    "album":"Love Is Not Enough",
+    "cover":"covers/LoveIsNotEnough.webp",
+    "tracks":[]
+  },
+  {"artist":"Sam Cooke",
+    "album":"The Best of Sam Cooke",
+    "cover":"covers/TheBestOfSamCooke.webp",
+    "tracks":[]
+  },
+  {"artist":"Earl SweatShirt",
+    "album":"Live Laugh Love",
+    "cover":"covers/LiveLaughLove.webp",
+    "tracks":[]
+  },
+  {"artist":"Erykah Badu",
+    "album":"Baduizm",
+    "cover":"covers/Baduizm.webp",
+    "tracks":[]
+  },
+
+  {"artist":"Erykah Badu",
+    "album":"New Amerykah Part One (4th World War)",
+    "cover":"covers/NewAmerykahPart1.webp",
+    "tracks":[]
+  },
+
+  {"artist":"Erykah Badu",
+    "album":"New Amerykah Part Two: Return of the Ankh",
+    "cover":"covers/NewAmerykahPart2.webp",
+    "tracks":[]
+  },
+  {
+    "artist":"Hemlock Springs",
+    "album":"Going...Going...Gone!",
+    "cover":"covers/GoingGoingGone.webp",
+    "tracks":[]
+  },
+
+  {
+    "artist":"Hemlock Springs",
+    "album":"The Apple Tree Under the Sea",
+    "cover":"covers/the apple tree under the sea.webp",
+    "tracks":[]
+  },
+
+  {
+    "artist":"Joey Bada$$",
+    "album":"1999",
+    "cover":"covers/1999.webp",
+    "tracks":[]
+  },
+
+  {
+    "artist":"Jill Scott",
+    "album":"To Whom This May Concern",
+    "cover":"covers/ToWhomItMayConcern.webp",
+    "tracks":[]
+  },
+
+  {
+    "artist":"Danny Brown",
+    "album":"Stardust",
+    "cover":"covers/Stardust.webp",
+    "tracks":[]
+  },
+
+  {
+    "artist":"Gorillaz",
+    "album":"The Mountain",
+    "cover":"covers/TheMountain.webp",
+    "tracks":[]
+  },
+
+  {
+    "artist":"JPEG Mafia",
+    "album":"I Lay Down My Life For You (Directors Cut)",
+    "cover":"covers/ILayDownMyLifeForYou.webp",
+    "tracks":[]
+  },
+
+  {
+    "artist":"Charli XCX",
+    "album":"Charli",
+    "cover":"covers/Charli.webp",
+    "tracks":[]
+  },
+
   {
     "artist": "Baby Keem",
     "album": "Ca$ino",
