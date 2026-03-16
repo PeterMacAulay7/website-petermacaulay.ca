@@ -1,0 +1,417 @@
+[
+  {
+    "title": "The Perks of Being A Wallflower",
+    "watched": "2025-10-??",
+    "year": "2012",
+    "Director": "Stephen Chbosky",
+    "poster": "posters/the_perks_of_being_a_wallflower.webp"
+  },
+  {
+    "title": "Swiss Army Man",
+    "watched": "2026-03-13",
+    "year": "2016",
+    "Director": "Daniel Kwan, Daniel Scheinert",
+    "poster": "posters/swiss_army_man.webp"
+  },
+  {
+    "title": "Inside",
+    "watched": "2022-??-??",
+    "year": "2021",
+    "Director": "Bo Burnham",
+    "poster": "posters/inside.webp"
+  },
+  {
+    "title": "Dead Poets Society",
+    "watched": "2025-11-??",
+    "year": "1989",
+    "Director": "Peter Weir",
+    "poster": "posters/dead_poets_society.webp"
+  },
+  {
+    "title": "What",
+    "watched": "2021-??-??",
+    "year": "2013",
+    "Director": "Bo Burnham",
+    "poster": "posters/what.webp"
+  },
+  {
+    "title": "Make Happy",
+    "watched": "2021-??-??",
+    "year": "2015",
+    "Director": "Bo Burnham",
+    "poster": "posters/makehappy.webp"
+  },
+  {
+    "title": "Tick, Tick... Boom",
+    "watched": "2021-??-??",
+    "year": "2021",
+    "Director": "Lin-Manuel Miranda",
+    "poster": "posters/tick_tick_boom.webp"
+  },
+  {
+    "title": "Good Will Hunting",
+    "watched": "??-??-??",
+    "year": "1997",
+    "Director": "Gus Van Sant",
+    "poster": "posters/good_will_hunting.webp"
+  },
+  {
+    "title": "Spirited Away",
+    "watched": "2025-??-??",
+    "year": "2001",
+    "Director": "Hayao Miyazaki",
+    "poster": "posters/spirited_away.webp"
+  },
+  {
+    "title": "Pulp Fiction",
+    "watched": "2021-??-??",
+    "year": "1994",
+    "Director": "Quentin Tarantino",
+    "poster": "posters/pulp_fiction.webp"
+  },
+  {
+    "title": "Moonlight",
+    "watched": "2025-??-??",
+    "year": "2016",
+    "Director": "Barry Jenkins",
+    "poster": "posters/moonlight.webp"
+  },
+  {
+    "title": "Lady Bird",
+    "watched": "2025-04-??",
+    "year": "2017",
+    "Director": "Greta Gerwig",
+    "poster": "posters/lady_bird.webp"
+  },
+  {
+    "title": "Marriage Story",
+    "watched": "2021-??-??",
+    "year": "2019",
+    "Director": "Noah Baumbach",
+    "poster": "posters/marriage_story.webp"
+  },
+  {
+    "title": "Hellboy",
+    "watched": "2021-??-??",
+    "year": "2004",
+    "Director": "Guillermo del Toro",
+    "poster": "posters/hellboy.webp"
+  },
+  {
+    "title": "Crazy Stupid Love",
+    "watched": "2026-03-06",
+    "year": "2011",
+    "Director": "Glenn Ficarra, John Requa",
+    "poster": "posters/crazy_stupid_love.webp"
+  },
+  {
+    "title": "The Fall Guy",
+    "watched": "2026-02-27",
+    "year": "2024",
+    "Director": "David Leitch",
+    "poster": "posters/the_fall_guy.webp"
+  },
+  {
+    "title": "The inside Outtakes",
+    "watched": "2022-06,03",
+    "year": "2022",
+    "Director": "Bo Burnham",
+    "poster": "posters/the_inside_outtakes.webp"
+  },
+  {
+    "title": "K-Pop Demon Hunters",
+    "watched": "2025-??-??",
+    "year": "2025",
+    "Director": "Maggie Kang, Chris Appelhans",
+    "poster": "posters/k_pop_demon_hunters.webp"
+  },
+  {
+    "title": "Fight Club",
+    "watched": "2026-02-??",
+    "year": "1999",
+    "Director": "David Fincher",
+    "poster": "posters/fight_club.webp"
+  },
+  {
+    "title": "Howl's Moving Castle",
+    "watched": "2022-??-??",
+    "year": "2004",
+    "Director": "Hayao Miyazaki",
+    "poster": "posters/howl_s_moving_castle.webp"
+  },
+  {
+    "title": "Fantastic Mr. Fox",
+    "watched": "??-??-??",
+    "year": "2009",
+    "Director": "Wes Anderson",
+    "poster": "posters/fantastic_mr_fox.webp"
+  },
+  {
+    "title": "The Truman Show",
+    "watched": "??-??-??",
+    "year": "1998",
+    "Director": "Peter Weir",
+    "poster": "posters/the_truman_show.webp"
+  },
+  {
+    "title": "99 Homes",
+    "watched": "??-??-??",
+    "year": "2014",
+    "Director": "Ramin Bahrani",
+    "poster": "posters/99_homes.webp"
+  },
+  {
+    "title": "The Social Network",
+    "watched": "??-??-??",
+    "year": "2010",
+    "Director": "David Fincher",
+    "poster": "posters/the_social_network.webp"
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "watched": "??-??-??",
+    "year": "2001",
+    "Director": "Chris Columbus",
+    "series": "Harry Potter",
+    "order": 1,
+    "poster": "posters/harry_potter_and_the_sorcerer_s_stone.webp"
+  },
+  {
+    "title": "Harry Potter and the Chamber of Secrets",
+    "watched": "??-??-??",
+    "year": "2002",
+    "Director": "Chris Columbus",
+    "series": "Harry Potter",
+    "order": 2,
+    "poster": "posters/harry_potter_and_the_chamber_of_secrets.webp"
+  },
+  {
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "watched": "??-??-??",
+    "year": "2004",
+    "Director": "Alfonso Cuarón",
+    "series": "Harry Potter",
+    "order": 3,
+    "poster": "posters/harry_potter_and_the_prisoner_of_azkaban.webp"
+  },
+  {
+    "title": "Harry Potter and the Goblet of Fire",
+    "watched": "??-??-??",
+    "year": "2005",
+    "Director": "Mike Newell",
+    "series": "Harry Potter",
+    "order": 4,
+    "poster": "posters/harry_potter_and_the_goblet_of_fire.webp"
+  },
+  {
+    "title": "Harry Potter and the Order of the Phoenix",
+    "watched": "??-??-??",
+    "year": "2007",
+    "Director": "David Yates",
+    "series": "Harry Potter",
+    "order": 5,
+    "poster": "posters/harry_potter_and_the_order_of_the_phoenix.webp"
+  },
+  {
+    "title": "Harry Potter and the Half-Blood Prince",
+    "watched": "??-??-??",
+    "year": "2009",
+    "Director": "David Yates",
+    "series": "Harry Potter",
+    "order": 6,
+    "poster": "posters/harry_potter_and_the_half_blood_prince.webp"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part 1",
+    "watched": "??-??-??",
+    "year": "2010",
+    "Director": "David Yates",
+    "series": "Harry Potter",
+    "order": 7,
+    "poster": "posters/harry_potter_and_the_deathly_hallows_part_1.webp"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part 2",
+    "watched": "??-??-??",
+    "year": "2011",
+    "Director": "David Yates",
+    "series": "Harry Potter",
+    "order": 8,
+    "poster": "posters/harry_potter_and_the_deathly_hallows_part_2.webp"
+  },
+  {
+    "title": "The Dark Knight",
+    "watched": "??-??-??",
+    "year": "2008",
+    "Director": "Christopher Nolan",
+    "series": "The Dark Knight Trilogy",
+    "order": 2,
+    "poster": "posters/the_dark_knight.webp"
+  },
+  {
+    "title": "Batman Begins",
+    "watched": "??-??-??",
+    "year": "2005",
+    "Director": "Christopher Nolan",
+    "series": "The Dark Knight Trilogy",
+    "order": 1,
+    "poster": "posters/batman_begins.webp"
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "watched": "??-??-??",
+    "year": "2012",
+    "Director": "Christopher Nolan",
+    "series": "The Dark Knight Trilogy",
+    "order": 3,
+    "poster": "posters/the_dark_knight_rises.webp"
+  },
+  {
+    "title": "The Matrix",
+    "watched": "??-??-??",
+    "year": "1999",
+    "Director": "Lana Wachowski, Lilly Wachowski",
+    "poster": "posters/the_matrix.webp"
+  },
+  {
+    "title": "Shawshank Redemption",
+    "watched": "2021-??-??",
+    "year": "1994",
+    "Director": "Frank Darabont",
+    "poster": "posters/shawshank_redemption.webp"
+  },
+  {
+    "title": "Lord of the Rings: The Fellowship of the Ring",
+    "watched": "2021-??-??",
+    "year": "2001",
+    "Director": "Peter Jackson",
+    "series": "Lord of the Rings",
+    "order": 1,
+    "poster": "posters/lord_of_the_rings_the_fellowship_of_the_ring.webp"
+  },
+  {
+    "title": "Lord of the Rings: The Two Towers",
+    "watched": "2021-??-??",
+    "year": "2002",
+    "Director": "Peter Jackson",
+    "series": "Lord of the Rings",
+    "order": 2,
+    "poster": "posters/lord_of_the_rings_the_two_towers.webp"
+  },
+  {
+    "title": "Lord of the Rings: Return of the King",
+    "watched": "2021-??-??",
+    "year": "2003",
+    "Director": "Peter Jackson",
+    "series": "Lord of the Rings",
+    "order": 3,
+    "poster": "posters/lord_of_the_rings_return_of_the_king.webp"
+  },
+  {
+    "title": "Forrest Gump",
+    "watched": "2018-??-??",
+    "year": "1994",
+    "Director": "Robert Zemeckis",
+    "poster": "posters/forrest_gump.webp"
+  },
+  {
+    "title": "Star Wars: A New Hope",
+    "watched": "2015-??-??",
+    "year": "1977",
+    "Director": "George Lucas",
+    "series": "Star Wars",
+    "order": 1,
+    "poster": "posters/star_wars_a_new_hope.webp"
+  },
+  {
+    "title": "Star Wars: The Empire Strikes Back",
+    "watched": "2015-??-??",
+    "year": "1980",
+    "Director": "George Lucas",
+    "series": "Star Wars",
+    "order": 2,
+    "poster": "posters/star_wars_the_empire_strikes_back.webp"
+  },
+  {
+    "title": "Star Wars: Return of the Jedi",
+    "watched": "2015-??-??",
+    "year": "1983",
+    "Director": "George Lucas",
+    "series": "Star Wars",
+    "order": 3,
+    "poster": "posters/star_wars_return_of_the_jedi.webp"
+  },
+  {
+    "title": "Star Wars: The Phantom Menace",
+    "watched": "2015-??-??",
+    "year": "1999",
+    "Director": "George Lucas",
+    "series": "Star Wars",
+    "order": 4,
+    "poster": "posters/star_wars_the_phantom_menace.webp"
+  },
+  {
+    "title": "Star Wars: Attack of the Clones",
+    "watched": "2015-??-??",
+    "year": "2002",
+    "Director": "George Lucas",
+    "series": "Star Wars",
+    "order": 5,
+    "poster": "posters/star_wars_attack_of_the_clones.webp"
+  },
+  {
+    "title": "Star Wars: Revenge of the Sith",
+    "watched": "2015-??-??",
+    "year": "2005",
+    "Director": "George Lucas",
+    "series": "Star Wars",
+    "order": 6,
+    "poster": "posters/star_wars_revenge_of_the_sith.webp"
+  },
+  {
+    "title": "The Green Mile",
+    "watched": "2018-??-??",
+    "year": "1999",
+    "Director": "Frank Darabont",
+    "poster": "posters/the_green_mile.webp"
+  },
+  {
+    "title": "Back to the Future",
+    "watched": "2015-??-??",
+    "year": "1985",
+    "Director": "Robert Zemeckis",
+    "poster": "posters/back_to_the_future.webp"
+  },
+  {
+    "title": "Monty Python and the Holy Grail",
+    "watched": "2019-??-??",
+    "year": "1975",
+    "Director": "Terry Gilliam, Terry Jones",
+    "series": "Monty Python",
+    "order": 1,
+    "poster": "posters/monty_python_and_the_holy_grail.webp"
+  },
+  {
+    "title": "Monty Python's Life of Brian",
+    "watched": "2020-??-??",
+    "year": "1979",
+    "Director": "Terry Gilliam, Terry Jones",
+    "series": "Monty Python",
+    "order": 2,
+    "poster": "posters/monty_python_s_life_of_brian.webp"
+  },
+  {
+    "title": "Blade Runner",
+    "watched": "2021-??-??",
+    "year": "1982",
+    "Director": "Ridley Scott",
+    "poster": "posters/blade_runner.webp"
+  },
+  {
+    "title": "Catch Me if You Can",
+    "watched": "2022-??-??",
+    "year": "2002",
+    "Director": "Steven Spielberg",
+    "poster": "posters/catch_me_if_you_can.webp"
+  }
+]
