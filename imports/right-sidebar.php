@@ -1,11 +1,5 @@
 <div class="sidebar">
 
-  <div class="sidebar-section">
-    <h2>COME SEE THESE EVENTS!</h2>
-    <p class="sidebar-note">This is a fashion show put on by my friend Bennett Beaumont. I will be one of the models in it</p>
-    <img src="/images/punkdeathoffashion.webp" alt="Punk Death of Fashion Poster" style="width:100%;height:auto;">
-  </div>
-
   <!-- Next Improv Show -->
   <div class="sidebar-section">
     <h2>Next Improv Show:</h2>
