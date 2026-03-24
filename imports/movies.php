@@ -184,7 +184,7 @@ alt="<?php echo htmlspecialchars($a["title"]); ?>"
 <?php echo htmlspecialchars("- " . $a["year"]); ?><br>
 <span><?php echo htmlspecialchars($a["Director"]); ?></span><br>
 <span><?php echo htmlspecialchars("Watched: " . ($a["watched"] ?? "Unknown")); ?></span><br>
-<span><?php echo htmlspecialchars("Feels: " . ($a["feels"] ?? "Not Rated")); ?></span>
+<span><?php echo htmlspecialchars("Thoughts: " . ($a["thoughts"] ?? "Not Rated")); ?></span>
 
 </div>
 

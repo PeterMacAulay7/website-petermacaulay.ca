@@ -1,12 +1,41 @@
 [
-
+  {
+    "title": "My Old Ass",
+    "watched": "2025-01-??",
+    "Director": "Megan Park",
+    "thoughts": "Great",
+    "poster": "posters/my_old_ass.webp"
+  },
+  {
+    "title": "Bugonia",
+    "watched": "2026-03-21",
+    "Director": "Yorgos Lanthimos",
+    "thoughts": "Great",
+    "poster": "posters/bugonia.webp"
+  },
+  {
+    "title": "Promising Young Woman",
+    "watched": "2023-??-??",
+    "year": "2020",
+    "Director": "Emerald Fennell",
+    "thoughts": "Great",
+    "poster": "posters/promising_young_woman.webp"
+  },
+  {
+    "title": "What If",
+    "watched": "2020-??-??",
+    "year": "2013",
+    "Director": "Michael Dowse",
+    "thoughts": "Liked it",
+    "poster": "posters/what_if.webp"
+  },
   {
     "title": "Pretend That You Love Me",
     "watched": "2020-??-??",
     "year": "2020",
     "Director": "Joel Haver",
     "top10": true,
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/pretend_that_you_love_me.webp"
   },
   {
@@ -15,7 +44,7 @@
     "year": "2007",
     "Director": "Greg Mottola",
     "top10": true,
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/superbad.webp"
   },
   {
@@ -23,7 +52,7 @@
     "watched": "2018-??-??",
     "year": "2007",
     "Director": "Jason Reitman",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/juno.webp"
   },
   {
@@ -59,7 +88,7 @@
     "watched": "2026-02-??",
     "year": "2018",
     "Director": "Felix Van Groeningen",
-    "feels": "",
+    "thoughts": "Great",
     "poster": "posters/beautiful_boy.webp"
   },
   {
@@ -67,7 +96,7 @@
     "watched": "2020-??-??",
     "year": "2014",
     "Director": "Dan Gilroy",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/nightcrawler.webp"
   },
   {
@@ -75,7 +104,7 @@
     "watched": "2020-??-??",
     "year": "2014",
     "Director": "Morten Tyldum",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/the_imitation_game.webp"
   },
   {
@@ -83,7 +112,7 @@
     "watched": "2019-??-??",
     "year": "2019",
     "Director": "Jeff Tremaine",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/the_dirt.webp"
   },
   {
@@ -91,7 +120,7 @@
     "watched": "2020-??-??",
     "year": "2017",
     "Director": "Edgar Wright",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/baby_driver.webp"
   },
   {
@@ -99,6 +128,7 @@
     "watched": "2018-??-??",
     "year": "2016",
     "Director": "Mel Gibson",
+    "thoughts": "Liked it",
     "poster": "posters/hacksaw_ridge.webp"
   },
   {
@@ -106,7 +136,7 @@
     "watched": "2022-??-??",
     "year": "2015",
     "Director": "Adam McKay",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/the_big_short.webp"
   },
   {
@@ -114,6 +144,7 @@
     "watched": "2019-??-??",
     "year": "2019",
     "Director": "Taika Waititi",
+    "thoughts": "Liked it",
     "poster": "posters/jojo_rabbit.webp"
   },
   {
@@ -121,7 +152,7 @@
     "watched": "2025-10-??",
     "year": "2024",
     "Director": "John Crowley",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/we_live_in_time.webp"
   },
   {
@@ -130,7 +161,7 @@
     "year": "2018",
     "Director": "Bo Burnham",
     "top10": true,
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/eighth_grade.webp"
   },
   {
@@ -138,7 +169,7 @@
     "watched": "2026-01-05",
     "year": "2025",
     "Director": "Marty Supreme",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/marty_supreme.webp"
   },
   {
@@ -146,7 +177,7 @@
     "watched": "2026-01-02",
     "year": "2017",
     "Director": "Luca Guadagnino",
-
+    "thoughts": "Liked it",
     "poster": "posters/call_me_by_your_name.webp"
   },
   {
@@ -154,6 +185,7 @@
     "watched": "2023-??-??",
     "year": "2023",
     "Director": "Emerald Fennell",
+    "thoughts": "Liked it",
     "poster": "posters/saltburn.webp"
   },
   {
@@ -161,6 +193,7 @@
     "watched": "2021-??-??",
     "year": "2021",
     "Director": "Denis Villeneuve",
+    "thoughts": "Liked it",
     "poster": "posters/dune.webp"
   },
   {
@@ -168,6 +201,7 @@
     "watched": "2013-??-??",
     "year": "2002",
     "Director": "Raja Gosnell",
+    "thoughts": "Great",
     "poster": "posters/scooby_doo.webp"
   },
   {
@@ -175,6 +209,7 @@
     "watched": "2013-??-??",
     "year": "2004",
     "Director": "Raja Gosnell",
+    "thoughts": "Liked it",
     "poster": "posters/scooby_doo_2_monsters_unleashed.webp"
   },
   {
@@ -182,6 +217,7 @@
     "watched": "2021-??-??",
     "year": "2021",
     "Director": "Wes Anderson",
+    "thoughts": "Liked it",
     "poster": "posters/the_french_dispatch.webp"
   },
   {
@@ -189,6 +225,7 @@
     "watched": "2023-??-??",
     "year": "2023",
     "Director": "Greta Gerwig",
+    "thoughts": "Great",
     "poster": "posters/barbie.webp"
   },
   {
@@ -196,6 +233,7 @@
     "watched": "2008-??-??",
     "year": "1994",
     "Director": "Roger Allers, Rob Minkoff",
+    "thoughts": "Liked it",
     "poster": "posters/the_lion_king.webp"
   },
   {
@@ -203,6 +241,7 @@
     "watched": "2022-??-??",
     "year": "2022",
     "Director": "Matt Reeves",
+    "thoughts": "Liked it",
     "poster": "posters/the_batman.webp"
   },
   {
@@ -210,6 +249,7 @@
     "watched": "2021-??-??",
     "year": "2020",
     "Director": "Thomas Kail",
+    "thoughts": "Liked it",
     "poster": "posters/hamilton.webp"
   },
   {
@@ -217,6 +257,7 @@
     "watched": "2021-??-??",
     "year": "2021",
     "Director": "Byron Howard, Jared Bush, Charise Castro Smith",
+    "thoughts": "Liked it",
     "poster": "posters/encanto.webp"
   },
   {
@@ -224,6 +265,7 @@
     "watched": "2021-??-??",
     "year": "2021",
     "Director": "Enrico Casarosa",
+    "thoughts": "Liked it",
     "poster": "posters/luca.webp"
   },
   {
@@ -231,6 +273,7 @@
     "watched": "2020-??-??",
     "year": "2020",
     "Director": "Pete Docter, Kemp Powers",
+    "thoughts": "Liked it",
     "poster": "posters/soul.webp"
   },
   {
@@ -238,7 +281,7 @@
     "watched": "2007-??-??",
     "year": "1995",
     "Director": "John Lasseter",
-    "memory": "childhood",
+    "thoughts": "Liked it",
     "poster": "posters/toy_story.webp"
   },
   {
@@ -246,6 +289,7 @@
     "watched": "2009-??-??",
     "year": "2004",
     "Director": "Brad Bird",
+    "thoughts": "Liked it",
     "poster": "posters/the_incredibles.webp"
   },
   {
@@ -253,6 +297,7 @@
     "watched": "2010-??-??",
     "year": "2001",
     "Director": "Andrew Adamson, Vicky Jenson",
+    "thoughts": "Liked it",
     "poster": "posters/shrek.webp"
   },
   {
@@ -260,6 +305,7 @@
     "watched": "2021-??-??",
     "year": "2012",
     "Director": "Quentin Tarantino",
+    "thoughts": "Liked it",
     "poster": "posters/django_unchained.webp"
   },
   {
@@ -267,6 +313,7 @@
     "watched": "2021-??-??",
     "year": "2003",
     "Director": "Quentin Tarantino",
+    "thoughts": "Liked it",
     "poster": "posters/kill_bill_vol_1.webp"
   },
   {
@@ -274,6 +321,7 @@
     "watched": "2021-??-??",
     "year": "2019",
     "Director": "Quentin Tarantino",
+    "thoughts": "Liked it",
     "poster": "posters/once_upon_a_time_in_hollywood.webp"
   },
   {
@@ -281,6 +329,7 @@
     "watched": "2021-??-??",
     "year": "1992",
     "Director": "Quentin Tarantino",
+    "thoughts": "Liked it",
     "poster": "posters/reservoir_dogs.webp"
   },
   {
@@ -288,6 +337,7 @@
     "watched": "202-??-??",
     "year": "2009",
     "Director": "Quentin Tarantino",
+    "thoughts": "Liked it",
     "poster": "posters/inglorious_basterds.webp"
   },
   {
@@ -295,6 +345,7 @@
     "watched": "2025-10-??",
     "year": "2014",
     "Director": "Damien Chazelle",
+    "thoughts": "Liked it",
     "poster": "posters/whiplash.webp"
   },
   {
@@ -302,6 +353,7 @@
     "watched": "2020-??-??",
     "year": "2010",
     "Director": "Edgar Wright",
+    "thoughts": "Liked it",
     "poster": "posters/scott_pilgrim_vs_the_world.webp"
   },
   {
@@ -309,7 +361,7 @@
     "watched": "2022-??-??",
     "year": "2022",
     "Director": "Daniel Kwan, Daniel Scheinert",
-    "feels": "",
+    "thoughts": "Great",
     "poster": "posters/everything_everywhere_all_at_once.webp"
   },
   {
@@ -317,7 +369,7 @@
     "watched": "2018-??-??",
     "year": "2018",
     "Director": "Bob Persichetti, Peter Ramsey and Rodney Rothman",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/spiderman_into_the_spider_verse.webp"
   },
   {
@@ -325,7 +377,7 @@
     "watched": "2023-??-??",
     "year": "2023",
     "Director": "Joaquim Dos Santos, Kemp Powers and Justin K. Thompson ",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/spiderman_across_the_spider_verse.webp"
   },
   {
@@ -333,6 +385,7 @@
     "watched": "2020-??-??",
     "year": "2015",
     "Director": "Ridley Scott",
+    "thoughts": "Liked it",
     "poster": "posters/the_martian.webp"
   },
   {
@@ -340,6 +393,7 @@
     "watched": "2020-??-??",
     "year": "1986",
     "Director": "John Hughes",
+    "thoughts": "Liked it",
     "poster": "posters/ferris_bueller_s_day_off.webp"
   },
   {
@@ -347,6 +401,7 @@
     "watched": "2025-??-??",
     "year": "2024",
     "Director": "Liza Johnson",
+    "thoughts": "Liked it",
     "poster": "posters/challengers.webp"
   },
   {
@@ -354,6 +409,7 @@
     "watched": "2020-??-??",
     "year": "1985",
     "Director": "John Hughes",
+    "thoughts": "Liked it",
     "poster": "posters/the_breakfast_club.webp"
   },
   {
@@ -361,6 +417,7 @@
     "watched": "2019-??-??",
     "year": "1991",
     "Director": "John Singleton",
+    "thoughts": "Liked it",
     "poster": "posters/boyz_n_the_hood.webp"
   },
   {
@@ -369,7 +426,7 @@
     "year": "2012",
     "Director": "Stephen Chbosky",
     "top10": true,
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/the_perks_of_being_a_wallflower.webp"
   },
   {
@@ -378,7 +435,7 @@
     "year": "2016",
     "Director": "Daniel Kwan, Daniel Scheinert",
     "top10": true,
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/swiss_army_man.webp"
   },
   {
@@ -387,7 +444,7 @@
     "year": "2021",
     "Director": "Bo Burnham",
     "top10": true,
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/inside.webp"
   },
   {
@@ -395,7 +452,7 @@
     "watched": "2025-10-??",
     "year": "1989",
     "Director": "Peter Weir",
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/dead_poets_society.webp"
   },
   {
@@ -403,7 +460,7 @@
     "watched": "2021-??-??",
     "year": "2013",
     "Director": "Bo Burnham",
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/what.webp"
   },
   {
@@ -411,7 +468,7 @@
     "watched": "2021-??-??",
     "year": "2015",
     "Director": "Bo Burnham",
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/makehappy.webp"
   },
   {
@@ -420,7 +477,7 @@
     "year": "2021",
     "Director": "Lin-Manuel Miranda",
     "top10": true,
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/tick_tick_boom.webp"
   },
   {
@@ -428,7 +485,7 @@
     "watched": "2021-??-??",
     "year": "1997",
     "Director": "Gus Van Sant",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/good_will_hunting.webp"
   },
   {
@@ -436,7 +493,7 @@
     "watched": "2025-??-??",
     "year": "2001",
     "Director": "Hayao Miyazaki",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/spirited_away.webp"
   },
   {
@@ -444,7 +501,7 @@
     "watched": "2021-??-??",
     "year": "1994",
     "Director": "Quentin Tarantino",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/pulp_fiction.webp"
   },
   {
@@ -452,6 +509,7 @@
     "watched": "2025-??-??",
     "year": "2016",
     "Director": "Barry Jenkins",
+    "thoughts": "Liked it",
     "poster": "posters/moonlight.webp"
   },
   {
@@ -459,7 +517,7 @@
     "watched": "2025-04-??",
     "year": "2017",
     "Director": "Greta Gerwig",
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/lady_bird.webp"
   },
   {
@@ -467,7 +525,7 @@
     "watched": "2021-??-??",
     "year": "2019",
     "Director": "Noah Baumbach",
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/marriage_story.webp"
   },
   {
@@ -475,7 +533,7 @@
     "watched": "2021-??-??",
     "year": "2004",
     "Director": "Guillermo del Toro",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/hellboy.webp"
   },
   {
@@ -483,7 +541,7 @@
     "watched": "2026-03-06",
     "year": "2011",
     "Director": "Glenn Ficarra, John Requa",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/crazy_stupid_love.webp"
   },
   {
@@ -491,7 +549,7 @@
     "watched": "2026-02-27",
     "year": "2024",
     "Director": "David Leitch",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/the_fall_guy.webp"
   },
   {
@@ -499,7 +557,7 @@
     "watched": "2022-06,03",
     "year": "2022",
     "Director": "Bo Burnham",
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/the_inside_outtakes.webp"
   },
   {
@@ -507,7 +565,7 @@
     "watched": "2025-??-??",
     "year": "2025",
     "Director": "Maggie Kang, Chris Appelhans",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/k_pop_demon_hunters.webp"
   },
   {
@@ -515,7 +573,7 @@
     "watched": "2026-02-??",
     "year": "1999",
     "Director": "David Fincher",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/fight_club.webp"
   },
   {
@@ -523,7 +581,7 @@
     "watched": "2022-??-??",
     "year": "2004",
     "Director": "Hayao Miyazaki",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/howl_s_moving_castle.webp"
   },
   {
@@ -531,7 +589,7 @@
     "watched": "2022-??-??",
     "year": "2009",
     "Director": "Wes Anderson",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/fantastic_mr_fox.webp"
   },
   {
@@ -539,7 +597,7 @@
     "watched": "2022-??-??",
     "year": "1998",
     "Director": "Peter Weir",
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/the_truman_show.webp"
   },
   {
@@ -547,7 +605,7 @@
     "watched": "2025-??-??",
     "year": "2014",
     "Director": "Ramin Bahrani",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/99_homes.webp"
   },
   {
@@ -555,7 +613,7 @@
     "watched": "2020-??-??",
     "year": "2010",
     "Director": "David Fincher",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/the_social_network.webp"
   },
   {
@@ -565,6 +623,7 @@
     "Director": "Chris Columbus",
     "series": "Harry Potter",
     "order": 1,
+    "thoughts": "Liked it",
     "poster": "posters/harry_potter_and_the_sorcerer_s_stone.webp"
   },
   {
@@ -574,6 +633,7 @@
     "Director": "Chris Columbus",
     "series": "Harry Potter",
     "order": 2,
+    "thoughts": "Liked it",
     "poster": "posters/harry_potter_and_the_chamber_of_secrets.webp"
   },
   {
@@ -583,6 +643,7 @@
     "Director": "Alfonso Cuar\u00c3\u00b3n",
     "series": "Harry Potter",
     "order": 3,
+    "thoughts": "Liked it",
     "poster": "posters/harry_potter_and_the_prisoner_of_azkaban.webp"
   },
   {
@@ -592,6 +653,7 @@
     "Director": "Mike Newell",
     "series": "Harry Potter",
     "order": 4,
+    "thoughts": "Liked it",
     "poster": "posters/harry_potter_and_the_goblet_of_fire.webp"
   },
   {
@@ -601,6 +663,7 @@
     "Director": "David Yates",
     "series": "Harry Potter",
     "order": 5,
+    "thoughts": "Liked it",
     "poster": "posters/harry_potter_and_the_order_of_the_phoenix.webp"
   },
   {
@@ -610,6 +673,7 @@
     "Director": "David Yates",
     "series": "Harry Potter",
     "order": 6,
+    "thoughts": "Liked it",
     "poster": "posters/harry_potter_and_the_half_blood_prince.webp"
   },
   {
@@ -619,6 +683,7 @@
     "Director": "David Yates",
     "series": "Harry Potter",
     "order": 7,
+    "thoughts": "Liked it",
     "poster": "posters/harry_potter_and_the_deathly_hallows_part_1.webp"
   },
   {
@@ -628,6 +693,7 @@
     "Director": "David Yates",
     "series": "Harry Potter",
     "order": 8,
+    "thoughts": "Liked it",
     "poster": "posters/harry_potter_and_the_deathly_hallows_part_2.webp"
   },
   {
@@ -637,6 +703,7 @@
     "Director": "Christopher Nolan",
     "series": "The Dark Knight Trilogy",
     "order": 2,
+    "thoughts": "Liked it",
     "poster": "posters/the_dark_knight.webp"
   },
   {
@@ -646,6 +713,7 @@
     "Director": "Christopher Nolan",
     "series": "The Dark Knight Trilogy",
     "order": 1,
+    "thoughts": "Liked it",
     "poster": "posters/batman_begins.webp"
   },
   {
@@ -655,6 +723,7 @@
     "Director": "Christopher Nolan",
     "series": "The Dark Knight Trilogy",
     "order": 3,
+    "thoughts": "Liked it",
     "poster": "posters/the_dark_knight_rises.webp"
   },
   {
@@ -662,7 +731,7 @@
     "watched": "2022-??-??",
     "year": "1999",
     "Director": "Lana Wachowski, Lilly Wachowski",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/the_matrix.webp"
   },
   {
@@ -670,7 +739,7 @@
     "watched": "2021-??-??",
     "year": "1994",
     "Director": "Frank Darabont",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/shawshank_redemption.webp"
   },
   {
@@ -680,7 +749,7 @@
     "Director": "Peter Jackson",
     "series": "Lord of the Rings",
     "order": 1,
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/lord_of_the_rings_the_fellowship_of_the_ring.webp"
   },
   {
@@ -690,7 +759,7 @@
     "Director": "Peter Jackson",
     "series": "Lord of the Rings",
     "order": 2,
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/lord_of_the_rings_the_two_towers.webp"
   },
   {
@@ -700,7 +769,7 @@
     "Director": "Peter Jackson",
     "series": "Lord of the Rings",
     "order": 3,
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/lord_of_the_rings_return_of_the_king.webp"
   },
   {
@@ -708,7 +777,7 @@
     "watched": "2018-??-??",
     "year": "1994",
     "Director": "Robert Zemeckis",
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/forrest_gump.webp"
   },
   {
@@ -718,6 +787,7 @@
     "Director": "George Lucas",
     "series": "Star Wars",
     "order": 1,
+    "thoughts": "Loved it",
     "poster": "posters/star_wars_a_new_hope.webp"
   },
   {
@@ -727,6 +797,7 @@
     "Director": "George Lucas",
     "series": "Star Wars",
     "order": 2,
+    "thoughts": "Loved it",
     "poster": "posters/star_wars_the_empire_strikes_back.webp"
   },
   {
@@ -736,6 +807,7 @@
     "Director": "George Lucas",
     "series": "Star Wars",
     "order": 3,
+    "thoughts": "Loved it",
     "poster": "posters/star_wars_return_of_the_jedi.webp"
   },
   {
@@ -745,6 +817,7 @@
     "Director": "George Lucas",
     "series": "Star Wars",
     "order": 4,
+    "thoughts": "Loved it",
     "poster": "posters/star_wars_the_phantom_menace.webp"
   },
   {
@@ -754,6 +827,7 @@
     "Director": "George Lucas",
     "series": "Star Wars",
     "order": 5,
+    "thoughts": "Loved it",
     "poster": "posters/star_wars_attack_of_the_clones.webp"
   },
   {
@@ -763,6 +837,7 @@
     "Director": "George Lucas",
     "series": "Star Wars",
     "order": 6,
+    "thoughts": "Loved it",
     "poster": "posters/star_wars_revenge_of_the_sith.webp"
   },
   {
@@ -770,7 +845,7 @@
     "watched": "2018-??-??",
     "year": "1999",
     "Director": "Frank Darabont",
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/the_green_mile.webp"
   },
   {
@@ -778,7 +853,7 @@
     "watched": "2015-??-??",
     "year": "1985",
     "Director": "Robert Zemeckis",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/back_to_the_future.webp"
   },
   {
@@ -788,7 +863,7 @@
     "Director": "Terry Gilliam, Terry Jones",
     "series": "Monty Python",
     "order": 1,
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/monty_python_and_the_holy_grail.webp"
   },
   {
@@ -798,7 +873,7 @@
     "Director": "Terry Gilliam, Terry Jones",
     "series": "Monty Python",
     "order": 2,
-    "feels": "👍👍",
+    "thoughts": "Great",
     "poster": "posters/monty_python_s_life_of_brian.webp"
   },
   {
@@ -806,7 +881,7 @@
     "watched": "2021-??-??",
     "year": "1982",
     "Director": "Ridley Scott",
-    "feels": "♥️",
+    "thoughts": "Loved it",
     "poster": "posters/blade_runner.webp"
   },
   {
@@ -814,7 +889,7 @@
     "watched": "2022-??-??",
     "year": "2002",
     "Director": "Steven Spielberg",
-    "feels": "",
+    "thoughts": "Liked it",
     "poster": "posters/catch_me_if_you_can.webp"
   },
   {

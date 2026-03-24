@@ -97,7 +97,15 @@ $wanttoreadbooks = fetchShelf("to-read");
 
             <div class="info">
                 <strong><?php echo htmlspecialchars($b["title"]); ?></strong>
-                <span><?php echo htmlspecialchars($b["author"]); ?></span>
+                <span><?php echo htmlspecialchars($b["author"]); ?></span><br>
+                <span>
+                    <?php 
+                        if (!empty($b["date_read"])) {
+                            $timestamp = strtotime($b["date_read"]);
+                            echo "Read: " . date("Y-m-d", $timestamp); 
+                        }
+                    ?>
+                </span>
             </div>
         </div>
     <?php endforeach; ?>
