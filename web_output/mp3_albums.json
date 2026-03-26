@@ -3593,7 +3593,7 @@
   {
     "artist": "The Beetles",
     "album": "The White Album",
-    "cover": "covers/TheBeatlesTheWhiteAlbum.webp",
+    "cover": "covers/The-BeatlesTheWhiteAlbum.webp",
     "tracks": [
       "Back in the U.S.S.R.",
       "Birthday",
@@ -3625,6 +3625,108 @@
       "Why Don't We Do It in the Road",
       "I Will",
       "Julia"
+    ]
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Demon Days",
+    "cover": "covers/GorillazDemonDays.webp",
+    "tracks": [
+      "Intro",
+      "Last Living Souls",
+      "Kids With Guns",
+      "O Green World",
+      "Dirty Harry",
+      "Feel Good Inc.",
+      "El mañana",
+      "Every Planet We Reach Is Dead",
+      "November Has Come",
+      "All Alone",
+      "White Light",
+      "DARE",
+      "Fire Coming Out of the Monkey’s Head",
+      "Don’t Get Lost in Heaven",
+      "Demon Days"
+    ]
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Gorillaz",
+    "cover": "covers/GorillazGorillaz.webp",
+    "tracks": [
+      "Re-Hash",
+      "5/4",
+      "Tomorrow Comes Today",
+      "New Genious (Brother)",
+      "Clint Eastwood",
+      "Man Research (Clapper)",
+      "Punk",
+      "Sound Check (Gravity)",
+      "Double Bass",
+      "Rock the House",
+      "19-2000",
+      "Latin Simone (Qué pasa contigo)",
+      "Starshine",
+      "Slow Country",
+      "M1 A1",
+      "Clint Eastwood (Ed Case/Sweetie Irie refix) (edit)",
+      "19-2000 (Soulchild remix)"
+    ]
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Plastic Beach",
+    "cover": "covers/GorillazPlasticBeach.webp",
+    "tracks": [
+      "Orchestral Intro",
+      "Welcome to the World of the Plastic Beach",
+      "White Flag",
+      "Rhinestone Eyes",
+      "Stylo",
+      "Superfast Jellyfish",
+      "Empire Ants",
+      "Glitter Freeze",
+      "Some Kind of Nature",
+      "On Melancholy Hill",
+      "Broken",
+      "Sweepstakes",
+      "Plastic Beach",
+      "To Binge",
+      "Cloud of Unknowing",
+      "Pirate Jet"
+    ]
+  },
+  {
+    "artist": "James Blake",
+    "album": "Trying Times",
+    "cover": "covers/JamesBlakeTryingTimes.webp",
+    "tracks": [
+      "Walk Out Music",
+      "Death of Love",
+      "I Had a Dream She Took My Hand",
+      "Trying Times",
+      "Make Something Up",
+      "Didn’t Come to Argue",
+      "Days Go By",
+      "Doesn’t Just Happen",
+      "Obsession",
+      "Rest of Your Life",
+      "Through the High Wire",
+      "Feel It Again",
+      "Just a Little Higher"
+    ]
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "album": null,
+    "cover": null,
+    "tracks": [
+      "euphoria",
+      "Future, Metro Boomin, Kendrick Lamar - Like That (Official Audio)",
+      "Kendrick Lamar - 6:16 IN LA (Drake Diss)",
+      "Kendrick Lamar - Control (Lyrics HD) (Kendrick Verse ONLY)",
+      "meet the grahams",
+      "Not Like Us"
     ]
   }
 ]
