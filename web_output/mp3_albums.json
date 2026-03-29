@@ -3718,8 +3718,8 @@
   },
   {
     "artist": "Kendrick Lamar",
-    "album": null,
-    "cover": null,
+    "album": "Diss Tracks",
+    "cover": "covers/KendrickLamarDissTracks.webp",
     "tracks": [
       "euphoria",
       "Future, Metro Boomin, Kendrick Lamar - Like That (Official Audio)",
@@ -3727,6 +3727,103 @@
       "Kendrick Lamar - Control (Lyrics HD) (Kendrick Verse ONLY)",
       "meet the grahams",
       "Not Like Us"
+    ]
+  },
+  {
+    "artist": "Daft Punk",
+    "album": "Discovery",
+    "cover": "covers/DaftPunkDiscovery.webp",
+    "tracks": [
+      "One More Time",
+      "Aerodynamic",
+      "Digital Love",
+      "Harder, Better, Faster, Stronger",
+      "Crescendolls",
+      "Nightvision",
+      "Superheroes",
+      "High Life",
+      "Something About Us",
+      "Voyager",
+      "Veridis Quo",
+      "Short Circuit",
+      "Face to Face",
+      "Too Long"
+    ]
+  },
+  {
+    "artist": "Fiona Apple",
+    "album": "Fetch the Bolt Cutters",
+    "cover": "covers/FionaAppleFetchtheBoltCutters.webp",
+    "tracks": [
+      "I Want You to Love Me",
+      "Ladies",
+      "Heavy Balloon",
+      "Shameika",
+      "Cosmonauts",
+      "Fetch the Bolt Cutters",
+      "For Her",
+      "Under the Table",
+      "Drumset",
+      "Relay",
+      "On I Go",
+      "Rack of His",
+      "Newspaper"
+    ]
+  },
+  {
+    "artist": "the Microphones",
+    "album": "the Glow, pt. 2",
+    "cover": "covers/theMicrophonestheGlowpt2.webp",
+    "tracks": [
+      "I Want Wind to Blow",
+      "the Glow, pt. 2",
+      "the Moon",
+      "Headless Horseman",
+      "My Roots Are Strong and Deep",
+      "instrumental",
+      "the Mansion",
+      "(something)",
+      "(something)",
+      "I’ll Not Contain You",
+      "the Gleam, pt. 2",
+      "Map",
+      "You’ll Be in the Air",
+      "I Want to Be Cold",
+      "I Am Bored",
+      "I Felt My Size",
+      "instrumental",
+      "I Felt Your Shape",
+      "Samurai Sword",
+      "My Warm Blood"
+    ]
+  },
+  {
+    "artist": "Sufjan Stevens",
+    "album": "Illinois",
+    "cover": "covers/SufjanStevensIllinois.webp",
+    "tracks": [
+      "Concerning the UFO Sighting Near Highland, Illinois",
+      "The Black Hawk War, or, How to Demolish an Entire Civilization and Still Feel Good About Yourself in the Morning, or, We Apologize for the Inconvenience but You’re Going to Have to Leave Now, or, “I Have Fought the Big Knives and Will Continue to Fight Them Until They Are Off Our Lands!”",
+      "Come On! Feel the Illinoise! Part I: The World’s Columbian Exposition, Part II: Carl Sandburg Visits Me in a Dream",
+      "John Wayne Gacy, Jr.",
+      "Jacksonville",
+      "A Short Reprise for Mary Todd, Who Went Insane, but for Very Good Reasons",
+      "Decatur, or, Round of Applause for Your Stepmother!",
+      "One Last “Whoo‐Hoo!” for the Pullman",
+      "Chicago",
+      "Casimir Pulaski Day",
+      "To the Workers of the Rockford River Valley Region, I Have an Idea Concerning Your Predicament",
+      "The Man of Metropolis Steals Our Hearts",
+      "Prairie Fire That Wanders About",
+      "A Conjunction of Drones Simulating the Way in Which Sufjan Stevens Has an Existential Crisis in the Great Godfrey Maze",
+      "The Predatory Wasp of the Palisades Is Out to Get Us!",
+      "They Are Night Zombies!! They Are Neighbors!! They Have Come Back From the Dead!! Ahhhh!",
+      "Let’s Hear That String Part Again, Because I Don’t Think They Heard It All the Way Out in Bushnell",
+      "In This Temple as in the Hearts of Man for Whom He Saved the Earth",
+      "The Seer’s Tower",
+      "The Tallest Man, the Broadest Shoulders, Part I: The Great Frontier, Part II: Come to Me Only With Playthings Now",
+      "Riffs and Variations on a Single Note for Jelly Roll, Earl Hines, Louis Armstrong, Baby Dodds, and the King of Swing, to Name a Few",
+      "Out of Egypt, Into the Great Laugh of Mankind, and I Shake the Dirt From My Sandals as I Run"
     ]
   }
 ]

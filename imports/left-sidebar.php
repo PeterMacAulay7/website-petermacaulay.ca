@@ -6,8 +6,7 @@
     <div class="scroll-box">
       <h3>Personal</h3>
       <ul>
-        <li>Circe — Madeline Miller</li>
-        <li>Little Women — Louisa May Alcott - On Hold for now</li>
+        <li>Looking for a new book</li>
       </ul>
 
       <h3>Sources For Incommunicability</h3>
