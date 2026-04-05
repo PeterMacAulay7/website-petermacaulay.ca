@@ -3825,5 +3825,55 @@
       "Riffs and Variations on a Single Note for Jelly Roll, Earl Hines, Louis Armstrong, Baby Dodds, and the King of Swing, to Name a Few",
       "Out of Egypt, Into the Great Laugh of Mankind, and I Shake the Dirt From My Sandals as I Run"
     ]
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "album": null,
+    "cover": "covers/KendrickLamarNone.webp",
+    "tracks": [
+      "euphoria",
+      "Future, Metro Boomin, Kendrick Lamar - Like That (Official Audio)",
+      "Kendrick Lamar - 6:16 IN LA (Drake Diss)",
+      "Kendrick Lamar - Control (Lyrics HD) (Kendrick Verse ONLY)",
+      "meet the grahams",
+      "Not Like Us"
+    ]
+  },
+  {
+    "artist": "Morgan James",
+    "album": "The White Album",
+    "cover": "covers/MorganJamesTheWhiteAlbum.webp",
+    "tracks": [
+      "Back in the U.S.S.R.",
+      "Birthday",
+      "Dear Prudence",
+      "Yer Blues",
+      "Glass Onion",
+      "Mother Nature's Son",
+      "Everybody's Got Something to Hide Except Me and My Monkey",
+      "Ob-La-Di, Ob-La-Da",
+      "Sexy Sadie",
+      "Wild Honey Pie",
+      "Helter Skelter",
+      "The Continuing Story of Bungalow Bill",
+      "Long, Long, Long",
+      "While My Guitar Gently Weeps",
+      "Happiness Is a Warm Gun",
+      "Revolution 1",
+      "Honey Pie",
+      "Martha My Dear",
+      "I'm So Tired",
+      "Savoy Truffle",
+      "Blackbird",
+      "Cry Baby Cry",
+      "Piggies",
+      "Revolution 9",
+      "Good Night",
+      "Rocky Racoon",
+      "Don't Pass Me By",
+      "Why Don't We Do It in the Road",
+      "I Will",
+      "Julia"
+    ]
   }
 ]
