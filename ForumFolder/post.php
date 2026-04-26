@@ -21,7 +21,10 @@ $comments = $cstmt->fetchAll();
     <img src="<?php echo e($avatar); ?>" class="avatar">
     <div>
       <strong><?php echo e($post['username']); ?></strong> <span class="post-meta">· <?php echo e(time_ago($post['created_at'])); ?></span>
-      <div class="post-content"><?php echo e($post['content']); ?></div>
+      <div class="post-content"><?php echo format_content($post['content']); ?></div>
+        <?php if (!empty($post['image'])): ?>
+          <img src="/ForumFolder/<?php echo e($post['image']); ?>" class="post-image">
+        <?php endif; ?>
     </div>
   </div>
 </div>

@@ -118,6 +118,31 @@ button:hover {
   transform: translateY(-2px);
 }
 
+.post-image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-upload-btn {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.image-upload-btn:hover {
+  background: #eee;
+}
+
+.yt iframe {
+  width: 100%;
+  max-width: 500px;
+  height: 280px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
 /* ===== Header Styling (fixed & isolated) ===== */
 
 /* 1) make sure .header-div never wraps items to next line */
