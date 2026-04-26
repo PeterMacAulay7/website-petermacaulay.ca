@@ -13,6 +13,7 @@
       <h2>What is this Page?</h2>
         <p>This is a page where I'll be learning how to design a website, 
           along with sharing what I make with the world.</p>
+        <a href="Resume.pdf" target="_blank"><button>My Resume</button></a>
     </section>
 
     <section>

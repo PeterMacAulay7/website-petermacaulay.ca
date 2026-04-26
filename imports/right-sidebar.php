@@ -1,3 +1,9 @@
+<?php
+require_once __DIR__ . '/functions.php';
+
+$recentMovies = getRecentMovies(3); // or 2–3
+?>
+
 <div class="sidebar">
 
   <!-- Next Improv Show -->
@@ -5,7 +11,9 @@
     <h2>Next Improv Show:</h2>
     <div class="scroll-box">
       <ul>
-        <li>Shows are on Mondays at 9:30 @ The Pond.</li>
+        <li>Unfortunately, MtA Presents had it's last show of the school year on Monday April 7th</li>
+        <li>My time on MtA Presents will always stay with me and I will be forever grateful for the time I had.</li>
+        <li>Shows where on Mondays at 9:30 @ The Pond but they have now finished for the year.</li>
       </ul>
     </div>
   </div>
@@ -48,6 +56,25 @@
     </div>
   </div>
 
+<div class="sidebar-section">
+  <h2>Most Recently Watched Movies:</h2>
+
+  <div class="scroll-box">
+    <ul>
+      <?php foreach ($recentMovies as $m): ?>
+        <li>
+          <?php echo htmlspecialchars($m["title"]); ?> 
+          - <?php echo htmlspecialchars($m["year"]); ?>
+        </li>
+      <?php endforeach; ?>
+    </ul>
+  </div>
+
+  <p class="sidebar-note">
+    You can see my <a href="/movies">full movie library here</a>
+  </p>
+</div>
+  
   <!-- Status Update -->
   <div class="sidebar-section">
     <h2>Status Update:</h2>

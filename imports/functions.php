@@ -56,3 +56,112 @@ function get_latest_post_by_internal_date($folder) {
 }
 ?>
 
+<?php
+function fetchShelf($shelf) {
+    $rssUrl = "https://www.goodreads.com/review/list_rss/187027191?shelf=" 
+          . urlencode($shelf) 
+          . "&nocache=" . time();
+
+    $xml = simplexml_load_file($rssUrl);
+    if (!$xml) return [];
+
+    $books = [];
+
+    foreach ($xml->channel->item as $item) {
+
+        $namespaces = $item->getNamespaces(true);
+        $gr = $item->children($namespaces['gr']);
+
+        $books[] = [
+            "title" => (string)$item->title,
+            "link" => (string)$item->link,
+            "cover" => (string)$gr->book_large_image_url,
+            "review" => (string)$gr->review_text,
+            "author" => (string)$gr->author_name,
+            "date_read" => (string)$gr->user_read_at   // ← add this
+        ];
+    }
+
+    return $books;
+}
+?>
+
+<?php
+function getCurrentlyReading() {
+    $books = fetchShelf("currently-reading");
+    return $books;
+}
+?>
+
+<?php
+function getAllMovies() {
+    $moviesjsonPath = __DIR__ . "/../web_output/movies.json";
+    if (!file_exists($moviesjsonPath)) return [];
+
+    $movies = json_decode(file_get_contents($moviesjsonPath), true);
+
+    if (!$movies) return [];
+
+    // helper
+    $normalizeDate = function($date) {
+        if (!$date) return "0000-00-00";
+
+        $parts = explode("-", $date);
+
+        $year  = ($parts[0] ?? "0000") === "??" ? "0000" : $parts[0];
+        $month = ($parts[1] ?? "00")   === "??" ? "00"   : $parts[1];
+        $day   = ($parts[2] ?? "00")   === "??" ? "00"   : $parts[2];
+
+        return "$year-$month-$day";
+    };
+
+    // split
+    $series = [];
+    $standalone = [];
+
+    foreach ($movies as $m) {
+        if (!empty($m["series"])) {
+            $series[$m["series"]][] = $m;
+        } else {
+            $standalone[] = $m;
+        }
+    }
+
+    // sort series internally
+    foreach ($series as &$group) {
+        usort($group, function($a, $b) {
+            return ($a["series_order"] ?? 999) <=> ($b["series_order"] ?? 999);
+        });
+    }
+    unset($group);
+
+    // flatten
+    $series_flat = [];
+    foreach ($series as $group) {
+        foreach ($group as $m) {
+            $series_flat[] = $m;
+        }
+    }
+
+    // combine
+    $all_movies = array_merge($standalone, $series_flat);
+
+    // sort by watched date DESC
+    usort($all_movies, function($a, $b) use ($normalizeDate) {
+        return strcmp(
+            $normalizeDate($b["watched"] ?? ""),
+            $normalizeDate($a["watched"] ?? "")
+        );
+    });
+
+    return $all_movies;
+}
+?>
+
+<?php
+function getRecentMovies($limit = 3) {
+    $movies = getAllMovies();
+    return array_slice($movies, 0, $limit);
+}
+?>
+

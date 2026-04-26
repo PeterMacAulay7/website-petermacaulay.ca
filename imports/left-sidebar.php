@@ -1,3 +1,8 @@
+<?php
+require_once __DIR__ . '/functions.php';
+
+$currentBooks = getCurrentlyReading(); // or 2–3 depending on layout
+?>
 <div class="sidebar">
 
   <!-- Currently Reading -->
@@ -6,14 +11,12 @@
     <div class="scroll-box">
       <h3>Personal</h3>
       <ul>
-        <li>Looking for a new book</li>
-      </ul>
-
-      <h3>Sources For Incommunicability</h3>
-      <ul>
-        <li>Black Skin, White Masks - Frantz Fanon</li>
-        <li>What is Lyric Philosophy - Jan Zwicky</li>
-        <li>Meno - Plato</li>
+        <?php foreach ($currentBooks as $b): ?>
+            <li>
+                <?php echo htmlspecialchars($b["title"]); ?> - 
+                <?php echo htmlspecialchars($b["author"]); ?>
+            </li>
+        <?php endforeach; ?>
       </ul>
 
     </div>

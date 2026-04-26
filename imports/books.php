@@ -1,39 +1,15 @@
 <?php
 
-function fetchShelf($shelf) {
-    $rssUrl = "https://www.goodreads.com/review/list_rss/187027191?shelf=" 
-          . urlencode($shelf) 
-          . "&nocache=" . time();
-
-    $xml = simplexml_load_file($rssUrl);
-    if (!$xml) return [];
-
-    $books = [];
-
-    foreach ($xml->channel->item as $item) {
-
-        $namespaces = $item->getNamespaces(true);
-        $gr = $item->children($namespaces['gr']);
-
-        $books[] = [
-            "title" => (string)$item->title,
-            "link" => (string)$item->link,
-            "cover" => (string)$gr->book_large_image_url,
-            "review" => (string)$gr->review_text,
-            "author" => (string)$gr->author_name,
-            "date_read" => (string)$gr->user_read_at   // ← add this
-        ];
-    }
-
-    return $books;
-}
+require_once __DIR__ . '/functions.php';
 
 $currentBooks = fetchShelf("currently-reading");
 $readBooks = fetchShelf("read");
+$wanttoreadbooks = fetchShelf("to-read");
+
 usort($readBooks, function($a, $b) {
     $timeA = !empty($a['date_read']) ? strtotime($a['date_read']) : 0;
     $timeB = !empty($b['date_read']) ? strtotime($b['date_read']) : 0;
-    return $timeB - $timeA; // descending: most recently read first
+    return $timeB - $timeA;
 });
 $wanttoreadbooks = fetchShelf("to-read");
 
