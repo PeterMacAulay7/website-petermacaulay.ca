@@ -6,7 +6,7 @@
 body {
   text-align: center;
   background-color: black;
-  background-image: url("images/firephoto_blur.jpg");
+  background-image: url("images/firephoto_blur.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,6 +16,23 @@ body {
   color: var(--lp);
   margin: 0;
   padding: 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--lp);
+  background: black;
+  color: var(--lp);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: var(--lp);
+  color: black;
+  transform: translateY(-2px);
 }
 
 /* ====== CUSTOM BOX STYLES ====== */
@@ -197,12 +214,19 @@ footer {
 .media-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 30px;
-    padding: 40px;
+    gap: 20px;
+    padding: 20px;
+    content-visibility: auto;
+    contain-intrinsic-size: 1000px;
 }
 
 .element {
+    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    content-visibility: auto;
+    contain-intrinsic-size: 300px;
 }
 
 .element img {
