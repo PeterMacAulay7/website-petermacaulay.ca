@@ -1,5 +1,21 @@
 [
   {
+    "title": "Crash",
+    "watched": "2026-04-26",
+    "year": "2004",
+    "Director": "Paul Haggis",
+    "thoughts": "Good",
+    "poster": "posters/crash.webp"
+  },
+  {
+    "title": "Forgetting Sarah Marshall",
+    "watched": "2021-??-??",
+    "years": "2008",
+    "Director": "Nicholas Stoller",
+    "thoughts": "Great",
+    "poster": "posters/forgetting_sarah_marshall.webp"
+  },
+  {
     "title": "Project Hail Mary",
     "watched": "2026-04-05",
     "year": "2026",
@@ -17,6 +33,7 @@
   {
     "title": "Bugonia",
     "watched": "2026-03-21",
+    "year": "2026",
     "Director": "Yorgos Lanthimos",
     "thoughts": "Great",
     "poster": "posters/bugonia.webp"

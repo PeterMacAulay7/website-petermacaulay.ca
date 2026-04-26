@@ -2,20 +2,20 @@
 $mp3jsonPath = __DIR__ . "/../web_output/mp3_albums.json";
 $mp3_albums = json_decode(file_get_contents($mp3jsonPath), true);
 
-if (is_array($mp3_albums)) {
-    shuffle($mp3_albums);
-}
+// if (is_array($mp3_albums)) {
+//     shuffle($mp3_albums);
+// }
 
 $cdjsonPath = __DIR__ . "/../web_output/cd_albums.json";
 $cd_albums = json_decode(file_get_contents($cdjsonPath), true);
 
-if (is_array($cd_albums)) {
-    shuffle($cd_albums);
-}
+// if (is_array($cd_albums)) {
+//     shuffle($cd_albums);
+// }
 
 // Decide randomly which section goes first
-$sections = ['mp3', 'cd'];
-shuffle($sections);
+// $sections = ['mp3', 'cd'];
+// shuffle($sections);
 ?>
 <!DOCTYPE html>
 <html>
@@ -31,9 +31,6 @@ shuffle($sections);
 <a href="#MP3">MP3 Collection</a><br>
 <a href="#CD">CD Collection</a><br>
 
-<?php foreach ($sections as $section): ?>
-
-    <?php if ($section === 'mp3'): ?>
         <details open>
         <summary><h2 id="MP3">MP3 Collection</h2></summary>
             <div id="mp3" class="media-grid">
@@ -55,7 +52,6 @@ shuffle($sections);
             </div>
         </details>
 
-    <?php else: ?>
         <details open>
         <summary><h2 id="CD">CD Collection</h2></summary>
             <div id="cd" class="media-grid">
@@ -76,10 +72,6 @@ shuffle($sections);
             <?php endforeach; ?>
             </div>
         </details>
-
-    <?php endif; ?>
-
-<?php endforeach; ?>
 
 </body>
 </html>
