@@ -25,6 +25,7 @@ switch ($nav) {
     $pageFile = 'imports/home.php';
     break;
 
+
     case 'library':
     $pageHeaderHTML = '<h1>My Library</h1>';
     $pageFile = 'imports/library.php';
