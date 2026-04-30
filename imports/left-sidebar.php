@@ -28,19 +28,15 @@ $currentBooks = getCurrentlyReading(); // or 2–3 depending on layout
   <!-- Music -->
   <div class="sidebar-section">
     <h2>Currently On Repeat:</h2>
-    <p class="sidebar-note"></p>Get an MP3 player, they're cool and fun</p>
+    <p class="sidebar-note">These are the top 5 albums I've listened to this month using real data from my MP3 player:</p>
     <div class="scroll-box">
-      <ul>
-        <li>To Whom This May Concern - Jill Scott</li>
-        <li>The Apple Tree Under the Sea - Hemlocke Springs</li>
-        <li>The Cool - Lupe Fiasco</li>
-        <li>R.A.P. Music - Killer Mike</li>
-        <li>e.t.d.s - IDK</li>
-        <li>Magic, Alive! - McKinley Dixon</li>
-        <li>Resurrection - Common</li>
-        <li>Momma's Gun- Erykah Badu</li>
-        <li>Let God Sort Em Out - Clipse</li>
-      </ul>
+    <?php
+    $data = json_decode(file_get_contents(__DIR__ . "/../web_output/mp3_monthly_albums.json"), true);
+
+    foreach ($data["albums"] as $a) {
+      echo "<li>{$a['album']} - {$a['artist']}</li>";
+    }
+    ?>
     </div>
 
     <p class="sidebar-note">

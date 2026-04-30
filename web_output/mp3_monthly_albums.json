@@ -1,0 +1,46 @@
+{
+  "month": "April 2026",
+  "updated": "2026-04-30T13:33:24.240426",
+  "albums": [
+    {
+      "artist": "Jill Scott",
+      "album": "To Whom This May Concern",
+      "plays": 104,
+      "minutes": 311.3,
+      "score": 166.19612000000006,
+      "cover": ""
+    },
+    {
+      "artist": "Sabrina Carpenter",
+      "album": "Man’s Best Friend",
+      "plays": 48,
+      "minutes": 149.5,
+      "score": 78.44094,
+      "cover": ""
+    },
+    {
+      "artist": "Erykah Badu",
+      "album": "Mama's Gun",
+      "plays": 36,
+      "minutes": 173.0,
+      "score": 77.09322499999999,
+      "cover": ""
+    },
+    {
+      "artist": "Sufjan Stevens",
+      "album": "Illinois",
+      "plays": 40,
+      "minutes": 134.8,
+      "score": 68.43328,
+      "cover": ""
+    },
+    {
+      "artist": "Kenrick Lamar",
+      "album": "To Pimp A Butterfly",
+      "plays": 31,
+      "minutes": 128.7,
+      "score": 60.316455000000005,
+      "cover": ""
+    }
+  ]
+}
