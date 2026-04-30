@@ -11,6 +11,7 @@ $recentMovies = getRecentMovies(3); // or 2–3
     <h2>Next Improv Show:</h2>
     <div class="scroll-box">
       <ul>
+        <li>I'm currently looking for a new Improv group in Charlottetown PEI so if anyone knows of any, please let me know, Thanks</li>
         <li>Unfortunately, MtA Presents had it's last show of the school year on Monday April 7th</li>
         <li>My time on MtA Presents will always stay with me and I will be forever grateful for the time I had.</li>
         <li>Shows where on Mondays at 9:30 @ The Pond but they have now finished for the year.</li>
@@ -79,7 +80,7 @@ $recentMovies = getRecentMovies(3); // or 2–3
   <div class="sidebar-section">
     <h2>Status Update:</h2>
     <div class="scroll-box">
-      <ul>
+      <ul>        
         <li>I just posted my latest project that I was working on in the fall semester. It's a group project that was created as a term project in my Software Design class.</li>
 
         <li>Just posted a blog post that I'm actually pretty happy with for a quick little post. I've found that these things really help me know what I'm thinking about, so that IRL I have something to back up my thoughts, and I think it will long term help to practice writing.</li>
