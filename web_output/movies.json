@@ -1,5 +1,21 @@
 [
   {
+    "title": "Green Book",
+    "watched": "2026-04-27",
+    "year": "2018",
+    "Director": "Peter Farrelly",
+    "thoughts": "Good",
+    "poster": "posters/green_book.webp"
+  },
+  {
+    "title": "Slumdog Millionaire",
+    "watched": "2026-04-26",
+    "year": "2008",
+    "Director": "Danny Boyle",
+    "thoughts": "Good",
+    "poster": "posters/slumdog_millionaire.webp"
+  },
+  {
     "title": "Crash",
     "watched": "2026-04-26",
     "year": "2004",
