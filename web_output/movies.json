@@ -1,5 +1,13 @@
 [
   {
+    "title": "The Departed",
+    "watched": "2026-05-01",
+    "year": "2006",
+    "Director": "Martin Scorsese",
+    "thoughts": "Great",
+    "poster": "posters/the_departed.webp"
+  },
+  {
     "title": "Green Book",
     "watched": "2026-04-27",
     "year": "2018",
