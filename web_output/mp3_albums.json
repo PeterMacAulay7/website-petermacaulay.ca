@@ -4319,5 +4319,55 @@
       "Prophets of Rage",
       "Party for Your Right to Fight"
     ]
+  },
+  {
+    "artist": "Kendrick Lamar",
+    "album": null,
+    "cover": "covers/KendrickLamarNone.webp",
+    "tracks": [
+      "euphoria",
+      "Future, Metro Boomin, Kendrick Lamar - Like That (Official Audio)",
+      "Kendrick Lamar - 6:16 IN LA (Drake Diss)",
+      "Kendrick Lamar - Control (Lyrics HD) (Kendrick Verse ONLY)",
+      "meet the grahams",
+      "Not Like Us"
+    ]
+  },
+  {
+    "artist": "Neurosis",
+    "album": "An Undying Love for a Burning World",
+    "cover": "covers/NeurosisAnUndyingLoveforaBurningWorld.webp",
+    "tracks": [
+      "We Are Torn Wide Open",
+      "Mirror Deep",
+      "First Red Rays",
+      "Blind",
+      "Seething and Scattered",
+      "Untethered",
+      "In the Waiting Hours",
+      "Last Light"
+    ]
+  },
+  {
+    "artist": "Thundercat",
+    "album": "Distracted",
+    "cover": "covers/ThundercatDistracted.webp",
+    "tracks": [
+      "Candlelight",
+      "No More Lies",
+      "She Knows Too Much",
+      "I Did This to Myself",
+      "Funny Friends",
+      "What Is Left to Say",
+      "I Wish I Didn’t Waste Your Time",
+      "Anakin Learns His Fate",
+      "Walking on the Moon",
+      "This Thing We Call Love",
+      "ThunderWave",
+      "Pozole",
+      "A.D.D. Through the Roof",
+      "Great Americans",
+      "You Left Without Saying Goodbye"
+    ]
   }
 ]
