@@ -48,7 +48,7 @@ $currentBooks = getCurrentlyReading(); // or 2–3 depending on layout
   <!-- Friends -->
   <div class="sidebar-section">
     <h2>Friends’ Websites</h2>
-    <nav> <a href="https://bennettbeaumont.com"><button>Ben Beaumont <img src="/bennettbeaumont.com/TheIcon.webp" style="width:20px;height:auto;"></button></a> </nav>
+    <center><nav> <a href="https://bennettbeaumont.com"><button>Ben Beaumont <img src="/bennettbeaumont.com/TheIcon.webp" style="width:20px;height:auto;"></button></a> </nav></center>
   </div>
 
 </div>
