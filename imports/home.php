@@ -4,35 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Homepage|Peter MacAulay</title>
-  <meta name="description" content="Developer, Philosopher, Improvisor, and Neo-Polymath">
+  <meta name="description" content="Developer, Philosopher, and Improvisor">
 </head>
 
 <body>
   <div>
     <section>
-      <h2>What is this Page?</h2>
-        <p>This is a page where I'll be learning how to design a website, 
-          along with sharing what I make with the world.</p>
-        <a href="Resume.pdf" target="_blank"><button>My Resume</button></a>
     </section>
 
     <section>
-      <h2>Why I Made This</h2>
-        <p>
-          You can learn more about my motivation behind this website by perusing the actual site. That being said, the short of it is that I think a project like building a website gives me an 
-          excuse to create things I care about and actually share them with the world in the way I want to.<br>
-          It allows me to have a stronger foundation for continued growth; otherwise it feels like building on top of a quick sand tower. By having my previous work released to the world 
-          it solidly cements it in place, giving a strong foundation to build that tower on. This way I can feel more connected with the greater world around me, because I now have something to point to; 
-          I am no longer incoherently babbling about things that are only in my head.<br>
-          My hope is that others will follow suit by creating their own websites. I really think it's a valuable exercise that can provide you with something that you may be looking for, even if you don't know it yet.
-        </p>
+      <div class="contentbox">
+        <div class="text">
+          <p>This site is a space where I build, experiment, and share projects, writing, and ideas as they develop.</p>
+          <p>If you're new here, you can see what I've been up to recently on this homepage. Every section of this homepage should lead to other parts of the site with more information</p>
+          <p>You can read more about me and my intentions behind creating this website on my about page <a href="/about">here</a>.</p>
+        </div>
+      </div>
+        <a href="Resume.pdf" target="_blank"><button>Comp. Sci. Resume</button></a>
+        <a href="General Resume.pdf" target="_blank"><button>General Resume</button></a>
     </section>
   </div>
 
   <div class="outter">
-    <h2>Most Recent:</h2>
+    <center><h2>Most Recent:</h2></center>
     <nav>
-      <h3><a href = "?nav=projects">Latest Project</a></h3>
+      <center><h3><a href = "?nav=projects">Latest Project</a></h3></center>
       <?php echo get_first_div('imports/projects.php', 'contentbox'); ?>
 
     <?php
@@ -43,11 +39,11 @@
         : null;
     ?>
 
-    <h3>
+    <center><h3>
       <a href="/blog/<?php echo urlencode($latestBlogSlug); ?>">
         Latest Blog Post
       </a>
-    </h3>
+    </h3></center>
 
     <a href="/blog/<?php echo urlencode($latestBlogSlug); ?>">
     <?php
@@ -66,7 +62,7 @@
         : null;
     ?>
 
-    <h3>
+    <center><h3>
       <a href="/essays/<?php echo urlencode($latestEssaySlug); ?>">
         Latest Essay
       </a>
