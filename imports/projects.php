@@ -7,6 +7,15 @@
 </head>
     <body>
     <div class = "outter">
+        <h2><a href = "https://github.com/PeterMacAulay7/MP3Wrapped">MP3 Wrapped</a></h2><br>
+        <a href = "https://github.com/PeterMacAulay7/MP3Wrapped"><div class = "contentbox">
+            <ul>
+                <li>
+                    This year I stopped streaming music, and switched to using an MP3 player. I did this for quite a few reasons but I didn't like the morals a certain companies, and I found the limitlessness of streaming to be a bit diminishing to my music listening experience. One thing I did like is the Wrapped, So I created my own for MP3 players running Rockbox
+                </li>
+            </ul>
+            <img src="/images/MP3WrappedLogo.webp" alt="MP3 Wrapped Logo" style="width:200px;height:200px;">
+        </div></a>
         <h2><a href="https://github.com/PeterMacAulay7/SoftwareDesign-DSMS">Document Search and Management Tool</a></h2><br>
         <a href="https://github.com/PeterMacAulay7/SoftwareDesign-DSMS"><div class = "contentbox">
             <ul>
