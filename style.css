@@ -55,15 +55,12 @@ button:hover {
 .contentbox{
   display: flex;           /* puts children side by side */
   gap: 40px;
-  background-color:rgba(249, 178, 239, 0.374);
-  border-radius: 20px;
-  max-height: 200px;
+  /*background-color:rgba(249, 178, 239, 0.374);*/
+  border-radius: 30px;
+  height: 200px;
   overflow-y: scroll;
   text-decoration:none;
   border: 1px solid var(--dp);
-
-
-
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .contentbox img {
@@ -74,8 +71,14 @@ button:hover {
 
 }
 
+.contentbox .text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .contentbox:hover {
-  transform: translateY(-4px);
+  transform: translateY(-2px);
 }
 
 
@@ -133,8 +136,7 @@ button:hover {
 
 main {
   display: grid;
-  grid-template-columns: 1fr min(900px, 70%) 1fr; /* sidebars + centered content */
-  gap: 20px;
+  grid-template-columns: 200px 1fr 200px;  gap: 20px;
   margin-top: 40px;
   padding: 0 10px;
 }
@@ -160,8 +162,6 @@ main {
 .sidebar-section h2 {
   text-align: center;
 }
-
-
 
 /* Main content column */
 .main-content {
