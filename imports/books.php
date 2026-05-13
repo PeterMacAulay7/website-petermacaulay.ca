@@ -81,7 +81,8 @@ $wanttoreadbooks = fetchShelf("to-read");
                             echo "Read: " . date("Y-m-d", $timestamp); 
                         }
                     ?>
-                </span>
+                </span><br>
+                <span><?= htmlspecialchars($b["stars"] ?? "") ?></span>
             </div>
         </div>
     <?php endforeach; ?>

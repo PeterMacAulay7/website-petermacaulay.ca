@@ -78,6 +78,9 @@ function fetchShelf($shelf) {
             "cover" => (string)$gr->book_large_image_url,
             "review" => (string)$gr->review_text,
             "author" => (string)$gr->author_name,
+            "stars" => ((string)$gr->user_rating !== "0")
+            ? str_repeat("★", (int)$gr->user_rating)
+            : "",
             "date_read" => (string)$gr->user_read_at   // ← add this
         ];
     }
