@@ -1,5 +1,22 @@
 [
   {
+    "title": "Lost in Translation",
+    "watched": "2026-05-12",
+    "year": "2003",
+    "Director": "Sofia Coppola",
+    "thoughts": "Great",
+    "top10": true,
+    "poster": "posters/lost_in_translation.webp"
+  },
+  {
+    "title": "The Royal Tenenbaums",
+    "watched": "2026-05-12",
+    "year": "2001",
+    "Director": "Wes Anderson",
+    "thoughts": "okay",
+    "poster": "posters/the_royal_tenenbaums.webp"
+  },
+  {
     "title": "The Phoenician Scheme",
     "watched": "2026-05-06",
     "year": "2025",
