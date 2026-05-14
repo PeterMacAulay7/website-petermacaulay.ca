@@ -4356,5 +4356,371 @@
       "Great Americans",
       "You Left Without Saying Goodbye"
     ]
+  },
+  {
+    "artist": "Beck",
+    "album": "Modern Guilt",
+    "cover": "covers/BeckModernGuilt.webp",
+    "tracks": [
+      "Orphans",
+      "Gamma Ray",
+      "Chemtrails",
+      "Modern Guilt",
+      "Youthless",
+      "Walls",
+      "Replica",
+      "Soul of a Man",
+      "Profanity Prayers",
+      "Volcano"
+    ]
+  },
+  {
+    "artist": "Danger Mouse & Black Thought",
+    "album": "Cheat Codes",
+    "cover": "covers/DangerMouseBlackThoughtCheatCodes.webp",
+    "tracks": [
+      "Sometimes",
+      "Cheat Codes",
+      "The Darkest Part",
+      "No Gold Teeth",
+      "Because",
+      "Belize",
+      "Aquamarine",
+      "Identical Deaths",
+      "Strangers",
+      "Close to Famous",
+      "Saltwater",
+      "Violas and Lupitas"
+    ]
+  },
+  {
+    "artist": "Death Grips",
+    "album": "Ex Military",
+    "cover": "covers/DeathGripsExMilitary.webp",
+    "tracks": [
+      "Beware",
+      "Guillotine",
+      "Spread Eagle Cross the Block",
+      "Lord of the Game",
+      "Takyon (Death Yon)",
+      "Cut Throat (instrumental)",
+      "Klink",
+      "Culture Shock",
+      "5D",
+      "Thru the Walls",
+      "Known for It",
+      "I Want It I Need It (Death Heated)",
+      "Blood Creepin"
+    ]
+  },
+  {
+    "artist": "Deltron 3030",
+    "album": "Deltron 3030",
+    "cover": "covers/Deltron3030Deltron3030.webp",
+    "tracks": [
+      "State of the Nation",
+      "3030",
+      "The Fantabulous Rap Extravaganza",
+      "Things You Can Do",
+      "Positive Contact",
+      "St. Catherine St.",
+      "Virus",
+      "Upgrade (A Brymar College Course)",
+      "New Coke",
+      "Mastermind",
+      "National Movie Review",
+      "Madness",
+      "Meet Cleofis Randolph the Patriarch",
+      "Time Keeps on Slipping",
+      "The News (A Wholly Owned Subsidiary of Microsoft Inc.)",
+      "Turbulence (remix)",
+      "The Fantabulous Rap Extravaganza, Part II",
+      "Battlesong",
+      "Love Story",
+      "Memory Loss",
+      "The Assman 640 Speaks",
+      "Turbulence (Mark Bell remix)"
+    ]
+  },
+  {
+    "artist": "Gnarls Barkley",
+    "album": "The Odd Couple",
+    "cover": "covers/GnarlsBarkleyTheOddCouple.webp",
+    "tracks": [
+      "Charity Case",
+      "Who’s Gonna Save My Soul",
+      "Going On",
+      "Run (I’m a Natural Disaster)",
+      "Would Be Killer",
+      "Open Book",
+      "Whatever",
+      "Surprise",
+      "No Time Soon",
+      "She Knows",
+      "Blind Mary",
+      "Neighbors",
+      "A Little Better"
+    ]
+  },
+  {
+    "artist": "KNEECAP",
+    "album": "FENIAN",
+    "cover": "covers/KNEECAPFENIAN.webp",
+    "tracks": [
+      "Éire go Deo",
+      "Smugglers & Scholars",
+      "Carnival",
+      "Palestine",
+      "Liars Tale",
+      "FENIAN",
+      "Big Bad Mo",
+      "Headcase",
+      "An Ra",
+      "Cold at the Top",
+      "Occupied 6",
+      "Gael Phonics",
+      "Cocaine Hill",
+      "Irish Goodbye"
+    ]
+  },
+  {
+    "artist": "Lady Gaga",
+    "album": "ARTPOP",
+    "cover": "covers/LadyGagaARTPOP.webp",
+    "tracks": [
+      "Aura",
+      "Venus",
+      "G.U.Y.",
+      "Sexxx Dreams",
+      "Jewels n’ Drugs",
+      "MANiCURE",
+      "ARTPOP",
+      "Swine",
+      "Fashion!",
+      "Mary Jane Holland",
+      "Dope",
+      "Gypsy",
+      "Applause"
+    ]
+  },
+  {
+    "artist": "Lady Gaga",
+    "album": "Born This Way",
+    "cover": "covers/LadyGagaBornThisWay.webp",
+    "tracks": [
+      "Marry the Night",
+      "Born This Way",
+      "Government Hooker",
+      "Judas",
+      "Americano",
+      "Hair",
+      "Scheiße",
+      "Bloody Mary",
+      "Bad Kids",
+      "Highway Unicorn (Road to Love)",
+      "Heavy Metal Lover",
+      "Electric Chapel",
+      "Yoü and I",
+      "The Edge of Glory"
+    ]
+  },
+  {
+    "artist": "Lady Gaga",
+    "album": "MAYHEM",
+    "cover": "covers/LadyGagaMAYHEM.webp",
+    "tracks": [
+      "Disease",
+      "Shadow of a Man",
+      "Abracadabra",
+      "The Beast",
+      "Blade of Grass",
+      "Garden of Eden",
+      "Die With a Smile",
+      "Perfect Celebrity",
+      "Vanish Into You",
+      "Killah",
+      "Zombieboy",
+      "LoveDrug",
+      "How Bad Do U Want Me",
+      "Don’t Call Tonight"
+    ]
+  },
+  {
+    "artist": "Lady Gaga",
+    "album": "The Fame Monster",
+    "cover": "covers/LadyGagaTheFameMonster.webp",
+    "tracks": [
+      "Bad Romance",
+      "Alejandro",
+      "Monster",
+      "Speechless",
+      "Dance in the Dark",
+      "Telephone",
+      "So Happy I Could Die",
+      "Teeth"
+    ]
+  },
+  {
+    "artist": "Lil Wayne",
+    "album": "Tha Carter III",
+    "cover": "covers/LilWayneThaCarterIII.webp",
+    "tracks": [
+      "3 Peat",
+      "Mr. Carter",
+      "A Milli",
+      "Got Money",
+      "Comfortable",
+      "Dr. Carter",
+      "Phone Home",
+      "Tie My Hands",
+      "Mrs. Officer",
+      "Let the Beat Build",
+      "Shoot Me Down",
+      "Lollipop",
+      "La La",
+      "You Ain't Got Nuthin",
+      "Dontgetit"
+    ]
+  },
+  {
+    "artist": "Mac Miller",
+    "album": "Circles",
+    "cover": "covers/MacMillerCircles.webp",
+    "tracks": [
+      "Circles",
+      "Complicated",
+      "Blue World",
+      "Good News",
+      "I Can See",
+      "Everybody",
+      "Woods",
+      "Hand Me Downs",
+      "That’s on Me",
+      "Hands",
+      "Surf",
+      "Once a Day"
+    ]
+  },
+  {
+    "artist": "Mac Miller",
+    "album": "Swimming",
+    "cover": "covers/MacMillerSwimming.webp",
+    "tracks": [
+      "Come Back to Earth",
+      "Hurt Feelings",
+      "What’s the Use?",
+      "Perfecto",
+      "Self Care",
+      "Wings",
+      "Ladders",
+      "Small Worlds",
+      "Conversation, Pt. 1",
+      "Dunno",
+      "Jet Fuel",
+      "2009",
+      "So It Goes"
+    ]
+  },
+  {
+    "artist": "Magdalena Bay",
+    "album": "Mercurial World",
+    "cover": "covers/MagdalenaBayMercurialWorld.webp",
+    "tracks": [
+      "The End",
+      "Mercurial World",
+      "Dawning of the Season",
+      "Secrets (Your Fire)",
+      "You Lose!",
+      "Something for 2",
+      "Chaeri",
+      "Halfway",
+      "Hysterical Us",
+      "Prophecy",
+      "Follow the Leader",
+      "Domino",
+      "Dreamcatching",
+      "The Beginning"
+    ]
+  },
+  {
+    "artist": "Marvin Gaye",
+    "album": "I Want You",
+    "cover": "covers/MarvinGayeIWantYou.webp",
+    "tracks": [
+      "I Want You (vocal)",
+      "Come Live With Me Angel",
+      "After the Dance (instrumental)",
+      "Feel All My Love Inside",
+      "I Wanna Be Where You Are",
+      "I Want You (intro jam)",
+      "All the Way Around",
+      "Since I Had You",
+      "Soon I'll Be Loving You Again",
+      "I Want You (intro jam)",
+      "After the Dance (vocal)"
+    ]
+  },
+  {
+    "artist": "Michael Jackson",
+    "album": "Thriller",
+    "cover": "covers/MichaelJacksonThriller.webp",
+    "tracks": [
+      "Wanna Be Startin’ Somethin’",
+      "Baby Be Mine",
+      "The Girl Is Mine",
+      "Thriller",
+      "Beat It",
+      "Billie Jean",
+      "Human Nature",
+      "P.Y.T. (Pretty Young Thing)",
+      "The Lady in My Life"
+    ]
+  },
+  {
+    "artist": "Paul Simon",
+    "album": "Graceland",
+    "cover": "covers/PaulSimonGraceland.webp",
+    "tracks": [
+      "The Boy in the Bubble",
+      "Graceland",
+      "I Know What I Know",
+      "Gumboots",
+      "Diamonds on the Soles of Her Shoes",
+      "Diamonds on the Soles of Her Shoes",
+      "You Can Call Me Al",
+      "You Can Call Me Al",
+      "Under African Skies",
+      "Homeless",
+      "Homeless",
+      "Crazy Love, Vol. II",
+      "Crazy Love, Vol. II",
+      "That Was Your Mother",
+      "All Around the World or The Myth of Fingerprints",
+      "All Around the World or The Myth of Fingerprints",
+      "The Story of \"Graceland\" as Told by Paul Simon"
+    ]
+  },
+  {
+    "artist": "The Weeknd",
+    "album": "Dawn FM",
+    "cover": "covers/TheWeekndDawnFM.webp",
+    "tracks": [
+      "Dawn FM",
+      "Gasoline",
+      "How Do I Make You Love Me?",
+      "Take My Breath",
+      "Sacrifice",
+      "A Tale by Quincy",
+      "Out of Time",
+      "Here We Go… Again",
+      "Best Friends",
+      "Is There Someone Else?",
+      "Starry Eyes",
+      "Every Angel Is Terrifying",
+      "Don’t Break My Heart",
+      "I Heard You’re Married",
+      "Less Than Zero",
+      "Phantom Regret by Jim"
+    ]
   }
 ]

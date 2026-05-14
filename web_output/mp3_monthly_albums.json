@@ -1,46 +1,46 @@
 {
-  "month": "April 2026",
-  "updated": "2026-04-30T13:42:50.666634",
+  "month": "May 2026",
+  "updated": "2026-05-14T17:03:44.725248",
   "albums": [
     {
-      "artist": "Jill Scott",
-      "album": "To Whom This May Concern",
-      "plays": 104,
-      "minutes": 311.3,
-      "score": 166.19612000000006,
+      "artist": "DeLaSoul",
+      "album": "3 Feet High and Rising",
+      "plays": 44,
+      "minutes": 116.8,
+      "score": 65.82531,
       "cover": ""
     },
     {
-      "artist": "Sabrina Carpenter",
-      "album": "Man’s Best Friend",
-      "plays": 48,
-      "minutes": 149.5,
-      "score": 78.44094,
-      "cover": ""
-    },
-    {
-      "artist": "Erykah Badu",
-      "album": "Mama's Gun",
+      "artist": "Gorillaz",
+      "album": "Demon Days",
       "plays": 36,
-      "minutes": 173.0,
-      "score": 77.09322499999999,
-      "cover": ""
+      "minutes": 118.0,
+      "score": 60.6144,
+      "cover": "covers/GorillazDemonDays.webp"
     },
     {
-      "artist": "Sufjan Stevens",
-      "album": "Illinois",
-      "plays": 40,
-      "minutes": 134.8,
-      "score": 68.43328,
-      "cover": ""
+      "artist": "Gorillaz",
+      "album": "Gorillaz",
+      "plays": 21,
+      "minutes": 77.0,
+      "score": 37.787639999999996,
+      "cover": "covers/GorillazGorillaz.webp"
     },
     {
-      "artist": "Kenrick Lamar",
-      "album": "To Pimp A Butterfly",
-      "plays": 31,
-      "minutes": 128.7,
-      "score": 60.316455000000005,
-      "cover": ""
+      "artist": "David Bowie",
+      "album": "The Rise and Fall of Ziggy Stardust",
+      "plays": 20,
+      "minutes": 70.6,
+      "score": 35.19397,
+      "cover": "covers/DavidBowieTheRiseandFallofZiggyStardustandtheSpidersFromMars.webp"
+    },
+    {
+      "artist": "Bad Bunny",
+      "album": "debi-tirar-mas-fotos",
+      "plays": 17,
+      "minutes": 62.2,
+      "score": 30.547554999999996,
+      "cover": "covers/BadBunnyDeBTiRARMSFOToS.webp"
     }
   ]
 }

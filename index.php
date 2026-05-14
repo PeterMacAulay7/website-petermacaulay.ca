@@ -129,6 +129,10 @@ switch ($nav) {
     $pageHeaderHTML = '<h1>Happy Anniversary Nadia!</h1>';
     $pageFile = 'imports/nadia.php';
     break;
+  case 'wrapped':
+    $pageHeaderHTML = '<h1>MP3 Wrapped</h1>';
+    $pageFile = 'web_output/wrapped.html';
+    break;
   default:
     $pageHeaderHTML = '<h1>Page Not Found</h1>';
     $pageFile = '404.php';
