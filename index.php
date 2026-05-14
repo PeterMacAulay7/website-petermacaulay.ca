@@ -145,6 +145,11 @@ switch ($nav) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Peter MacAulay | <?php echo ucfirst($nav); ?></title>
+
+  <?php if ($nav === 'wrapped'): ?>
+    <base href="/web_output/">
+  <?php endif; ?>
+
   <link rel="icon" href="PMsignature.png">
   <link rel="stylesheet" href="/style.css?v=1.1">
 
