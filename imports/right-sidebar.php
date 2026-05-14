@@ -72,7 +72,7 @@ $recentMovies = getRecentMovies(3); // or 2–3
   </div>
 
   <p class="sidebar-note">
-    You can see my <a href="/movies">full movie library here</a>
+    <center><a href="/movies" target="_blank"><button>Full Movie Library</button></a></center>
   </p>
 </div>
 

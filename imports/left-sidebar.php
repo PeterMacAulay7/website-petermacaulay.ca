@@ -21,7 +21,7 @@ $currentBooks = getCurrentlyReading(); // or 2–3 depending on layout
 
     </div>
     <p class="sidebar-note">
-      You can see my <a href="/books">full book library here</a>
+      <center><a href="/books" target="_blank"><button>Full Book Library</button></a></center>
     </p>
   </div>
 
@@ -41,7 +41,8 @@ $currentBooks = getCurrentlyReading(); // or 2–3 depending on layout
 
     <p class="sidebar-note">
       Please give me recommendations I’m always looking for new music.
-      I can also give you recommendations if you want. Or you can check out my <a href="/music">music library here</a>
+      I can also give you recommendations if you want. Or you can check out <center><a href="/music" target="_blank"><button>Full Music Library</button></a></center>
+
     </p>
   </div>
 
