@@ -4722,5 +4722,208 @@
       "Less Than Zero",
       "Phantom Regret by Jim"
     ]
+  },
+  {
+    "artist": "Beyoncé",
+    "album": "COWBOY CARTER",
+    "cover": "covers/BeyoncCOWBOYCARTER.webp",
+    "tracks": [
+      "16 CARRIAGES",
+      "ALLIIGATOR TEARS",
+      "AMEN",
+      "AMERIICAN REQUIEM",
+      "BLACKBIIRD",
+      "BODYGUARD",
+      "DAUGHTER",
+      "DESERT EAGLE",
+      "DOLLY P",
+      "FLAMENCO",
+      "II HANDS II HEAVEN",
+      "II MOST WANTED",
+      "JOLENE",
+      "JUST FOR FUN",
+      "LEVII'S JEANS",
+      "MY ROSE",
+      "OH LOUISIANA",
+      "PROTECTOR",
+      "RIIVERDANCE",
+      "SMOKE HOUR II",
+      "SMOKE HOUR ★ WILLIE NELSON",
+      "SPAGHETTII",
+      "SWEET ★ HONEY ★ BUCKIIN'",
+      "TEXAS HOLD 'EM",
+      "THE LINDA MARTELL SHOW",
+      "TYRANT",
+      "YA YA"
+    ]
+  },
+  {
+    "artist": "Beyoncé",
+    "album": "RENAISSANCE",
+    "cover": "covers/BeyoncRENAISSANCE.webp",
+    "tracks": [
+      "ALIEN SUPERSTAR",
+      "ALL UP IN YOUR MIND",
+      "AMERICA HAS A PROBLEM",
+      "BREAK MY SOUL",
+      "CHURCH GIRL",
+      "COZY",
+      "CUFF IT",
+      "ENERGY",
+      "HEATED",
+      "I'M THAT GIRL",
+      "MOVE",
+      "PLASTIC OFF THE SOFA",
+      "PURE/HONEY",
+      "SUMMER RENAISSANCE",
+      "THIQUE",
+      "VIRGO'S GROOVE"
+    ]
+  },
+  {
+    "artist": "KNEECAP",
+    "album": "3cag",
+    "cover": "covers/KNEECAP3cag.webp",
+    "tracks": [
+      "Your All Legitimate Targets",
+      "Amach Anocht",
+      "Amach Anocht",
+      "Tá na Baggies ar an Talamh",
+      "Incognito",
+      "Ceacht Mo Chara",
+      "Your Sniffer Dogs Are Shite",
+      "Bouncers"
+    ]
+  },
+  {
+    "artist": "KNEECAP",
+    "album": "Fine Art",
+    "cover": "covers/KNEECAPFineArt.webp",
+    "tracks": [
+      "3CAG",
+      "Fine Art",
+      "Interlude: Making Headlines",
+      "I bhFiacha Linne",
+      "Interlude: Never Gets a Round",
+      "I’m Flush",
+      "Interlude: State of Ya",
+      "Better Way to Live",
+      "Sick in the Head",
+      "Love Making",
+      "Interlude: Amhrán na Scadán",
+      "Drug Dealin Pagans",
+      "Interlude: KNEECAP Chaps",
+      "Harrow Road",
+      "Parful",
+      "Rhino Ket",
+      "Interlude: Last Orders",
+      "Way Too Much"
+    ]
+  },
+  {
+    "artist": "Vince Staples",
+    "album": "Big Fish Theory",
+    "cover": "covers/VinceStaplesBigFishTheory.webp",
+    "tracks": [
+      "Crabs in a Bucket",
+      "Big Fish",
+      "Alyssa Interlude",
+      "Love Can Be…",
+      "745",
+      "Ramona Park is Yankee Stadium",
+      "Yeah Right",
+      "Homage",
+      "Samo",
+      "Party People",
+      "BagBak",
+      "Rain Come Down"
+    ]
+  },
+  {
+    "artist": "Vince Staples",
+    "album": "Dark Times",
+    "cover": "covers/VinceStaplesDarkTimes.webp",
+    "tracks": [
+      "Close Your Eyes and Swing",
+      "Black&Blue",
+      "Government Cheese",
+      "Children’s Song",
+      "Shame on the Devil",
+      "Étouffée",
+      "Liars",
+      "Justin",
+      "\"Radio\"",
+      "Nothing Matters",
+      "Little Homies",
+      "Freeman",
+      "Why Won’t the Sun Come Out?"
+    ]
+  },
+  {
+    "artist": "Vince Staples",
+    "album": "RAMONA PARK BROKE MY HEART",
+    "cover": "covers/VinceStaplesRAMONAPARKBROKEMYHEART.webp",
+    "tracks": [
+      "THE BEACH",
+      "AYE! (FREE THE HOMIES)",
+      "DJ QUIK",
+      "MAGIC",
+      "NAMELESS",
+      "WHEN SPARKS FLY",
+      "EAST POINT PRAYER",
+      "SLIDE",
+      "PAPERCUTS",
+      "LEMONADE",
+      "PLAYER WAYS",
+      "MAMA’S BOY",
+      "BANG THAT",
+      "THE SPIRIT OF MONSTER KODY",
+      "ROSE STREET",
+      "THE BLUES"
+    ]
+  },
+  {
+    "artist": "Vince Staples",
+    "album": "Summertime ’06",
+    "cover": "covers/VinceStaplesSummertime06.webp",
+    "tracks": [
+      "Ramona Park Legend, Pt. 1",
+      "Ramona Park Legend, Pt. 2",
+      "3230",
+      "Lift Me Up",
+      "Norf Norf",
+      "Surf",
+      "Birds & Bees",
+      "Might Be Wrong",
+      "Get Paid",
+      "Loca",
+      "Lemme Know",
+      "Street Punks",
+      "Dopeman",
+      "Hang N’ Bang",
+      "C.N.B.",
+      "Jump off the Roof",
+      "Like It Is",
+      "Señorita",
+      "’06",
+      "Summertime"
+    ]
+  },
+  {
+    "artist": "Vince Staples",
+    "album": "Vince Staples",
+    "cover": "covers/VinceStaplesVinceStaples.webp",
+    "tracks": [
+      "ARE YOU WITH THAT?",
+      "LAW OF AVERAGES",
+      "SUNDOWN TOWN",
+      "THE SHINING",
+      "TAKING TRIPS",
+      "THE APPLE & THE TREE",
+      "TAKE ME HOME",
+      "LIL FADE",
+      "LAKEWOOD MALL",
+      "MHM"
+    ]
   }
 ]
