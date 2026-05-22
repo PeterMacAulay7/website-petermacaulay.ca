@@ -2,9 +2,9 @@
 $mp3jsonPath = __DIR__ . "/../web_output/mp3_albums.json";
 $mp3_albums = json_decode(file_get_contents($mp3jsonPath), true);
 
-if (is_array($mp3_albums)) {
-     shuffle($mp3_albums);
-}
+// if (is_array($mp3_albums)) {
+//      shuffle($mp3_albums);
+// }
 
 $cdjsonPath = __DIR__ . "/../web_output/cd_albums.json";
 $cd_albums = json_decode(file_get_contents($cdjsonPath), true);
