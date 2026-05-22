@@ -1,5 +1,29 @@
 [
   {
+    "title": "Kiki's Delivery Service",
+    "watched": "2026-05-21",
+    "year": "1989",
+    "Director": "Hayao Miyazaki",
+    "thoughts": "Loved it",
+    "poster": "posters/kiki_s_delivery_service.webp"
+  },
+  {
+    "title": "Marty Life Is Short",
+    "watched": "2026-05-18",
+    "year": "2026",
+    "Director": "Lawrence Kasdan",
+    "thoughts": "Loved It",
+    "poster": "posters/marty_life_is_short.webp"
+  },
+  {
+    "title": "Dazed and Confused",
+    "watched": "2026-05-16",
+    "year": "1993",
+    "Director": "Richard Linklater",
+    "thoughts": "quite good",
+    "poster": "posters/dazed_and_confused.webp"
+  },
+  {
     "title": "Lost in Translation",
     "watched": "2026-05-12",
     "year": "2003",
