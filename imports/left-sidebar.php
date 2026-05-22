@@ -9,7 +9,6 @@ $currentBooks = getCurrentlyReading(); // or 2–3 depending on layout
   <div class="sidebar-section">
     <h2>Currently Reading:</h2>
     <div class="scroll-box">
-      <h3>Personal</h3>
       <ul>
         <?php foreach ($currentBooks as $b): ?>
             <li>
@@ -42,8 +41,9 @@ $currentBooks = getCurrentlyReading(); // or 2–3 depending on layout
     <p class="sidebar-note">
       Please give me recommendations I’m always looking for new music.
       I can also give you recommendations if you want. Or you can check out <center><a href="/music" target="_blank"><button>Full Music Library</button></a></center>
-
     </p>
+    <p class="sidebar-note">
+      Or you can check out my <center><a href="/wrapped" target="_blank"><button>MP3 Wrapped</button></a></center>  
   </div>
 
   <!-- Friends -->
