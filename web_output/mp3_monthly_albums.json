@@ -1,10 +1,10 @@
 {
   "month": "May 2026",
-  "updated": "2026-05-21T21:36:52.020526",
+  "updated": "2026-05-31T13:56:45.834419",
   "albums": [
     {
       "artist": "DeLaSoul",
-      "album": "Feet High and Rising",
+      "album": "3 Feet High and Rising",
       "plays": 44,
       "minutes": 116.8,
       "score": 65.82531,
@@ -13,34 +13,34 @@
     {
       "artist": "Gorillaz",
       "album": "Demon Days",
-      "plays": 36,
-      "minutes": 118.0,
-      "score": 60.6144,
+      "plays": 39,
+      "minutes": 123.9,
+      "score": 64.48176,
       "cover": "covers/GorillazDemonDays.webp"
     },
     {
-      "artist": "Gorillaz",
-      "album": "Gorillaz",
-      "plays": 21,
-      "minutes": 77.0,
-      "score": 37.787639999999996,
-      "cover": "covers/GorillazGorillaz.webp"
+      "artist": "Mac Miller",
+      "album": "Swimming",
+      "plays": 26,
+      "minutes": 114.3,
+      "score": 52.49924,
+      "cover": "covers/MacMillerSwimming.webp"
     },
     {
-      "artist": "David Bowie",
-      "album": "The Rise and Fall of Ziggy Stardust",
-      "plays": 20,
-      "minutes": 70.6,
-      "score": 35.19397,
-      "cover": "covers/DavidBowieTheRiseandFallofZiggyStardustandtheSpidersFromMars.webp"
+      "artist": "Leon Thomas",
+      "album": "MUTT",
+      "plays": 29,
+      "minutes": 98.3,
+      "score": 49.79012,
+      "cover": "covers/LeonThomasMUTT.webp"
     },
     {
-      "artist": "Bad Bunny",
-      "album": "debi-tirar-mas-fotos",
-      "plays": 17,
-      "minutes": 62.2,
-      "score": 30.547554999999996,
-      "cover": "covers/BadBunnyDeBTiRARMSFOToS.webp"
+      "artist": "Killer Mike",
+      "album": "R.A.P. Music",
+      "plays": 24,
+      "minutes": 91.9,
+      "score": 44.35612,
+      "cover": "covers/KillerMikeRAPMusic.webp"
     }
   ]
 }
