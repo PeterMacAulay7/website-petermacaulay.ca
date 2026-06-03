@@ -4925,5 +4925,108 @@
       "LAKEWOOD MALL",
       "MHM"
     ]
+  },
+  {
+    "artist": "IDK",
+    "album": "BRAVADO INTiMO…",
+    "cover": "covers/IDKBRAVADOINTiMO.webp",
+    "tracks": [
+      "…",
+      "HELLO",
+      "CELiNE iN THE TRAP (B)",
+      "MARiO COiNS (B)",
+      "S.U (B)",
+      "TiFFANY (B)",
+      "KiCKiN! (B)",
+      "STiLL i (i) (DENiM DEMO)",
+      "DENiM (B)",
+      "MiLES TRUMPET 2 (i)",
+      "MiLES TRUMPET (i)",
+      "RiCH MAN DREAMS (i)",
+      "CHECK! (B)",
+      "FLOW (B.i)",
+      "PAPERCUTS (i)",
+      "SWiTCH (i)",
+      "SUPERNOVA (i)",
+      "SEE YOU AGAiN (B.i.)",
+      "GOODBi",
+      "SUPERNOVA (acoustic)"
+    ]
+  },
+  {
+    "artist": "IDK",
+    "album": "F65",
+    "cover": "covers/IDKF65.webp",
+    "tracks": [
+      "Cape Coast",
+      "Pit Stop",
+      "Thug Tear",
+      "Champs-Élysées",
+      "Salty",
+      "D.S.T.P",
+      "Mr. Police",
+      "Pinot Noir",
+      "Paperchaser",
+      "Elmina",
+      "Georgetown",
+      "Radioactive",
+      "Know Interlude",
+      "Télé Couleur",
+      "Rabbit Stew",
+      "850 (We on Top)",
+      "Middle Passage",
+      "Still Your Man",
+      "St. Nicholas & 118th",
+      "Up the Score",
+      "Superwoman",
+      "Freetown"
+    ]
+  },
+  {
+    "artist": "IDK",
+    "album": "Simple.",
+    "cover": "covers/IDKSimple.webp",
+    "tracks": [
+      "Drugstore",
+      "Southeast to Paris",
+      "Dog Food",
+      "Zaza Tree",
+      "Breathe",
+      "Taco",
+      "The Code",
+      "Paris to Southeast"
+    ]
+  },
+  {
+    "artist": "JPEGMAFIA",
+    "album": "EXPERIMENTAL RAP",
+    "cover": "covers/JPEGMAFIAEXPERIMENTALRAP.webp",
+    "tracks": [
+      "投影の芸術",
+      "babygirl",
+      "Burning Hammer",
+      "$ (Money)",
+      "Pop this Heat",
+      "Meet the Dealers",
+      "head",
+      "Degenerates Prayer",
+      "The Ghost of Emmett Till",
+      "Since I Met Ye",
+      "¥ (Yen)",
+      "GYBB",
+      "TSAR BOMBA",
+      "Mask On",
+      "His Will",
+      "Lights",
+      "New Era",
+      "One Day it Will Be Over",
+      "War Over Land",
+      "Bridges on Fire",
+      "No Strippers in Heaven",
+      "內戰",
+      "Chat",
+      "The 1st Amendment",
+      "You will always lose money chasing women, but you will never lose women chasing money"
+    ]
   }
 ]
