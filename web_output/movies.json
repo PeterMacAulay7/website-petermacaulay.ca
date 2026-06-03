@@ -1,5 +1,30 @@
 [
   {
+    "title": "Hot Summer Nights",
+    "watched": "2026-06-03",
+    "year": "2017",
+    "Director": "Elijah Bynum",
+    "thoughts": "Ehh Alright",
+    "poster": "posters/hot_summer_nights.webp"
+  },
+  {
+    "title": "I Love Boosters",
+    "watched": "2026-05-31",
+    "year": "2026",
+    "Director": "Boots Riley",
+    "thoughts": "Incredible Loved it",
+    "poster": "posters/i_love_boosters.webp"
+  },
+  {
+    "title": "Sorry to Bother You",
+    "watched": "2026-05-30",
+    "year": "2018",
+    "Director": "Boots Riley",
+    "thoughts": "Incredible",
+    "top10": true,
+    "poster": "posters/sorry_to_bother_you.webp"
+  },
+  {
     "title": "Kiki's Delivery Service",
     "watched": "2026-05-21",
     "year": "1989",
