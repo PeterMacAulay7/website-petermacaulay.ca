@@ -110,7 +110,7 @@ $top10 = array_slice($top10, 0, 10);
 
 <p>This is a collection of movies I've watched throughout my life. It is not a conclusive collection. I have so far just added a bunch that I remember watching, and some favourites. While I'm not exactly a movie expert, I think they've had a special place in my life and I'm excited to get back into watching them more often.</p>
 
-<p>I don't have the rating system down yet. I'm not the biggest rating fan, but I feel like I might distinguish some as liking them more, or if I really don't like it I'll put that up there. For now it's up to you I suppose if you want to make assumptions about which are which. You are also free to just peruse and please contact me if you want to say anything about anything.</p>
+<p>I don't have the rating system down yet. I'm not the biggest rating fan, but I'll put a word or two to say how I feel about a movie. Those one or two words may or may not actually reflect my true feelings about a movie so you'll just have to talk to me if you want more insight to my thoughts. You are also free to just peruse and please contact me if you want to say anything about anything.</p>
 
 <p>I will say that these movies aren't all in my possession in some way like the other sections of the library. If you're curious about any of them, I may have a downloaded copy or a physical copy, but it's not as likely as music or books.</p>
 
