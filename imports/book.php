@@ -1,12 +1,16 @@
 <?php
 
 $rssUrl = "https://www.goodreads.com/review/list_rss/187027191?shelf=read";
+libxml_use_internal_errors(true);
+
 $xml = simplexml_load_file($rssUrl);
 
 if (!$xml) {
+    echo "<pre>";
+    print_r(libxml_get_errors());
+    echo "</pre>";
     die("Failed to load Goodreads feed.");
 }
-
 $title = $_GET['title'] ?? '';
 $found = null;
 

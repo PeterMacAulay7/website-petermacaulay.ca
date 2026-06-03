@@ -62,26 +62,38 @@ function fetchShelf($shelf) {
           . urlencode($shelf) 
           . "&nocache=" . time();
 
-    $xml = simplexml_load_file($rssUrl);
+    // Use cURL instead of simplexml_load_file to send a real User-Agent
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $rssUrl);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36');
+    curl_setopt($ch, CURLOPT_TIMEOUT, 15);
+    $response = curl_exec($ch);
+    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+
+    if (!$response || $httpCode !== 200) return [];
+
+    $xml = simplexml_load_string($response);
     if (!$xml) return [];
 
     $books = [];
 
     foreach ($xml->channel->item as $item) {
-
         $namespaces = $item->getNamespaces(true);
         $gr = $item->children($namespaces['gr']);
 
         $books[] = [
-            "title" => (string)$item->title,
-            "link" => (string)$item->link,
-            "cover" => (string)$gr->book_large_image_url,
-            "review" => (string)$gr->review_text,
-            "author" => (string)$gr->author_name,
-            "stars" => ((string)$gr->user_rating !== "0")
-            ? str_repeat("★", (int)$gr->user_rating)
-            : "",
-            "date_read" => (string)$gr->user_read_at   // ← add this
+            "title"     => (string)$item->title,
+            "link"      => (string)$item->link,
+            "cover"     => (string)$gr->book_large_image_url,
+            "review"    => (string)$gr->review_text,
+            "author"    => (string)$gr->author_name,
+            "stars"     => ((string)$gr->user_rating !== "0")
+                            ? str_repeat("★", (int)$gr->user_rating)
+                            : "",
+            "date_read" => (string)$gr->user_read_at,
         ];
     }
 
