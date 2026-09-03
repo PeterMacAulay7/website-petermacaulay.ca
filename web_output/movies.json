@@ -1,5 +1,77 @@
 [
   {
+    "title": "Spiderman: Brand New Day",
+    "watched": "2026-08-07",
+    "year": "2026",
+    "Director": "Destin Daniel Cretton",
+    "thoughts": "Super fun and cool movie to watch, it brought back a lot of feelings and thoughts I haven't had in a while, it also had cool subtext that made me see the value in over the top superhero movies again",
+    "poster": "posters/spiderman_brand_new_day.webp"
+  },
+  {
+    "title": "The Odyssey",
+    "watched": "2026-07-17",
+    "year": "2026",
+    "Director": "Christopher Nolan",
+    "thoughts": "Really good, it prompted a lot of thoughts that I hope to divulge in a blog post",
+    "poster": "posters/the_odyssey.webp"
+  },
+  {
+    "title": "9 To 5",
+    "watched": "2026-08-30",
+    "year": "1980",
+    "Director": "Colin Higgins",
+    "thoughts": "Really fun and super progressive for 1980, very campy too",
+    "poster": "posters/9_to_5.webp"
+  },
+  {
+    "title": "Grave Of The Fireflies",
+    "watched": "2026-07-??",
+    "year": "2008",
+    "Director": "Studio Ghibli",
+    "thoughts": "Great Movie, Quite Sad",
+    "poster": "posters/grave_of_the_fireflies.webp"
+  },
+  {
+    "title": "Gladiator",
+    "watched": "2026-07-??",
+    "year": "2000",
+    "Director": "Ridley Scott",
+    "thoughts": "It was alright",
+    "poster": "posters/gladiator.webp"
+  },
+  {
+    "title": "The Eyes of Tammy Faye",
+    "watched": "2026-06-25",
+    "year": "2021",
+    "Director": "Michael Showalter",
+    "thoughts": "It was good",
+    "poster": "posters/the_eyes_of_tammy_faye.webp"
+  },
+  {
+    "title": "The Unbearable Weight of Massive Talent",
+    "watched": "2026-06-24",
+    "year": "2022",
+    "Director": "Tom Gormican",
+    "thoughts": "Quite liked it, very meta and embodies the hero's journey",
+    "poster": "posters/the_unbearable_weight_of_massive_talent.webp"
+  },
+  {
+    "title": "Over Your Dead Body",
+    "watched": "2026-06-23",
+    "year": "2026",
+    "Director": "Jorma Taccone",
+    "thoughts": "It was fun, a little too gory for me, but it was a good watch",
+    "poster": "posters/over_your_dead_body.webp"
+  },
+  {
+    "title": "Is This Thing On?",
+    "watched": "2026-06-17",
+    "year": "2025",
+    "Director": "Bradley Cooper",
+    "thoughts": "Really Enjoyed it",
+    "poster": "posters/is_this_thing_on.webp"
+  },
+  {
     "title": "Hot Summer Nights",
     "watched": "2026-06-03",
     "year": "2017",
