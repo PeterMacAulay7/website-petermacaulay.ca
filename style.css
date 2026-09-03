@@ -1,223 +1,338 @@
-/* ====== GLOBAL STYLES ====== */
+/* ====== GLOBAL STYLES & VARIABLE THEME ====== */
 :root {
---lp: rgb(255, 222, 222);
---dp: rgb(249, 178, 239);
+    --lp: #2A2A2A;      /* Primary dark text */
+    --dp: #556B4D;      /* Sage green borders & accents */
+    --gp: #F4F3EC;      /* Clean cream card base */
+    --bg: #B8C59C;      /* Soft sage page background */
 }
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-  text-align: center;
-  background-color: black;
-  background-image: url("images/firephoto_blur.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* keeps background still as you scroll */
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 12pt;
-  color: var(--lp);
-  margin: 0;
-  padding: 0;
+    text-align: center;
+    background-color: var(--bg);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--lp);
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 
-button {
-  margin-top: 10px;
-  padding: 8px 16px;
-  border-radius: 12px;
-  border: 1px solid var(--lp);
-  background: black;
-  color: var(--lp);
-  cursor: pointer;
-  transition: 0.3s ease;
+/* Subtle floral wallpaper effect overlay */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("images/floralbackground.webp");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    pointer-events: none;
+    z-index: -1;
 }
 
-button:hover {
-  background: var(--lp);
-  color: black;
-  transform: translateY(-2px);
-}
-
-/* ====== CUSTOM BOX STYLES ====== */
-
-.scroll-box{
-  overflow-y: scroll;
-  max-height: 150px;
-  padding-bottom: 20px;
-  scrollbar-color: var(--lp);
-  text-align: left;
-}
-
-.header-bar .banner {
-  flex-grow: 1;               /* take up space between logo and nav */
-  max-height: 120px;          /* keep it from being too tall */
-  object-fit: contain;        /* keep the aspect ratio */
-  margin: 0 15px;             /* space between logo and buttons */
-}
-
-.contentbox{
-  display: flex;           /* puts children side by side */
-  gap: 40px;
-  /*background-color:rgba(249, 178, 239, 0.374);*/
-  border-radius: 30px;
-  height: 200px;
-  overflow-y: scroll;
-  text-decoration:none;
-  border: 1px solid var(--dp);
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-.contentbox img {
-  max-width: 200px;        /* scale the image */
-  border-radius: 20px;
-  margin-left: auto;
-  border: 1px solid var(--dp);
-
-}
-
-.contentbox .text {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.contentbox:hover {
-  transform: translateY(-2px);
-}
-
-
-.outter{
-  text-align: left;
-  display: flex;          /* puts children side by side */
-  flex-direction: column;
-}
-
-.contact_box{
-  .fname, .lname, .email, .message{
-    border-radius: 20px;
-    border-color: var(--dp);
-    background-color: var(--lp);
-  }
-}
-
-/* ====== HEADER ====== */
-
-.header-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 30px;
-  background: rgba(0, 0, 0, 0.5); /* translucent overlay for readability */
-  top: 0;
-  z-index: 10;
-}
-
-.header-bar img {
-  width: 80px;
-  height: auto;
-}
-
-.nav-buttons button {
-  background-color: transparent;
-  border: 1px solid var(--dp);
-  color: var(--lp);
-  font-family: inherit;
-  font-size: 1rem;
-  margin: 0 5px;
-  padding: 6px 14px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.nav-buttons button:hover {
-  background-color: var(--lp);
-  transform: translateY(-3px);
-  color: black;
-}
-
-/* ====== GRID LAYOUT ====== */
-
-main {
-  display: grid;
-  grid-template-columns: minmax(120px, 200px) 1fr minmax(120px, 200px);
-  gap: 20px;
-  margin-top: 40px;
-  padding: 0 10px;
-}
-
-/* Side columns (narrow transparent panels) */
-.sidebar {
-  background-color: rgba(0, 0, 0, 0.25);
-  border-radius: 12px;
-}
-
-.sidebar li{
-  margin-bottom: 0.75em;
-}
-
-.sidebar-section {
-  border: 1px solid var(--dp);
-  border-radius: 20px;
-  padding: 0.75em;
-  margin-bottom: 1em;
-  text-align: left;
-}
-
-.sidebar-section h2 {
-  text-align: center;
-}
-
-/* Main content column */
-.main-content {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.4);
-  border: 1px solid var(--dp);
-  border-radius: 20px;
-  padding: 25px;
-  backdrop-filter: blur(3px);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-}
-
-/* ====== GENERAL CONTENT ====== */
-
+/* ====== TYPOGRAPHY & INTERACTION ====== */
 h1, h2, h3 {
-  color: var(--dp);
+    color: var(--lp);
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
 }
 
 a {
-  color: var(--lp);
-  text-decoration: none;
+    color: var(--dp);
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 ul {
-  list-style-type: disc;
-  padding-left: 25px;
+    list-style-type: disc;
+    padding-left: 25px;
 }
 
 img {
-  border-radius: 12px;
-  max-width: 100%;
-  height: auto;
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
 }
 
-/* ====== FOOTER ====== */
-
-footer {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 20px;
-  margin-top: 40px;
-  font-size: 0.9rem;
-  color: rgb(200, 200, 200);
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+/* ====== BUTTONS ====== */
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border-radius: 12px;
+    border: 1px solid var(--dp);
+    background: var(--gp);
+    color: var(--lp);
+    cursor: pointer;
+    transition: all 0.25s ease;
 }
-/* ====== MUSIC PAGES ====== */
+
+button:hover {
+    transform: translateY(-2px);
+    background: white;
+}
+
+/* ====== HEADER & BANNER BAR ====== */
+.header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background: #394233;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.12);
+    position: relative;
+    z-index: 10;
+}
+
+.header-bar img {
+    width: 80px;
+    height: auto;
+}
+
+.header-bar .banner {
+    flex-grow: 1;               
+    max-height: 120px;          
+    object-fit: contain;        
+    margin: 0 15px;             
+}
+
+.nav-buttons button {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    margin: 0 5px;
+    padding: 6px 14px;
+    border-radius: 10px;
+}
+
+.nav-buttons button:hover {
+    background: rgba(255, 255, 255, 0.18);
+    color: white;
+}
+
+/* ====== MAIN GRID LAYOUT ====== */
+main {
+    gap: 12px;
+    margin-top: 40px;
+    padding: 0 10px;
+}
+
+/* Three-column grid explicitly for the homepage */
+main.homepage-layout {
+    display: grid;
+    grid-template-columns: minmax(120px, 200px) 1fr minmax(120px, 200px);
+}
+
+/* Single clean column for all other content pages */
+main.full-width-layout {
+    display: block; 
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ====== SIDEBAR CARDS ====== */
+.sidebar-section {
+    border: 2px solid var(--dp);
+    border-radius: 16px;
+    background: rgba(244, 243, 236, 0.92);
+    padding: 0; 
+    margin-bottom: 1em;
+    text-align: left;
+    overflow: hidden; 
+    backdrop-filter: blur(2px);
+}
+
+/* Remove the aggressive browser margins causing the big gaps */
+.sidebar-section h3,
+.sidebar-section nav {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/* Ensure any centered containers inside the sidebar don't leak extra margin */
+.sidebar-section center {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-section h2 {
+    margin: 0;
+    padding: 12px;
+    background-color: rgba(85, 107, 77, 0.08);
+    border-bottom: 2px solid var(--dp);
+    font-size: 1.2rem;
+    text-align: center;
+}
+/* Reduce the vertical space around buttons inside the sidebars */
+.sidebar-section button {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+/* Tighten the spacing of the list container items holding them */
+.sidebar-section li {
+    margin-bottom: 2px; 
+}
+
+.sidebar-section ul {
+  padding-left: 20px; /* Cuts the default browser 40px list-indent in half */
+  margin-top: 5px;
+  margin-bottom: 5px;
+} 
+.sidebar-section p,
+.sidebar-section .scroll-box {
+    padding: 15px;
+}
+
+/* ====== MAIN CONTENT AREA ====== */
+.main-content {
+    text-align: center;
+    border-radius: 20px;
+    padding: 25px;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto; /* Centers the content area smoothly within its grid column zone */
+}
+
+.outter {
+    text-align: left;
+    display: flex;          
+    flex-direction: column;
+}
+
+/* ====== HOMEPAGE CONTENT BOXES ====== */
+.contentbox {
+    display: flex;
+    gap: 40px;
+    background: rgba(244, 243, 236, 0.92);
+    border: 2px solid var(--dp);
+    border-radius: 20px;
+    position: relative;   
+    overflow: visible;    
+    padding: 25px 210px 25px 25px; 
+    min-height: 160px; 
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-bottom: 25px; 
+    transition: transform 0.25s ease;
+}
+
+.contentbox:hover {
+    transform: translateY(-2px);
+}
+
+.contentbox img {
+    position: absolute;
+    right: -10px;         
+    top: -15px;           
+    width: 170px;         
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 4px;   
+    border: 4px solid white; 
+    transform: rotate(3deg); 
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contentbox:hover img {
+    transform: rotate(1deg) scale(1.03);
+    box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Add this right below your .contentbox styles */
+.contentbox.text-only {
+    padding: 25px; /* Evens out the padding on all sides to 25px */
+}
+
+.contentbox .text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* ====== UTILITY SCROLL BOX ====== */
+.scroll-box {
+    overflow-y: scroll;
+    max-height: 150px;
+    padding-bottom: 20px;
+    scrollbar-color: var(--dp) transparent;
+    text-align: left;
+}
+
+/* ====== LIBRARY PAGES ====== */
+.library-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch; 
+    padding: 20px;
+}
+
+.library-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    background: rgba(244, 243, 236, 0.92);
+    border: 2px solid var(--dp);
+    gap: 30px;
+    width: 100%;
+    max-width: 1000px; 
+}
+
+.library-item {
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 
+        0 12px 30px rgba(0,0,0,0.15),
+        0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.library-item:hover {
+    transform: translateY(-10px) scale(1.04);
+    box-shadow:
+        0 30px 70px rgba(0,0,0,0.25),
+        0 10px 20px rgba(0,0,0,0.2);
+}
+
+.library-item h2 {
+    font-size: 24px;
+    margin-bottom: 14px;
+    letter-spacing: 1px;
+}
+
+.library-item p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+/* ====== SIGNAL/MEDIA & BOOK SHELF PAGES ====== */
 .media-grid {
+    background: rgba(244, 243, 236, 0.92);
+    border: 2px solid var(--dp);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     gap: 20px;
     padding: 20px;
-
     min-width: 0;
 }
 
@@ -228,12 +343,6 @@ footer {
 }
 
 .element {
-    display: block;
-    display: flex;
-}
-
-.element {
-    display: block;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -249,11 +358,12 @@ footer {
 
 .element img:hover {
     transform: scale(1.04);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3);
 }
 
 .info {
     margin-top: 10px;
+    color: var(--lp);
 }
 
 .info strong {
@@ -263,21 +373,20 @@ footer {
 
 .info span {
     font-size: 0.85rem;
-    color: #aaa;
 }
 
 .no-cover {
-    background: #222;
+    background: #e2dfd2;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 14px;
-    color: #555;
+    color: #666;
+    border: 1px dashed var(--dp);
 }
 
-/* Album Page */
-
+/* ====== ALBUM / MEDIA SINGLE VIEW PAGE ====== */
 .media-page {
     display: flex;
     gap: 60px;
@@ -301,27 +410,30 @@ footer {
 .element-details h2 {
     margin-top: 5px;
     font-weight: 400;
-    color: #aaa;
+    color: #555;
 }
 
 .shelf-section {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
-  .currently-reading {
-  border: 2px solid black;
-  padding: 20px;
+.currently-reading {
+    border: 2px solid var(--dp);
+    background: rgba(244, 243, 236, 0.92);
+    padding: 20px;
+    border-radius: 14px;
 }
 
 .badge {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  background: black;
-  color: white;
-  font-size: 11px;
-  padding: 4px 6px;
-  letter-spacing: 0.5px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: var(--dp);
+    color: white;
+    font-size: 11px;
+    padding: 4px 6px;
+    letter-spacing: 0.5px;
+    border-radius: 4px;
 }
 
 .tracklist {
@@ -337,80 +449,216 @@ footer {
     display: block;
     padding: 20px 40px;
     text-decoration: none;
-    color: #aaa;
+    color: var(--dp);
 }
 
 .back-link:hover {
-    color: white;
+    color: var(--lp);
+    text-decoration: underline;
 }
 
-
-/* ====== FORUM STYLES ====== */
-/* Center the form */
+/* ====== FORUM & CONTACT STYLES ====== */
 #contact_box {
-  max-width: 600px;
-  margin: 0 auto;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-/* Style inputs */
 #contact_box,
 #contact_box input[type=text],
 #contact_box input[type=email],
 #contact_box textarea {
-  width: 70%;
-  padding: 10px;
-  background: rgba(0,0,0,0.4);
-  color: var(--lp);
-  border: 1px solid rgba(255, 222, 222, 0.25);
-  border-radius: 14px;
-  font-family: 'Times New Roman', Times, serif;
+    width: 70%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    color: var(--lp);
+    border: 1px solid var(--dp);
+    border-radius: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact_box .fname, .contact_box .lname, .contact_box .email, .contact_box .message {
+    border-radius: 20px;
+    border-color: var(--dp);
+    background-color: var(--gp);
+}
+
+/* ====== FOOTER ====== */
+footer {
+    background: #394233;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 
 
+/* ====== RESPONSIVE LAYOUT (MOBILE) ====== */
 
-/* ====== RESPONSIVE ====== */
-
-/* Mobile-friendly responsive layout */
 @media (max-width: 900px) {
 
-  .nav-buttons button {
-    margin: 5px;                 /* spread buttons out a bit */
-  }
+    .nav-buttons button {
 
-  .header-bar {
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-    width: 100%;
-    align-items: center;      /* <— THIS actually centers children */
-    padding-left: 0;          /* remove left weight */
-    padding-right: 0;         /* remove right weight */
-  }
+        margin: 5px;                 
 
-  .header-bar .banner {
-    width: 80%;
-    max-width: 80%;
-  }
+    }
+
+
+
+    .header-bar {
+
+        flex-direction: column;
+
+        gap: 10px;
+
+        text-align: center;
+
+        width: 100%;
+
+        align-items: center;      
+
+        padding-left: 0;          
+
+        padding-right: 0;         
+
+    }
+
+
+
+    .header-bar .banner {
+
+        width: 80%;
+
+        max-width: 80%;
+
+    }
+
+
+
+    /* Override homepage grid layout for mobile */
+
+    main.homepage-layout {
+
+        display: block !important;
+
+        grid-template-columns: unset !important;
+
+        max-width: 100%;
+
+        width: 100%;
+
+        padding: 0;
+
+        margin: 0;
+
+    }
+
 
 
     main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .main-content { order: 1; }      /* appears first */
-  .sidebar { order: 2; }     /* appears second */
+        display: block !important;
 
-  /* fallback styling for mobile */
-  .main-content, .sidebar {
-    width: 100%;
-    max-width: 700px;
-    margin-top: 20px;
-    padding: 15px;
-    display: block;
-  }
+        width: 100%;
+
+        max-width: 100%;
+
+        padding: 0;
+
+        margin: 0;
+
+    }
+
+
+
+    /* Hide sidebars on mobile */
+
+    .sidebar { 
+
+        display: none !important;
+
+    }
+
+
+
+    .main-content { 
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        margin: 0 !important;
+
+        padding: 15px !important;
+
+        box-sizing: border-box !important;
+
+        display: block !important;
+
+    }      
+
+
+
+    /* Fix contentbox for mobile - reposition images to top */
+
+    .contentbox {
+
+        padding: 25px !important;
+
+        gap: 20px !important;
+
+        padding-right: 25px !important;
+
+        max-width: 100% !important;
+
+        min-height: auto !important;
+
+        flex-direction: column !important;
+
+    }
+
+
+
+    /* Reposition contentbox images to top on mobile */
+
+    .contentbox img {
+
+        display: block !important;
+
+        position: static !important;
+
+        width: 100% !important;
+
+        height: auto !important;
+
+        max-width: 200px !important;
+
+        right: unset !important;
+
+        top: unset !important;
+
+        transform: none !important;
+
+        order: -1; /* Make image appear first */
+
+        margin: 0 auto 10px auto; /* Center and add spacing below */
+
+        border-radius: 12px;
+
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    }
+
+
+
+    .contentbox:hover img {
+
+        transform: scale(1.02);
+
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+
+    }
+
 }
-
 
