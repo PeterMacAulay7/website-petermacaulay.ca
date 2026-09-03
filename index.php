@@ -16,126 +16,41 @@ if (isset($_GET['nav'])) {
   }
 }
 
-// define both header + content paths in one switch
-switch ($nav) {
-  case 'home':
-    $pageHeaderHTML = '
-      <h1>Welcome to my website!</h1>
-      <p><b>Developer, Philosopher, and Improvisor</b></p>';
-    $pageFile = 'imports/home.php';
-    break;
+// 1. Default fallback values
+$pageHeaderHTML = '<h1>Welcome to my website!</h1>';
+$pageFile = 'imports/home.php';
 
+// 2. Normalize the base navigation directory 
+// (e.g., extracts 'blog' out of 'blog/some-post-title')
+$uri_parts = explode('/', $nav);
+$base_nav = $uri_parts[0]; 
 
-    case 'library':
-    $pageHeaderHTML = '<h1>My Library</h1>';
-    $pageFile = 'imports/library.php';
-    break;
+// 3. Separate routing by directory groupings
+$forum_pages = ['forum', 'new_post', 'register', 'post', 'login', 'logout', 'add_comment', 'add_post', 'upload_profile', 'delete_post'];
 
-    case 'movies':
-    $pageHeaderHTML = '<h1>My Movie Collection</h1>';
-    $pageFile = 'imports/movies.php';
-    break;
+if ($base_nav !== 'home') {
+    if (in_array($base_nav, $forum_pages)) {
+        $pageFile = "ForumFolder/{$base_nav}.php";
+        $pageHeaderHTML = '<h1>' . ucwords(str_replace('_', ' ', $base_nav)) . '</h1>';
+    } else {
+        $testFile = "imports/{$base_nav}.php";
+        if (file_exists($testFile)) {
+            $pageFile = $testFile;
+            // Format title cleanly (e.g., 'new_post' becomes 'New Post')
+            $pageHeaderHTML = '<h1>' . ucwords(str_replace('_', ' ', $base_nav)) . '</h1>';
+        } else {
+            $pageHeaderHTML = '<h1>Page Not Found</h1>';
+            $pageFile = '404.php';
+        }
+    }
+}
 
-    case 'clothes':
-    $pageHeaderHTML = '<h1>My Clothing Collection</h1>';
-    $pageFile = 'imports/clothes.php';
-    break;
-
-    case 'books':
-    $pageHeaderHTML = '<h1>My Bookshelf</h1>';
-    $pageFile = 'imports/books.php';
-    break;
-
-    case 'book':
-    $pageHeaderHTML = '<h1>Book</h1>';
-    $pageFile = 'imports/book.php';
-    break;
-
-  case 'music':
-    $pageHeaderHTML = '<h1>My MP3 Player Music Library</h1>';
-    $pageFile = 'imports/music.php';
-    break;
-
-  case 'album':
-    $pageHeaderHTML = '<h1>Album</h1>';
-    $pageFile = 'imports/album.php';
-    break;
-
-  case 'about':
-    $pageHeaderHTML = '<h1>About Me!</h1>';
-    $pageFile = 'imports/about.php';
-    break;
-
-  case 'blog':
-    $pageHeaderHTML = '<h1>Blog!</h1>';
-    $pageFile = 'imports/blog.php';
-    break;
-
-  case 'essays':
-    $pageHeaderHTML = '<h1>Essays</h1>';
-    $pageFile = 'imports/essays.php';
-    break;
-
-  case 'projects':
-    $pageHeaderHTML = '<h1>Projects</h1>';
-    $pageFile = 'imports/projects.php';
-    break;
-
-  case 'contact':
-    $pageHeaderHTML = '<h1>Contact : &#41</h1>';
-    $pageFile = 'imports/contact.php';
-    break;
-  case 'forum':
-    $pageHeaderHTML = '<h1>Forum</h1>';
-    $pageFile = 'ForumFolder/forum.php';
-    break;
-  case 'new_post':
-    $pageHeaderHTML = '<h1>New Post</h1>';
-    $pageFile = 'ForumFolder/new_post.php';
-    break;
-  case 'register':
-    $pageHeaderHTML = '<h1>Register For Forum</h1>';
-    $pageFile = 'ForumFolder/register.php';
-    break;
-  case 'post':
-    $pageHeaderHTML = '<h1>Post</h1>';
-    $pageFile = 'ForumFolder/post.php';
-    break;
-  case 'login':
-    $pageHeaderHTML = '<h1>login</h1>';
-    $pageFile = 'ForumFolder/login.php';
-    break;
-  case 'logout':
-    $pageHeaderHTML = '<h1>logout</h1>';
-    $pageFile = 'ForumFolder/logout.php';
-    break;
-  case 'add_comment':
-    $pageHeaderHTML = '<h1>add comment</h1>';
-    $pageFile = 'ForumFolder/add_comment.php';
-    break;
-  case 'add_post':
-    $pageHeaderHTML = '<h1>add post</h1>';
-    $pageFile = 'ForumFolder/add_post.php';
-    break;
-  case 'upload_profile':
-    $pageHeaderHTML = '<h1>upload profile</h1>';
-    $pageFile = 'ForumFolder/upload_profile.php';
-    break;
-  case 'delete_post':
-    $pageHeaderHTML = '<h1>delete post</h1>';
-    $pageFile = 'ForumFolder/delete_post.php';
-    break;
-  case 'nadia':
-    $pageHeaderHTML = '<h1>Happy Anniversary Nadia!</h1>';
-    $pageFile = 'imports/nadia.php';
-    break;
-  case 'wrapped':
+// 4. Handle a couple of stubborn unique edge cases manually
+if ($base_nav === 'wrapped') {
     $pageHeaderHTML = '<h1>MP3 Wrapped</h1>';
     $pageFile = 'web_output/wrapped.html';
-    break;
-  default:
-    $pageHeaderHTML = '<h1>Page Not Found</h1>';
-    $pageFile = '404.php';
+} elseif ($base_nav === 'nadia') {
+    $pageHeaderHTML = '<h1>Happy Anniversary Nadia!</h1>';
 }
 ?>
 
@@ -161,21 +76,26 @@ switch ($nav) {
 
 </head>
 
-<body>
+<body class="page-<?php echo $nav; ?>">
   <?php include 'imports/header.php'; ?>
 
   <div class="page-header">
     <?php echo $pageHeaderHTML; ?>
   </div>
 
-  <main>
-    <?php include 'imports/left-sidebar.php'; ?>
+  <main class="<?php echo ($nav === 'home') ? 'homepage-layout' : 'full-width-layout'; ?>">
+    
+    <?php if ($nav === 'home'): ?>
+      <?php include 'imports/left-sidebar.php'; ?>
+    <?php endif; ?>
 
     <div class="main-content">
       <?php include $pageFile; ?>
     </div>
     
-    <?php include 'imports/right-sidebar.php'; ?>
+    <?php if ($nav === 'home'): ?>
+      <?php include 'imports/right-sidebar.php'; ?>
+    <?php endif; ?>
   </main>
 
   <?php include 'imports/footer.php'; ?>
