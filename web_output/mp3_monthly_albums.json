@@ -1,46 +1,46 @@
 {
-  "month": "May 2026",
-  "updated": "2026-05-31T13:56:45.834419",
+  "month": "August 2026",
+  "updated": "2026-09-02T17:31:44.301496",
   "albums": [
     {
-      "artist": "DeLaSoul",
-      "album": "3 Feet High and Rising",
-      "plays": 44,
-      "minutes": 116.8,
-      "score": 65.82531,
+      "artist": "Genesis Owusu",
+      "album": "Smiling With No Teeth",
+      "plays": 65,
+      "minutes": 230.8,
+      "score": 114.75010500000002,
+      "cover": "covers/GenesisOwusuSmilingwithNoTeeth.webp"
+    },
+    {
+      "artist": "TylerTheCreator",
+      "album": "CALL ME IF YOU GET LOSTï¼š The Estate Sale",
+      "plays": 38,
+      "minutes": 128.4,
+      "score": 65.10589,
+      "cover": ""
+    },
+    {
+      "artist": "Olivia Rodrigo",
+      "album": "You Seem Pretty Sad For a Girl in Love",
+      "plays": 29,
+      "minutes": 110.2,
+      "score": 53.37036499999999,
+      "cover": ""
+    },
+    {
+      "artist": "Radiohead",
+      "album": "ok-computer 202506",
+      "plays": 24,
+      "minutes": 106.9,
+      "score": 48.866949999999996,
       "cover": ""
     },
     {
       "artist": "Gorillaz",
-      "album": "Demon Days",
-      "plays": 39,
-      "minutes": 123.9,
-      "score": 64.48176,
-      "cover": "covers/GorillazDemonDays.webp"
-    },
-    {
-      "artist": "Mac Miller",
-      "album": "Swimming",
-      "plays": 26,
-      "minutes": 114.3,
-      "score": 52.49924,
-      "cover": "covers/MacMillerSwimming.webp"
-    },
-    {
-      "artist": "Leon Thomas",
-      "album": "MUTT",
-      "plays": 29,
-      "minutes": 98.3,
-      "score": 49.79012,
-      "cover": "covers/LeonThomasMUTT.webp"
-    },
-    {
-      "artist": "Killer Mike",
-      "album": "R.A.P. Music",
-      "plays": 24,
-      "minutes": 91.9,
-      "score": 44.35612,
-      "cover": "covers/KillerMikeRAPMusic.webp"
+      "album": "Plastic Beach",
+      "plays": 28,
+      "minutes": 96.9,
+      "score": 48.66424,
+      "cover": "covers/GorillazPlasticBeach.webp"
     }
   ]
 }
