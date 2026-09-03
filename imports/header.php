@@ -3,9 +3,9 @@
 <header>
   <div class="header-bar">
     <a href="/">
-      <img src="/images/PMsignature.png" alt="PM">
+      <img src="/images/PMsignature-transparent.webp" alt="PM">
     </a>
-    <img src ="/images/PMBanner.png" alt="Peter MacAulay" class = "banner">
+    <img src ="/images/PMBanner-white.webp" alt="Peter MacAulay" class = "banner">
 
     <nav class="nav-buttons">
       <?php
