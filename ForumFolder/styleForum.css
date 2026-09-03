@@ -3,7 +3,7 @@
 /* Use your site's pink theme */
 :root {
   --forum-bg: rgba(0, 0, 0, 0);
-  --forum-card-bg: rgba(0, 0, 0, 0.35);
+  --forum-card-bg: var(--gp);
   --forum-border: rgba(255, 222, 222, 0.25);
   --forum-text: var(--lp);
   --forum-muted: rgba(255, 222, 222, 0.55);
@@ -18,7 +18,7 @@
 body.forum-body {
   font-family: 'Times New Roman', Times, serif;
   color: var(--forum-text);
-  background: none;
+  background-image: url(/images/paper.webp);
   margin: 0;
 }
 
@@ -89,7 +89,7 @@ form input[type=text],
 form input[type=password] {
   width: 70%;
   padding: 10px;
-  background: rgba(0,0,0,0.4);
+  background-image: url(/images/paper.webp);
   color: var(--forum-text);
   border: 1px solid var(--forum-border);
   border-radius: 14px;
@@ -101,12 +101,12 @@ form textarea {
 }
 
 /* Buttons match your nav buttons */
-button {
+/* button {
   margin-top: 10px;
   padding: 8px 16px;
   border-radius: 12px;
   border: 1px solid var(--lp);
-  background: black;
+  background-image: url(/images/paper.webp);
   color: var(--lp);
   cursor: pointer;
   transition: 0.3s ease;
@@ -116,7 +116,7 @@ button:hover {
   background: var(--lp);
   color: black;
   transform: translateY(-2px);
-}
+} */
 
 .post-image {
   max-width: 80%;
