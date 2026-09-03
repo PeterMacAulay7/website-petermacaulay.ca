@@ -76,4 +76,10 @@ $recentMovies = getRecentMovies(3); // or 2–3
   </p>
 </div>
 
+  <!-- Friends -->
+  <div class="sidebar-section">
+    <h2>Friends’ Websites</h2>
+    <center><nav> <a href="https://bennettbeaumont.com"><button>Ben Beaumont <img src="/bennettbeaumont.com/TheIcon.webp" style="width:20px;height:auto;"></button></a> </nav></center>
+  </div>
+
 </div>

@@ -37,19 +37,12 @@ $currentBooks = getCurrentlyReading(); // or 2–3 depending on layout
     }
     ?>
     </div>
-
     <p class="sidebar-note">
       Please give me recommendations I’m always looking for new music.
       I can also give you recommendations if you want. Or you can check out <center><a href="/music" target="_blank"><button>Full Music Library</button></a></center>
     </p>
     <p class="sidebar-note">
       Or you can check out my <center><a href="/wrapped" target="_blank"><button>MP3 Wrapped</button></a></center>  
-  </div>
-
-  <!-- Friends -->
-  <div class="sidebar-section">
-    <h2>Friends’ Websites</h2>
-    <center><nav> <a href="https://bennettbeaumont.com"><button>Ben Beaumont <img src="/bennettbeaumont.com/TheIcon.webp" style="width:20px;height:auto;"></button></a> </nav></center>
   </div>
 
 </div>
