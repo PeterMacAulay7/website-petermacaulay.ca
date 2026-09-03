@@ -1,84 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homepage|Peter MacAulay</title>
-  <meta name="description" content="Developer, Philosopher, and Improvisor">
-</head>
-
-<body>
-  <div>
-    <section>
-    </section>
-
-    <section>
-      <div class="contentbox">
-        <div class="text">
-          <p>This site is a space where I build, experiment, and share projects, writing, and ideas as they develop.</p>
-          <p>If you're new here, you can see what I've been up to recently on this homepage. Every section of this homepage should lead to other parts of the site with more information</p>
-          <p>You can read more about me and my intentions behind creating this website on my about page <a href="/about">here</a>.</p>
-        </div>
-      </div>
-        <a href="Resume.pdf" target="_blank"><button>Comp. Sci. Resume</button></a>
-        <a href="General Resume.pdf" target="_blank"><button>General Resume</button></a>
-    </section>
+<!-- Intro section -->
+<div class="contentbox text-only">
+  <div class="text">
+    <p>This site is a space where I build, experiment, and share projects, writing, and ideas as they develop.</p>
+    <p>If you're new here, you can see what I've been up to recently on this homepage. Every section of this homepage should lead to other parts of the site with more information</p>
+    <p>You can read more about me and my intentions behind creating this website on my about page <a href="/about">here</a>.</p>
   </div>
+</div>
 
-  <div class="outter">
-    <center><h2>Most Recent:</h2></center>
-    <nav>
-      <center><h3><a href = "?nav=projects">Latest Project</a></h3></center>
-      <?php echo get_first_div('imports/projects.php', 'contentbox'); ?>
+<div style="text-align: center; margin-bottom: 30px;">
+  <a href="Resume.pdf" target="_blank"><button>Comp. Sci. Resume</button></a>
+  <a href="General Resume.pdf" target="_blank"><button>General Resume</button></a>
+</div>
 
-    <?php
-    $latestBlogPath = get_latest_post_by_internal_date('blogposts');
+<!-- Most Recent section -->
+<h2 style="text-align: center; margin-top: 40px;">Most Recent</h2>
 
-    $latestBlogSlug = $latestBlogPath
-        ? basename($latestBlogPath, '.html')
-        : null;
-    ?>
+<div style="margin-bottom: 40px;">
+  <h3 style="text-align: center;"><a href="?nav=projects">Latest Project</a></h3>
+  <?php echo get_first_div('imports/projects.php', 'contentbox'); ?>
+</div>
 
-    <center><h3>
-      <a href="/blog/<?php echo urlencode($latestBlogSlug); ?>">
-        Latest Blog Post
-      </a>
-    </h3></center>
+<?php
+$latestBlogPath = get_latest_post_by_internal_date('blogposts');
+$latestBlogSlug = $latestBlogPath
+    ? basename($latestBlogPath, '.html')
+    : null;
+?>
 
+<div style="margin-bottom: 40px;">
+  <h3 style="text-align: center;">
     <a href="/blog/<?php echo urlencode($latestBlogSlug); ?>">
+      Latest Blog Post
+    </a>
+  </h3>
+  <a href="/blog/<?php echo urlencode($latestBlogSlug); ?>" style="text-decoration: none;">
     <?php
     echo $latestBlogPath
       ? get_first_div($latestBlogPath, 'contentbox')
-      : "<p>No blog posts yet.</p>";
+      : "<div class='contentbox'><p>No blog posts yet.</p></div>";
     ?>
-    </a>
+  </a>
+</div>
 
+<?php
+$latestEssayPath = get_latest_post_by_internal_date('essayfolder');
+$latestEssaySlug = $latestEssayPath
+    ? basename($latestEssayPath, '.html')
+    : null;
+?>
 
-    <?php
-    $latestEssayPath = get_latest_post_by_internal_date('essayfolder');
-
-    $latestEssaySlug = $latestEssayPath
-        ? basename($latestEssayPath, '.html')
-        : null;
-    ?>
-
-    <center><h3>
-      <a href="/essays/<?php echo urlencode($latestEssaySlug); ?>">
-        Latest Essay
-      </a>
-    </h3>
-
-
-
+<div style="margin-bottom: 40px;">
+  <h3 style="text-align: center;">
     <a href="/essays/<?php echo urlencode($latestEssaySlug); ?>">
+      Latest Essay
+    </a>
+  </h3>
+  <a href="/essays/<?php echo urlencode($latestEssaySlug); ?>" style="text-decoration: none;">
     <?php
     echo $latestEssayPath
       ? get_first_div($latestEssayPath, 'contentbox')
-      : "<p>No essays yet.</p>";
+      : "<div class='contentbox'><p>No essays yet.</p></div>";
     ?>
   </a>
-
-  </div>
-
-</body>
-</html>
+</div>
