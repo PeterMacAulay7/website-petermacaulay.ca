@@ -1,4 +1,3 @@
-
 <?php
 
 $moviesjsonPath = __DIR__ . "/../web_output/movies.json";
@@ -17,6 +16,17 @@ function normalizeDate($date) {
     $day   = ($parts[2] ?? "00")   === "??" ? "00"   : $parts[2];
 
     return "$year-$month-$day";
+}
+
+function truncateThoughts($thoughts, $limit = 30) {
+    if (strlen($thoughts) > $limit) {
+        return substr($thoughts, 0, $limit) . "...";
+    }
+    return $thoughts;
+}
+
+function hasMoreThoughts($thoughts, $limit = 30) {
+    return strlen($thoughts) > $limit;
 }
 
 /* ---------- split movies ---------- */
@@ -101,6 +111,33 @@ $top10 = array_slice($top10, 0, 10);
 <head>
 <meta charset="UTF-8">
 <title>Movie Archive</title>
+<style>
+.thoughts-text {
+    display: inline;
+}
+
+.thoughts-toggle {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 0;
+    font: inherit;
+    text-decoration: underline;
+}
+
+.thoughts-toggle:hover {
+    opacity: 0.7;
+}
+
+.thoughts-full {
+    display: none;
+}
+
+.thoughts-full.visible {
+    display: inline;
+}
+</style>
 </head>
 
 <body>
@@ -186,7 +223,22 @@ alt="<?php echo htmlspecialchars($a["title"]); ?>"
 <?php echo htmlspecialchars("- " . $a["year"]); ?><br>
 <span><?php echo htmlspecialchars($a["Director"]); ?></span><br>
 <span><?php echo htmlspecialchars("Watched: " . ($a["watched"] ?? "Unknown")); ?></span><br>
-<span><?php echo htmlspecialchars("Thoughts: " . ($a["thoughts"] ?? "Not Rated")); ?></span>
+
+<?php if (!empty($a["thoughts"])): ?>
+<span>Thoughts: 
+<span class="thoughts-text">
+<?php 
+    $thoughts = $a["thoughts"];
+    $truncated = truncateThoughts($thoughts);
+    $hasMore = hasMoreThoughts($thoughts);
+?>
+<span class="thoughts-truncated"><?php echo htmlspecialchars($truncated); ?></span><?php if ($hasMore): ?> <button class="thoughts-toggle" onclick="toggleThoughts(this)">more</button>
+<span class="thoughts-full" data-full-text="<?php echo htmlspecialchars($thoughts); ?>"></span><?php endif; ?>
+</span>
+</span>
+<?php else: ?>
+<span><?php echo htmlspecialchars("Thoughts: Not Rated"); ?></span>
+<?php endif; ?>
 
 </div>
 
@@ -197,6 +249,28 @@ alt="<?php echo htmlspecialchars($a["title"]); ?>"
 </div>
 
 </details>
+
+<script>
+function toggleThoughts(button) {
+    const textSpan = button.parentElement;
+    const truncated = textSpan.querySelector('.thoughts-truncated');
+    const fullSpan = textSpan.querySelector('.thoughts-full');
+    
+    if (fullSpan.classList.contains('visible')) {
+        // Hide full, show truncated
+        truncated.style.display = 'inline';
+        fullSpan.classList.remove('visible');
+        button.textContent = 'more';
+    } else {
+        // Show full, hide truncated
+        const fullText = fullSpan.getAttribute('data-full-text');
+        fullSpan.textContent = fullText;
+        truncated.style.display = 'none';
+        fullSpan.classList.add('visible');
+        button.textContent = 'less';
+    }
+}
+</script>
 
 </body>
 </html>
