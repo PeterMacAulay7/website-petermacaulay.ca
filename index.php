@@ -26,25 +26,34 @@ $uri_parts = explode('/', $nav);
 $base_nav = $uri_parts[0]; 
 
 // 3. Separate routing by directory groupings
-$forum_pages = ['forum', 'new_post', 'register', 'post', 'login', 'logout', 'add_comment', 'add_post', 'upload_profile', 'delete_post'];
 
 if ($base_nav !== 'home') {
+    /*
+    // FORUM TEMPORARILY DISABLED
+    // Keep this code commented out so the forum infrastructure can be
+    // restored later without rebuilding anything.
+
+    $forum_pages = ['forum', 'new_post', 'register', 'post', 'login', 'logout', 'add_comment', 'add_post', 'upload_profile', 'delete_post'];
+
     if (in_array($base_nav, $forum_pages)) {
         $pageFile = "ForumFolder/{$base_nav}.php";
         $pageHeaderHTML = '<h1>' . ucwords(str_replace('_', ' ', $base_nav)) . '</h1>';
     } else {
+    */
         $testFile = "imports/{$base_nav}.php";
+
         if (file_exists($testFile)) {
             $pageFile = $testFile;
-            // Format title cleanly (e.g., 'new_post' becomes 'New Post')
             $pageHeaderHTML = '<h1>' . ucwords(str_replace('_', ' ', $base_nav)) . '</h1>';
         } else {
             $pageHeaderHTML = '<h1>Page Not Found</h1>';
             $pageFile = '404.php';
         }
-    }
-}
 
+    /*
+    }
+    */
+}
 // 4. Handle a couple of stubborn unique edge cases manually
 if ($base_nav === 'wrapped') {
     $pageHeaderHTML = '<h1>MP3 Wrapped</h1>';
