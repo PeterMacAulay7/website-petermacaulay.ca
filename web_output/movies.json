@@ -1,5 +1,93 @@
 [
   {
+    "title": "Wildwood",
+    "watched": "2026-11-01",
+    "Director": "Travis Knight",
+    "year": "2026",
+    "thoughts": "I saw this on a whim today because I had heard almost nothing about it except that it was made by the people who made Coraline, so I didn't have any expectations going in. This movie was great. I really liked it. Not only was the story so expansive and interesting, but the claymation was phenomenal. The revolutionary nature of the story was great, and I loved how they expressed it in the fantasy world. Definitely go see it! Also I had no clue what the age rating was on this movie going in, but I wasn't expecting the final fight to remind me of Saving Private Ryan on the beach, but yeah they did a great job.",
+    "poster": "posters/wildwood.webp"
+  },
+  {
+    "title": "Gail Daughtry and the celebrity Sex Pass",
+    "watched": "2026-09-27",
+    "year": "2026",
+    "Director": " David Wain",
+    "thoughts": "very fun silly movie that is just silly and entertaining for the sake of it",
+    "poster": "posters/gail_daughtry_and_the_celebrity_sex_pass.webp"
+  },
+  {
+    "title": "Sinners",
+    "watched": "2026-10-08",
+    "year": "2025",
+    "Director": "Ryan Coogler",
+    "thoughts": "This movie was on my radar to watch far before it came out, but I never saw it in theaters and it kinda became one of those movies that you want to watch but never got to it, until now and, wow, am I glad I finally got to it. I've heard review after review, and video, and analysis, etc. and I see why. This movie is incredible.",
+    "poster": "posters/sinners.webp"
+  },
+  {
+    "title": "Nimrods",
+    "watched": "2026-10-05",
+    "year": "2025",
+    "Director": "Lee Kirk",
+    "thoughts": "As a lot of younger people have been in their lives, I was once a big Green Day fan, and this movie isn't just a nostalgia film, for the songs and the band, but the songs and cameos from the band were great. I'm honestly not sure what year this film takes place, but they nailed this coming of age movie. It's jsut unrealistic enough while still capturing those real feelings.",
+    "poster": "posters/nimrods.webp"
+  },
+  {
+    "title": "Clayface",
+    "watched": "2026-10-23",
+    "year": "2026",
+    "Director": "James Watkins",
+    "thoughts": "I had the pleasure of seeing this movie in theaters on opening night this past friday, and I was really impressed. This movie does what I think all superhero movies should be doing. They not only make a great superhero movie, and don't shy away from the source material, but they also use the platform that the superhero reality gives you to creat alagory and abstraction to convey so much in your story. It's this level of elevation that a gotham city gives you, that allows for a mythology, and your story can really benfit from it. I find that a lot of superhero movies either shy away from their nature or they assume that it's unrealistic-ness is reason to simplify. While I won't give my full analysis here, This movie excells at giving a compelling Clayface origin story that I want to see more of, while also giving such a unique commentary, visually shown through Clayface's journey. I think it says things about many subjects such as indentity(as Clayface's natures tends toward), masculinity, self worth(inside and out of production), and poverty. I know that's pretty vague, but I'd recommend seeing this movie.",
+    "poster": "posters/clayface.webp"
+  },
+  {
+    "title": "Girls Like Girls",
+    "watched": "2026-10-04",
+    "year": "2025",
+    "Director": "Hayley Kiyoko",
+    "thoughts": "It's been a minute since I actually watched this movie, but it was really good. It's a queer coming of age story, that I think was well done, and I quite enjoyed it. I remember connecting with the main character and thinking about this movie for the following days after. Also I liked Zach Braff in this",
+    "poster": "posters/girls_like_girls.webp"
+  },
+  {
+    "title": "The History of Sound",
+    "watched": "2026-10-07",
+    "year": "2025",
+    "Director": "Oliver Hermanus",
+    "thoughts": "I watched this movie with a friend, and we both really enjoyed it. It's a very touching story that takes you on the journey of a man's life through the 1900s, and his connection to folk music, which he shares with the other love in his life. I won't go too much into the story but the two men are academics and end up travelling together, capturing some songs of the people. It's a beautiful story. I do wish we had more time with the two main characters together, because I think that would've made the ending all the more powerful, but perhaps it was a testiment to their love that the ending was still heart breaking despite their limited time. Definitely worth watching",
+    "poster": "posters/the_history_of_sound.webp"
+  },
+  {
+    "title": "Good Time",
+    "watched": "2026-10-14",
+    "year": "2017",
+    "Director": "Benny Safdie, Josh Safdie",
+    "thoughts": "I enjoyed this movie, like I thought it was good, but nothing that really got me, I will say I was doing a craft at the time of watching and wasn't fully engaged and I think this is a very visual movie, as I would sometimes look up and find that a lot happened and I had to rewind because nothing was said, but the action kept going. but yeah, that's all I'll say since I don't have any good analysis",
+    "poster": "posters/good_time.webp"
+  },
+  {
+    "title": "Dracula",
+    "watched": "2026-10-22",
+    "year": "1958",
+    "Director": "Terence Fisher",
+    "thoughts": "I read the Dracula novel by Bram Stoker last summer and this movie gets a lot of the points of it in despite not even being an hour and a half long. I do wish they included more of the original novel and some of the acting and editing isn't quite up to todays standards in my opinion, but I can definitely see why this is a classic favourite adaptation by many. I think this is a great option for watching around Halloween, especially if you're not much for horror movies, as this wasn't really all that scary.",
+    "poster": "posters/dracula.webp"
+  },
+  {
+    "title": "Mile End Kicks",
+    "watched": "2026-09-23",
+    "year": "2025",
+    "Director": "Chandler Levack",
+    "thoughts": "This coming of age story taking place in 2000s Montreal was good. It's the type of movie where the main character keeps making every wrong decison but you also feel so bad for her because of her past. For a 22 year old who's life isn't over due to the circumstances, but definitely feels that way, she really hits rock bottom. Although I don't think she needed to hit that point to start turning things around she does, and in the end we get a glimpse of her future, still with flaws and kinks to sort out as she is still making mistakes, but you see that she learned. If you're looking for a coming of age story that is more about being lost, than high jinks I'd recommend it",
+    "poster": "posters/mile_end_kicks.webp"
+  },
+  {
+    "title": "Tony",
+    "watched": "2026-09-22",
+    "year": "2026",
+    "Director": "Matt Johnson",
+    "thoughts": "good coming of age story for a cool figure. Despite being another niave white guy movie with not much stakes, it is interesting. I enjoyed the story as it brought me back to a similar summer where I also worked in a restaurant in a small town by the water. The cast was another highlight of this movie too. If you liked 'The Dirt' or similar movies you might like this, it's far less raunchy, and it is very differnt but it has simialr vibes; I've sometimes heard of Bourdain being refered to as if a chef was a rockstar so maybe that's where the similarity comes in. I'd say it's worth a watch",
+    "poster": "posters/tony.webp"
+  },
+  {
     "title": "The Wrong Girls",
     "watched": "2026-09-21",
     "year": "2026",

@@ -1,134 +1,5 @@
 [
   {
-    "artist": "Lupe Fiasco-Fahrenheit 1st - 5th 2",
-    "album": "Lupe Fiasco-Fahrenheit 2",
-    "cover": "covers/Fahrenheit1st5th2.webp",
-    "tracks": [
-      "01 Revenge Begins...",
-      "02 Much More",
-      "03 Mean & Vicious",
-      "04 Didn't U Know",
-      "05 Don't Get It Twisted",
-      "06 Fast Money",
-      "07 Lupe The Killer",
-      "08 Handcuffs",
-      "09 Jedi Mind Tricks",
-      "10 Glory",
-      "11 ...Your Attention Please!!!",
-      "12 I'm Coming Freestyle",
-      "13 Gemini Freestyle",
-      "14 Switch (The Science Project)",
-      "15 Conflict Diamonds",
-      "16 Tilted Pt. 3",
-      "17 Outty 5000",
-      "18 Tilted In Any Colour You Like"
-    ]
-  },
-  {
-    "artist": "Lupe Fiasco-Fahrenheit 1st -15th 1",
-    "album": "Lupe Fiasco-Fahrenheit 1",
-    "cover": "covers/Fahrenheit1st15th1.webp",
-    "tracks": [
-      "Lupe Fiasco - Intro",
-      "Lupe Fiasco - Twilight Zone",
-      "Lupe Fiasco - The Pen and The Needlz",
-      "Lupe Fiasco - Knockin At The Door",
-      "Lupe Fiasco - Champ Is Here (Freestyle)",
-      "Lupe Fiasco - Failure",
-      "Lupe Fiasco - Boss Playa",
-      "Lupe Fiasco - Jesus Walks (Ahk-A-Fella Version)",
-      "Lupe Fiasco - WGCI Freestyle",
-      "Lupe Fiasco - Hater Hop",
-      "Lupe Fiasco - The Run Down",
-      "Lupe Fiasco - Ooh",
-      "Lupe Fiasco - Slow Down",
-      "Lupe Fiasco - Comin From Where I'm From",
-      "Lupe Fiasco - Shayla G Up",
-      "Lupe Fiasco - Radio Broadcast",
-      "Lupe Fiasco - Welcome Back Chilly"
-    ]
-  },
-  {
-    "artist": "Tupac",
-    "album": "All Eyez On Me",
-    "cover": "covers/AllEyezOnMe.webp",
-    "tracks": [
-      "Ambitionz Az a Ridah",
-      "All About U",
-      "Skandalouz",
-      "Got My Mind Made Up",
-      "How Do U Want It",
-      "2 of Amerikaz Most Wanted",
-      "No More Pain",
-      "Heartz of men",
-      "Life Goes On",
-      "Only God Can Judge Me",
-      "Tradin War Stories",
-      "California Love",
-      "I Ain't Mad at Cha",
-      "What'z Ya Phone #",
-      "Can't C Me",
-      "Shorty Wanna Be a Thug",
-      "Holla at Me",
-      "Wonda Why They Call U Bitch",
-      "When We Ride",
-      "Thug Passion",
-      "Picture Me Rollin'",
-      "Check Out Time",
-      "Ratha Be Ya",
-      "All Eyez On Me",
-      "Run tha Streetz",
-      "Ain't Hard 2 Find",
-      "Heaven Ain't Hard 2 Find"
-    ]
-  },
-  {
-    "artist": "Bo Burnham",
-    "album": "Inside",
-    "cover": "covers/Inside.webp",
-    "tracks": [
-      "Content",
-      "Comedy",
-      "FaceTime with My Mom (Tonight)",
-      "How the World Works",
-      "White Woman's Instagram",
-      "Unpaid Intern",
-      "Bezos I",
-      "Sexting",
-      "Look Who's Inside Again",
-      "Problematic",
-      "30",
-      "Don't Wanna Know",
-      "Shit",
-      "All Time Low",
-      "Welcome To The Internet",
-      "Bezos II",
-      "That Funny Feeling",
-      "All Eyes On Me",
-      "Goodbye",
-      "Any Day Now"
-    ]
-  },
-  {
-    "artist": "Lupe Fiasco",
-    "album": "The Cool",
-    "cover": "covers/TheCool.webp",
-    "tracks": [
-      "The Coolest",
-      "Superstar",
-      "Dots & Lines",
-      "Paris, Tokyo",
-      "Put You On Game",
-      "Hip-Hop Saved My Life",
-      "Little Weapon",
-      "Intruder Alert (feat. Gemini)",
-      "The Die (feat. Sly & Robbie)",
-      "Mural (feat. Gemini)",
-      "The Cool Part 2 (feat. Gemini)",
-      "The Coolest (Remix) [feat. Bun B, Snoop Dogg, and Jay-Z]"
-    ]
-  },
-  {
     "artist": "A$AP Rocky",
     "album": "Don’t Be Dumb",
     "cover": "covers/AAPRockyDontBeDumb.webp",
@@ -150,6 +21,38 @@
       "ROBBERY",
       "DON’T BE DUMB / TRIP BABY",
       "THE END"
+    ]
+  },
+  {
+    "artist": "Alice Coltrane",
+    "album": "Journey in Satchidananda",
+    "cover": "covers/AliceColtraneJourneyinSatchidananda.webp",
+    "tracks": [
+      "Journey in Satchidananda",
+      "Shiva‐Loka",
+      "Stopover Bombay",
+      "Something About John Coltrane",
+      "Isis and Osiris"
+    ]
+  },
+  {
+    "artist": "Aphex Twin",
+    "album": "Selected Ambient Works 85–92",
+    "cover": "covers/AphexTwinSelectedAmbientWorks8592.webp",
+    "tracks": [
+      "Xtal",
+      "Tha",
+      "Pulsewidth",
+      "Ageispolis",
+      "i",
+      "Green Calx",
+      "Heliosphan",
+      "We are the music makers",
+      "Schottkey 7th Path",
+      "Ptolemy",
+      "Hedphelym",
+      "Delphium",
+      "Actium"
     ]
   },
   {
@@ -316,6 +219,23 @@
       "Therefore I Am",
       "Happier Than Ever",
       "Male Fantasy"
+    ]
+  },
+  {
+    "artist": "Billie Eilish",
+    "album": "HIT ME HARD AND SOFT",
+    "cover": "covers/BillieEilishHITMEHARDANDSOFT.webp",
+    "tracks": [
+      "SKINNY",
+      "LUNCH",
+      "CHIHIRO",
+      "BIRDS OF A FEATHER",
+      "WILDFLOWER",
+      "THE GREATEST",
+      "L’AMOUR DE MA VIE",
+      "THE DINER",
+      "BITTERSUITE",
+      "BLUE"
     ]
   },
   {
@@ -531,6 +451,39 @@
     ]
   },
   {
+    "artist": "Boston",
+    "album": "Boston",
+    "cover": "covers/BostonBoston.webp",
+    "tracks": [
+      "More Than a Feeling",
+      "Foreplay / Long Time",
+      "Rock & Roll Band",
+      "Smokin'",
+      "Hitch a Ride",
+      "Something About You",
+      "Let Me Take You Home Tonight"
+    ]
+  },
+  {
+    "artist": "Bo Burnham",
+    "album": "THE INSIDE OUTTAKES",
+    "cover": "covers/BoBurnhamTHEINSIDEOUTTAKES.webp",
+    "tracks": [
+      "Bezos III",
+      "The Future",
+      "WTFIGO",
+      "1985",
+      "Feel Good",
+      "Five Years",
+      "Biden",
+      "Microwave Popcorn",
+      "Bezos IV",
+      "Spider",
+      "This Isn’t A Joke",
+      "The Chicken"
+    ]
+  },
+  {
     "artist": "Bo Burnham",
     "album": "what.",
     "cover": "covers/BoBurnhamwhat.webp",
@@ -616,6 +569,58 @@
     ]
   },
   {
+    "artist": "Cameron Winter",
+    "album": "Heavy Metal",
+    "cover": "covers/CameronWinterHeavyMetal.webp",
+    "tracks": [
+      "The Rolling Stones",
+      "Nausicaä (Love Will Be Revealed)",
+      "Love Takes Miles",
+      "Drinking Age",
+      "Cancer of the Skull",
+      "Try as I May",
+      "We’re Thinking the Same Thing",
+      "Nina + Field of Cops",
+      "$0",
+      "Can’t Keep Anything"
+    ]
+  },
+  {
+    "artist": "Captain Beefheart & His Magic Band",
+    "album": "Trout Mask Replica",
+    "cover": "covers/CaptainBeefheartHisMagicBandTroutMaskReplica.webp",
+    "tracks": [
+      "Frownland",
+      "The Dust Blows Forward ’n the Dust Blows Back",
+      "Dachau Blues",
+      "Ella Guru",
+      "Hair Pie: Bake 1",
+      "Moonlight on Vermont",
+      "Pachuco Cadaver",
+      "Bills Corpse",
+      "Sweet Sweet Bulbs",
+      "Neon Meate Dream of a Octafish",
+      "China Pig",
+      "My Human Gets Me Blues",
+      "Dali’s Car",
+      "Hair Pie: Bake 2",
+      "Pena",
+      "Well",
+      "When Big Joan Sets Up",
+      "Fallin’ Ditch",
+      "Sugar ’n Spikes",
+      "Ant Man Bee",
+      "Orange Claw Hammer",
+      "Wild Life",
+      "She’s Too Much for My Mirror",
+      "Hobo Chang Ba",
+      "The Blimp (Mousetrapreplica)",
+      "Steal Softly Thru Snow",
+      "Old Fart at Play",
+      "Veteran’s Day Poppy"
+    ]
+  },
+  {
     "artist": "Chappell Roan",
     "album": "The Rise and Fall of a Midwest Princess",
     "cover": "covers/ChappellRoanTheRiseandFallofaMidwestPrincess.webp",
@@ -659,6 +664,69 @@
     ]
   },
   {
+    "artist": "Charli xcx",
+    "album": "Brat and it’s completely different but also still brat",
+    "cover": "covers/CharlixcxBratanditscompletelydifferentbutalsostillbrat.webp",
+    "tracks": [
+      "360",
+      "360",
+      "Club classics",
+      "Club classics",
+      "Sympathy is a knife",
+      "Sympathy is a knife",
+      "I might say something stupid",
+      "I might say something stupid",
+      "Talk talk",
+      "Talk talk",
+      "Von dutch a. g. cook remix",
+      "Von dutch",
+      "Everything is romantic",
+      "Everything is romantic",
+      "Rewind",
+      "Rewind",
+      "So I",
+      "So I",
+      "Girl, so confusing",
+      "Girl, so confusing",
+      "Apple",
+      "Apple",
+      "B2b",
+      "B2b",
+      "Mean girls",
+      "Mean girls",
+      "I think about it all the time",
+      "I think about it all the time",
+      "365",
+      "365",
+      "Guess",
+      "Hello goodbye",
+      "Guess",
+      "Spring breakers"
+    ]
+  },
+  {
+    "artist": "Charli xcx",
+    "album": "Charli",
+    "cover": "covers/CharlixcxCharli.webp",
+    "tracks": [
+      "Next Level Charli",
+      "Gone",
+      "Cross You Out",
+      "1999",
+      "Click",
+      "Warm",
+      "Thoughts",
+      "Blame It on Your Love",
+      "White Mercedes",
+      "Silver Cross",
+      "I Don’t Wanna Know",
+      "Official",
+      "Shake It",
+      "February 2017",
+      "2099"
+    ]
+  },
+  {
     "artist": "Clipse",
     "album": "Hell Hath No Fury",
     "cover": "covers/ClipseHellHathNoFury.webp",
@@ -678,7 +746,7 @@
   {
     "artist": "Clipse",
     "album": "Let God Sort Em Out",
-    "cover": "covers/clipse_let_god_sort_em_out.webp",
+    "cover": "covers/ClipseLetGodSortEmOut.webp",
     "tracks": [
       "The Birds Don’t Sing",
       "Chains & Whips",
@@ -781,6 +849,43 @@
     ]
   },
   {
+    "artist": "Daft Punk",
+    "album": "Discovery",
+    "cover": "covers/DaftPunkDiscovery.webp",
+    "tracks": [
+      "One More Time",
+      "Aerodynamic",
+      "Digital Love",
+      "Harder, Better, Faster, Stronger",
+      "Crescendolls",
+      "Nightvision",
+      "Superheroes",
+      "High Life",
+      "Something About Us",
+      "Voyager",
+      "Veridis Quo",
+      "Short Circuit",
+      "Face to Face",
+      "Too Long"
+    ]
+  },
+  {
+    "artist": "D’Angelo",
+    "album": "Brown Sugar",
+    "cover": "covers/DAngeloBrownSugar.webp",
+    "tracks": [
+      "Brown Sugar",
+      "Alright",
+      "Jonz in My Bonz",
+      "Me and Those Dreamin’ Eyes of Mine",
+      "Smooth",
+      "Cruisin’",
+      "When We Get By",
+      "Lady",
+      "Higher"
+    ]
+  },
+  {
     "artist": "D’Angelo",
     "album": "Voodoo",
     "cover": "covers/DAngeloVoodoo.webp",
@@ -857,6 +962,50 @@
     ]
   },
   {
+    "artist": "Deep Purple",
+    "album": "Machine Head",
+    "cover": "covers/DeepPurpleMachineHead.webp",
+    "tracks": [
+      "Highway Star",
+      "Maybe I’m a Leo",
+      "Pictures of Home",
+      "Never Before",
+      "Smoke on the Water",
+      "Lazy",
+      "Space Truckin’"
+    ]
+  },
+  {
+    "artist": "De La Soul",
+    "album": "3 Feet High and Rising",
+    "cover": "covers/DeLaSoul3FeetHighandRising.webp",
+    "tracks": [
+      "Intro",
+      "The Magic Number",
+      "Change in Speak",
+      "Cool Breeze on the Rocks",
+      "Can U Keep a Secret",
+      "Jenifa Taught Me (Derwin’s Revenge)",
+      "Ghetto Thang",
+      "Transmitting Live From Mars",
+      "Eye Know",
+      "Take It Off",
+      "A Little Bit of Soap",
+      "Tread Water",
+      "Say No Go",
+      "Do as De La Does",
+      "Plug Tunin’ (Last Chance to Comprehend)",
+      "Da La Orgee",
+      "Buddy",
+      "Description",
+      "Me Myself and I",
+      "This Is a Recording 4 Living in a Full Time Era (L.I.F.E.)",
+      "I Can Do Anything (Delacratic)",
+      "D.A.I.S.Y. Age",
+      "Potholes in My Lawn"
+    ]
+  },
+  {
     "artist": "De La Soul",
     "album": "Cabin in the Sky",
     "cover": "covers/DeLaSoulCabinintheSky.webp",
@@ -881,6 +1030,65 @@
       "Palm of His Hands",
       "Cabin in the Sky",
       "Don’t Push Me"
+    ]
+  },
+  {
+    "artist": "De La Soul",
+    "album": "De La Soul Is Dead",
+    "cover": "covers/DeLaSoulDeLaSoulIsDead.webp",
+    "tracks": [
+      "Intro",
+      "Oodles of O’s",
+      "Talkin’ Bout Hey Love",
+      "Pease Porridge",
+      "Skit 1",
+      "Johnny’s Dead a.k.a. Vincent Mason (live from the BK Lounge)",
+      "A Roller Skating Jam Named “Saturdays”",
+      "WRMS’ Dedication to the Bitty",
+      "Bitties in the BK Lounge",
+      "Skit 2",
+      "My Brother’s a Basehead",
+      "Let, Let Me In",
+      "Afro Connections at a Hi 5 (In the Eye of the Hoodlum)",
+      "Rap De Rap Show",
+      "Millie Pulled a Pistol on Santa",
+      "Who Do U Worship",
+      "Skit 3",
+      "Kicked Out the House",
+      "Pass the Plugs",
+      "Not Over Till the Fat Lady Plays the Demo",
+      "Ring Ring Ring (Ha Ha Hey)",
+      "WRMS: Cat’s in Control",
+      "Skit 4",
+      "Shwingalokate",
+      "Fanatic of the B Word",
+      "Keepin’ the Faith",
+      "Skit 5"
+    ]
+  },
+  {
+    "artist": "DMX",
+    "album": "It’s Dark and Hell Is Hot",
+    "cover": "covers/DMXItsDarkandHellIsHot.webp",
+    "tracks": [
+      "Intro",
+      "Ruff Ryders’ Anthem",
+      "The Storm (skit)",
+      "Look Thru My Eyes",
+      "Get at Me Dog",
+      "Let Me Fly",
+      "X‐Is Coming",
+      "Damien",
+      "How’s It Goin’ Down",
+      "Mickey (skit)",
+      "Crime Story",
+      "Stop Being Greedy",
+      "ATF",
+      "For My Dogs",
+      "I Can Feel It",
+      "Prayer (skit)",
+      "The Convo",
+      "Niggaz Done Started Something"
     ]
   },
   {
@@ -964,6 +1172,27 @@
   },
   {
     "artist": "Erykah Badu",
+    "album": "Mama’s Gun",
+    "cover": "covers/ErykahBaduMamasGun.webp",
+    "tracks": [
+      "Penitentiary Philosophy",
+      "Didn’t Cha Know",
+      "My Life",
+      "… & On",
+      "Cleva",
+      "Hey Sugah",
+      "Booty",
+      "Kiss Me on My Neck (Hesi)",
+      "A.D. 2000",
+      "Orange Moon",
+      "In Love With You",
+      "Bag Lady",
+      "Time’s a Wastin",
+      "Green Eyes"
+    ]
+  },
+  {
+    "artist": "Erykah Badu",
     "album": "New Amerykah, Part One (4th World War)",
     "cover": "covers/ErykahBaduNewAmerykahPartOne4thWorldWar.webp",
     "tracks": [
@@ -996,6 +1225,61 @@
       "Fall in Love (Your Funeral)",
       "Incense",
       "Out My Mind, Just in Time"
+    ]
+  },
+  {
+    "artist": "Fiona Apple",
+    "album": "Fetch the Bolt Cutters",
+    "cover": "covers/FionaAppleFetchtheBoltCutters.webp",
+    "tracks": [
+      "I Want You to Love Me",
+      "Ladies",
+      "Heavy Balloon",
+      "Shameika",
+      "Cosmonauts",
+      "Fetch the Bolt Cutters",
+      "For Her",
+      "Under the Table",
+      "Drumset",
+      "Relay",
+      "On I Go",
+      "Rack of His",
+      "Newspaper"
+    ]
+  },
+  {
+    "artist": "Fiona Apple",
+    "album": "The Idler Wheel Is Wiser Than the Driver of the Screw and Whipping Cords Will Serve You More Than Ropes Will Ever Do",
+    "cover": "covers/FionaAppleTheIdlerWheelIsWiserThantheDriveroftheScrewandWhippingCordsWillServeYouMoreThanRopesWillEverDo.webp",
+    "tracks": [
+      "Every Single Night",
+      "Daredevil",
+      "Valentine",
+      "Jonathan",
+      "Left Alone",
+      "Werewolf",
+      "Periphery",
+      "Regret",
+      "Anything We Want",
+      "Hot Knife",
+      "Largo"
+    ]
+  },
+  {
+    "artist": "Fiona Apple",
+    "album": "When the Pawn",
+    "cover": "covers/FionaAppleWhenthePawn.webp",
+    "tracks": [
+      "On the Bound",
+      "To Your Love",
+      "Limp",
+      "Love Ridden",
+      "Paper Bag",
+      "A Mistake",
+      "Fast as You Can",
+      "The Way Things Are",
+      "Get Gone",
+      "I Know"
     ]
   },
   {
@@ -1214,6 +1498,75 @@
   },
   {
     "artist": "Gorillaz",
+    "album": "Demon Days",
+    "cover": "covers/GorillazDemonDays.webp",
+    "tracks": [
+      "Intro",
+      "Last Living Souls",
+      "Kids With Guns",
+      "O Green World",
+      "Dirty Harry",
+      "Feel Good Inc.",
+      "El mañana",
+      "Every Planet We Reach Is Dead",
+      "November Has Come",
+      "All Alone",
+      "White Light",
+      "DARE",
+      "Fire Coming Out of the Monkey’s Head",
+      "Don’t Get Lost in Heaven",
+      "Demon Days"
+    ]
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Gorillaz",
+    "cover": "covers/GorillazGorillaz.webp",
+    "tracks": [
+      "Re-Hash",
+      "5/4",
+      "Tomorrow Comes Today",
+      "New Genious (Brother)",
+      "Clint Eastwood",
+      "Man Research (Clapper)",
+      "Punk",
+      "Sound Check (Gravity)",
+      "Double Bass",
+      "Rock the House",
+      "19-2000",
+      "Latin Simone (Qué pasa contigo)",
+      "Starshine",
+      "Slow Country",
+      "M1 A1",
+      "Clint Eastwood (Ed Case/Sweetie Irie refix) (edit)",
+      "19-2000 (Soulchild remix)"
+    ]
+  },
+  {
+    "artist": "Gorillaz",
+    "album": "Plastic Beach",
+    "cover": "covers/GorillazPlasticBeach.webp",
+    "tracks": [
+      "Orchestral Intro",
+      "Welcome to the World of the Plastic Beach",
+      "White Flag",
+      "Rhinestone Eyes",
+      "Stylo",
+      "Superfast Jellyfish",
+      "Empire Ants",
+      "Glitter Freeze",
+      "Some Kind of Nature",
+      "On Melancholy Hill",
+      "Broken",
+      "Sweepstakes",
+      "Plastic Beach",
+      "To Binge",
+      "Cloud of Unknowing",
+      "Pirate Jet"
+    ]
+  },
+  {
+    "artist": "Gorillaz",
     "album": "The Mountain",
     "cover": "covers/GorillazTheMountain.webp",
     "tracks": [
@@ -1288,6 +1641,26 @@
     ]
   },
   {
+    "artist": "James Blake",
+    "album": "Trying Times",
+    "cover": "covers/JamesBlakeTryingTimes.webp",
+    "tracks": [
+      "Walk Out Music",
+      "Death of Love",
+      "I Had a Dream She Took My Hand",
+      "Trying Times",
+      "Make Something Up",
+      "Didn’t Come to Argue",
+      "Days Go By",
+      "Doesn’t Just Happen",
+      "Obsession",
+      "Rest of Your Life",
+      "Through the High Wire",
+      "Feel It Again",
+      "Just a Little Higher"
+    ]
+  },
+  {
     "artist": "Janet Jackson",
     "album": "The Velvet Rope",
     "cover": "covers/JanetJacksonTheVelvetRope.webp",
@@ -1337,6 +1710,44 @@
       "Golden Goose Freestyle",
       "Winter Storm Freestyle",
       "99 Build Freestyle"
+    ]
+  },
+  {
+    "artist": "J Dilla",
+    "album": "Donuts",
+    "cover": "covers/JDillaDonuts.webp",
+    "tracks": [
+      "Donuts (outro)",
+      "Workinonit",
+      "Waves",
+      "Light My Fire",
+      "The New",
+      "Stop",
+      "People",
+      "The Diff’rence",
+      "Mash",
+      "Time: The Donut of the Heart",
+      "Glazed",
+      "Airworks",
+      "Lightworks",
+      "Stepson of the Clapper",
+      "The Twister (Huh, What)",
+      "One Eleven",
+      "Two Can Win",
+      "Don’t Cry",
+      "Anti‐American Graffiti",
+      "Geek Down",
+      "Thunder",
+      "Gobstopper",
+      "One for Ghost",
+      "Dilla Says Go",
+      "Walkinonit",
+      "The Factory",
+      "U‐Love",
+      "Hi.",
+      "Bye.",
+      "Last Donut of the Night",
+      "Welcome to the Show"
     ]
   },
   {
@@ -1409,6 +1820,32 @@
     ]
   },
   {
+    "artist": "Jill Scott",
+    "album": "Who Is Jill Scott? Words and Sounds, Vol. 1",
+    "cover": "covers/JillScottWhoIsJillScottWordsandSoundsVol1.webp",
+    "tracks": [
+      "Jilltro",
+      "Do You Remember",
+      "Exclusively",
+      "Gettin’ in the Way",
+      "A Long Walk",
+      "I Think It’s Better",
+      "He Loves Me (Lyzel in E‐Flat)",
+      "It’s Love",
+      "The Way",
+      "Honey Molasses",
+      "Love Rain",
+      "The Roots (interlude)",
+      "Slowly Surely",
+      "One Is the Magic #",
+      "Watching Me",
+      "Brotha",
+      "Show Me",
+      "Try",
+      "Love Rain (Head Nod mix)"
+    ]
+  },
+  {
     "artist": "The Jimi Hendrix Experience",
     "album": "Are You Experienced",
     "cover": "covers/TheJimiHendrixExperienceAreYouExperienced.webp",
@@ -1430,6 +1867,65 @@
       "Can You See Me",
       "Remember",
       "Red House"
+    ]
+  },
+  {
+    "artist": "The Jimi Hendrix Experience",
+    "album": "Electric Ladyland",
+    "cover": "covers/TheJimiHendrixExperienceElectricLadyland.webp",
+    "tracks": [
+      "…And the Gods Made Love",
+      "Have You Ever Been (to Electric Ladyland)",
+      "Crosstown Traffic",
+      "Voodoo Chile",
+      "Little Miss Strange",
+      "Long Hot Summer Night",
+      "Come On (Let the Good Times Roll)",
+      "Gypsy Eyes",
+      "Burning of the Midnight Lamp",
+      "1983… (A Merman I Should Turn to Be)",
+      "Moon, Turn the Tides… gently gently away",
+      "Still Raining, Still Dreaming",
+      "House Burning Down",
+      "All Along the Watchtower",
+      "Voodoo Child (slight return)"
+    ]
+  },
+  {
+    "artist": "Jim Croce",
+    "album": "I Got a Name",
+    "cover": "covers/JimCroceIGotaName.webp",
+    "tracks": [
+      "I Got a Name",
+      "Lover's Cross",
+      "Five Short Minutes",
+      "Age",
+      "Workin' at the Car Wash Blues",
+      "I'll Have to Say I Love You in a Song",
+      "Salon and Saloon",
+      "Thursday",
+      "Top Hat Bar and Grille",
+      "Recently",
+      "The Hard Way Every Time"
+    ]
+  },
+  {
+    "artist": "Jim Croce",
+    "album": "You Don’t Mess Around With Jim",
+    "cover": "covers/JimCroceYouDontMessAroundWithJim.webp",
+    "tracks": [
+      "You Don’t Mess Around With Jim",
+      "Tomorrow’s Gonna Be a Brighter Day",
+      "New York’s Not My Home",
+      "Hard Time Losin’ Man",
+      "A Long Time Ago",
+      "Walkin’ Back to Georgia",
+      "Operator (That’s Not the Way It Feels)",
+      "Time in a Bottle",
+      "Rapid Roy (The Stock Car Boy)",
+      "Box #10",
+      "Photographs and Memories",
+      "Hey Tomorrow"
     ]
   },
   {
@@ -1465,6 +1961,27 @@
       "Don’t Put Anything On the Bible",
       "i recovered from this",
       "ALLAH"
+    ]
+  },
+  {
+    "artist": "JPEGMAFIA & Danny Brown",
+    "album": "SCARING THE HOES",
+    "cover": "covers/JPEGMAFIADannyBrownSCARINGTHEHOES.webp",
+    "tracks": [
+      "LEAN BEEF PATTY",
+      "STEPPA PIG",
+      "SCARING THE HOES",
+      "GARBAGE PALE KIDS",
+      "FENTANYL TESTER",
+      "BURFICT!",
+      "SHUT YO BITCH ASS UP",
+      "ORANGE JUICE JONES",
+      "KINGDOM HEARTS KEY",
+      "GOD LOVES YOU",
+      "RUN THE JEWELS",
+      "JACK HARLOW COMBO MEAL",
+      "HOE (HEAVEN AND EARTH)",
+      "WHERE YA GET YA COKE FROM"
     ]
   },
   {
@@ -1547,6 +2064,19 @@
   },
   {
     "artist": "Kendrick Lamar",
+    "album": null,
+    "cover": "covers/KendrickLamarNone.webp",
+    "tracks": [
+      "euphoria",
+      "Future, Metro Boomin, Kendrick Lamar - Like That (Official Audio)",
+      "Kendrick Lamar - 6:16 IN LA (Drake Diss)",
+      "Kendrick Lamar - Control (Lyrics HD) (Kendrick Verse ONLY)",
+      "meet the grahams",
+      "Not Like Us"
+    ]
+  },
+  {
+    "artist": "Kendrick Lamar",
     "album": "Mr. Morale & the Big Steppers",
     "cover": "covers/KendrickLamarMrMoraletheBigSteppers.webp",
     "tracks": [
@@ -1616,6 +2146,40 @@
     ]
   },
   {
+    "artist": "Kendrick Lamar",
+    "album": "untitled unmastered.",
+    "cover": "covers/KendrickLamaruntitledunmastered.webp",
+    "tracks": [
+      "untitled 01 | 08.19.2014.",
+      "untitled 02 | 06.23.2014.",
+      "untitled 03 | 05.28.2013.",
+      "untitled 04 | 08.14.2014.",
+      "untitled 05 | 09.21.2014.",
+      "untitled 06 | 06.30.2014.",
+      "untitled 07 | 2014 - 2016",
+      "untitled 08 | 09.06.2014."
+    ]
+  },
+  {
+    "artist": "Killer Mike",
+    "album": "R.A.P. Music",
+    "cover": "covers/KillerMikeRAPMusic.webp",
+    "tracks": [
+      "Big Beast",
+      "Untitled",
+      "Go!",
+      "Southern Fried",
+      "Jojo's Chillin",
+      "Reagan",
+      "Don't Die",
+      "Ghetto Gospel",
+      "Butane (Champion's Anthem)",
+      "Anywhere But Here",
+      "Willie Burke Sherwood",
+      "R.A.P. Music"
+    ]
+  },
+  {
     "artist": "Lady Gaga",
     "album": "The Fame",
     "cover": "covers/LadyGagaTheFame.webp",
@@ -1635,6 +2199,49 @@
       "I Like It Rough",
       "Summerboy",
       "Disco Heaven"
+    ]
+  },
+  {
+    "artist": "Lana Del Rey",
+    "album": "Did you know that there’s a tunnel under Ocean Blvd",
+    "cover": "covers/LanaDelReyDidyouknowthattheresatunnelunderOceanBlvd.webp",
+    "tracks": [
+      "The Grants",
+      "Did you know that there’s a tunnel under Ocean Blvd",
+      "Sweet",
+      "A&W",
+      "Judah Smith Interlude",
+      "Candy Necklace",
+      "Jon Batiste Interlude",
+      "Kintsugi",
+      "Fingertips",
+      "Paris, Texas",
+      "Grandfather please stand on the shoulders of my father while he’s deep‐sea fishing",
+      "Let the Light In",
+      "Margaret",
+      "Fishtail",
+      "Peppers",
+      "Taco Truck × VB"
+    ]
+  },
+  {
+    "artist": "Lana Del Rey",
+    "album": "Norman Fucking Rockwell!",
+    "cover": "covers/LanaDelReyNormanFuckingRockwell.webp",
+    "tracks": [
+      "California",
+      "Norman fucking Rockwell",
+      "Mariners apartment complex",
+      "The Next Best American Record",
+      "The greatest",
+      "Venice bitch",
+      "Bartender",
+      "Doin’ time",
+      "Happiness is a butterfly",
+      "hope is a dangerous thing for a woman like me to have – but I have it",
+      "Love song",
+      "Cinnamon Girl",
+      "How to disappear"
     ]
   },
   {
@@ -1722,6 +2329,45 @@
     ]
   },
   {
+    "artist": "Leon Thomas",
+    "album": "MUTT",
+    "cover": "covers/LeonThomasMUTT.webp",
+    "tracks": [
+      "HOW FAST",
+      "SAFE PLACE",
+      "DANCING WITH DEMONS",
+      "VIBES DON'T LIE",
+      "LUCID DREAMS",
+      "FEELINGS ON SILENT",
+      "ANSWER YOUR PHONE",
+      "YES IT IS",
+      "FAR FETCHED",
+      "SOONER OR LATER",
+      "MUTT",
+      "I DO",
+      "I USED TO",
+      "MUTT (REMIX)"
+    ]
+  },
+  {
+    "artist": "Lily Allen",
+    "album": "Alright, Still",
+    "cover": "covers/LilyAllenAlrightStill.webp",
+    "tracks": [
+      "Smile",
+      "Knock ’em Out",
+      "LDN",
+      "Everything’s Just Wonderful",
+      "Not Big",
+      "Friday Night",
+      "Shame for You",
+      "Littlest Things",
+      "Take What You Take",
+      "Friend of Mine",
+      "Alfie"
+    ]
+  },
+  {
     "artist": "Lily Allen",
     "album": "West End Girl",
     "cover": "covers/LilyAllenWestEndGirl.webp",
@@ -1739,6 +2385,21 @@
       "Beg for Me",
       "Let You W/In",
       "Fruityloop"
+    ]
+  },
+  {
+    "artist": "Lupe Fiasco",
+    "album": "Samurai",
+    "cover": "covers/LupeFiascoSamurai.webp",
+    "tracks": [
+      "Samurai",
+      "Mumble Rap",
+      "Cake",
+      "Palaces",
+      "No. 1 Headband",
+      "Bigfoot",
+      "Outside",
+      "Til Eternity"
     ]
   },
   {
@@ -1762,6 +2423,21 @@
       "Adoration of the Magi",
       "They.Resurrect.Over.New.",
       "Spring"
+    ]
+  },
+  {
+    "artist": "Lynyrd Skynyrd",
+    "album": "(pronounced ’lĕh‐’nérd ’skin‐’nérd)",
+    "cover": "covers/LynyrdSkynyrdpronouncedlhnrdskinnrd.webp",
+    "tracks": [
+      "I Ain’t the One",
+      "Tuesday’s Gone",
+      "Gimme Three Steps",
+      "Simple Man",
+      "Things Goin’ On",
+      "Mississippi Kid",
+      "Poison Whiskey",
+      "Free Bird"
     ]
   },
   {
@@ -1913,6 +2589,48 @@
     ]
   },
   {
+    "artist": "Metallica",
+    "album": "Master of Puppets",
+    "cover": "covers/MetallicaMasterofPuppets.webp",
+    "tracks": [
+      "Battery",
+      "Master of Puppets",
+      "Leper Messiah",
+      "The Thing That Should Not Be",
+      "Orion",
+      "Welcome Home (Sanitarium)",
+      "Damage, Inc."
+    ]
+  },
+  {
+    "artist": "MF DOOM",
+    "album": "Born Like This",
+    "cover": "covers/MFDOOMBornLikeThis.webp",
+    "tracks": [
+      "Supervillain",
+      "Supervillain",
+      "Gazzillion Ear",
+      "Gazzillion Ear",
+      "Gazzillion Ear",
+      "Gazzillion Ear",
+      "Ballskin",
+      "Yessir!",
+      "Absolutely",
+      "Rap Ambush",
+      "Lightworks",
+      "Batty Boyz",
+      "Angelz",
+      "Cellz",
+      "Still Dope",
+      "Microwave Mayo",
+      "More Rhymin’",
+      "More Rhymin’",
+      "More Rhymin’",
+      "That’s That",
+      "Thank Ya"
+    ]
+  },
+  {
     "artist": "Madvillain",
     "album": "Madvillainy",
     "cover": "covers/MadvillainMadvillainy.webp",
@@ -1942,6 +2660,78 @@
     ]
   },
   {
+    "artist": "MF DOOM",
+    "album": "MM..FOOD",
+    "cover": "covers/MFDOOMMMFOOD.webp",
+    "tracks": [
+      "Beef Rapp",
+      "Fig Leaf Bi‐Carbonate",
+      "Hoe Cakes",
+      "Kon Karne",
+      "Guinesses",
+      "Potholderz",
+      "Kon Queso",
+      "One Beer",
+      "Deep Fried Frenz",
+      "Rapp Snitch Knishes",
+      "Poo‐Putt Platter",
+      "Vomitspit",
+      "Fillet‐O‐Rapper",
+      "Kookies",
+      "Gumbo"
+    ]
+  },
+  {
+    "artist": "MF DOOM",
+    "album": "Operation: Doomsday",
+    "cover": "covers/MFDOOMOperationDoomsday.webp",
+    "tracks": [
+      "The Time We Faced DOOM (skit)",
+      "Doomsday",
+      "Doomsday",
+      "I Hear Voices, Part One (instrumental)",
+      "Rhymes Like Dimes",
+      "Rhymes Like Dimes",
+      "The Finest",
+      "The Finest",
+      "Back in the Days (skit)",
+      "Go With the Flow",
+      "Go With the Flow",
+      "Go With the Flow",
+      "Tick, Tick…",
+      "Tick, Tick…",
+      "Red and Gold",
+      "Red and Gold",
+      "Red and Gold",
+      "The Hands of DOOM (skit)",
+      "The Hands of DOOM (skit)",
+      "Who You Think I Am?",
+      "Who You Think I Am?",
+      "DOOM, Are You Awake? (skit)",
+      "Hey!",
+      "Hey!",
+      "Hey!",
+      "Operation: Greenbacks",
+      "Operation: Greenbacks",
+      "Operation: Greenbacks",
+      "The Mic",
+      "The Mic",
+      "The Mystery of DOOM (skit)",
+      "Dead Bent",
+      "Dead Bent",
+      "Dead Bent",
+      "Dead Bent",
+      "Gas Drawls",
+      "Gas Drawls",
+      "Gas Drawls",
+      "Gas Drawls",
+      "?",
+      "I Hear Voices, Part One",
+      "I Hear Voices",
+      "I Hear Voices"
+    ]
+  },
+  {
     "artist": "Danger Doom",
     "album": "The Mouse and the Mask",
     "cover": "covers/DangerDoomTheMouseandtheMask.webp",
@@ -1960,6 +2750,33 @@
       "Vats of Urine",
       "Space Ho’s",
       "Bada Bing"
+    ]
+  },
+  {
+    "artist": "the Microphones",
+    "album": "the Glow, pt. 2",
+    "cover": "covers/theMicrophonestheGlowpt2.webp",
+    "tracks": [
+      "I Want Wind to Blow",
+      "the Glow, pt. 2",
+      "the Moon",
+      "Headless Horseman",
+      "My Roots Are Strong and Deep",
+      "instrumental",
+      "the Mansion",
+      "(something)",
+      "(something)",
+      "I’ll Not Contain You",
+      "the Gleam, pt. 2",
+      "Map",
+      "You’ll Be in the Air",
+      "I Want to Be Cold",
+      "I Am Bored",
+      "I Felt My Size",
+      "instrumental",
+      "I Felt Your Shape",
+      "Samurai Sword",
+      "My Warm Blood"
     ]
   },
   {
@@ -2003,6 +2820,48 @@
       "Pretend You’re God",
       "Every Girl You’ve Ever Loved",
       "Give Me Love"
+    ]
+  },
+  {
+    "artist": "Mobb Deep",
+    "album": "The Infamous…",
+    "cover": "covers/MobbDeepTheInfamous.webp",
+    "tracks": [
+      "The Start of Your Ending (41st Side)",
+      "Trife Life",
+      "Q.U. - Hectic",
+      "[The Infamous Prelude]",
+      "Right Back at You",
+      "Survival of the Fittest",
+      "Eye for an Eye (Your Beef Is Mines)",
+      "[The Grave Prelude]",
+      "Cradle to the Grave",
+      "[Just Step Prelude]",
+      "Drink Away the Pain (Situations)",
+      "Give Up the Goods (Just Step)",
+      "Give Up the Goods (Just Step)",
+      "Shook Ones, Pt. II",
+      "Temperature’s Rising",
+      "Party Over",
+      "Up North Trip"
+    ]
+  },
+  {
+    "artist": "Mötley Crüe",
+    "album": "Dr. Feelgood",
+    "cover": "covers/MtleyCreDrFeelgood.webp",
+    "tracks": [
+      "T.N.T. (Terror 'n Tinseltown)",
+      "Dr. Feelgood",
+      "Slice of Your Pie",
+      "Rattlesnake Shake",
+      "Kickstart My Heart",
+      "Without You",
+      "Same Ol' Situation (S.O.S.)",
+      "Sticky Sweet",
+      "She Goes Down",
+      "Don't Go Away Mad (Just Go Away)",
+      "Time for Change"
     ]
   },
   {
@@ -2104,6 +2963,56 @@
     ]
   },
   {
+    "artist": "Neil Young",
+    "album": "Harvest Moon",
+    "cover": "covers/NeilYoungHarvestMoon.webp",
+    "tracks": [
+      "Unknown Legend",
+      "From Hank to Hendrix",
+      "You and Me",
+      "Harvest Moon",
+      "War of Man",
+      "One of These Days",
+      "Such a Woman",
+      "Old King",
+      "Dreamin’ Man",
+      "Natural Beauty"
+    ]
+  },
+  {
+    "artist": "Neurosis",
+    "album": "An Undying Love for a Burning World",
+    "cover": "covers/NeurosisAnUndyingLoveforaBurningWorld.webp",
+    "tracks": [
+      "We Are Torn Wide Open",
+      "Mirror Deep",
+      "First Red Rays",
+      "Blind",
+      "Seething and Scattered",
+      "Untethered",
+      "In the Waiting Hours",
+      "Last Light"
+    ]
+  },
+  {
+    "artist": "Neutral Milk Hotel",
+    "album": "In the Aeroplane Over the Sea",
+    "cover": "covers/NeutralMilkHotelIntheAeroplaneOvertheSea.webp",
+    "tracks": [
+      "The King of Carrot Flowers, Pt. One",
+      "The King of Carrot Flowers, Pts. Two & Three",
+      "In the Aeroplane Over the Sea",
+      "Two-Headed Boy",
+      "The Fool",
+      "Holland, 1945",
+      "Communist Daughter",
+      "Oh Comely",
+      "Ghost",
+      "[untitled]",
+      "Two-Headed Boy, Pt. Two"
+    ]
+  },
+  {
     "artist": "Nirvana",
     "album": "In Utero",
     "cover": "covers/NirvanaInUtero.webp",
@@ -2118,6 +3027,26 @@
       "Radio Friendly Unit Shifter",
       "tourette’s",
       "All Apologies"
+    ]
+  },
+  {
+    "artist": "Nirvana",
+    "album": "Nevermind",
+    "cover": "covers/NirvanaNevermind.webp",
+    "tracks": [
+      "Smells Like Teen Spirit",
+      "In Bloom",
+      "Come as You Are",
+      "Breed",
+      "Lithium",
+      "Polly",
+      "Territorial Pissings",
+      "Drain You",
+      "Lounge Act",
+      "Stay Away",
+      "On a Plain",
+      "Something in the Way",
+      "Endless, Nameless"
     ]
   },
   {
@@ -2227,6 +3156,54 @@
     ]
   },
   {
+    "artist": "OutKast",
+    "album": "Stankonia",
+    "cover": "covers/OutKastStankonia.webp",
+    "tracks": [
+      "Intro",
+      "Gasoline Dreams",
+      "I'm Cool (interlude)",
+      "So Fresh, So Clean",
+      "Ms. Jackson",
+      "Snappin' & Trappin'",
+      "D.F. (interlude)",
+      "Spaghetti Junction",
+      "Kim & Cookie (interlude)",
+      "I'll Call Before I Come",
+      "B.O.B.",
+      "Xplosion",
+      "Good Hair (interlude)",
+      "We Luv Deez Hoez",
+      "Humble Mumble",
+      "Drinkin' Again (interlude)",
+      "?",
+      "Red Velvet",
+      "Cruisin' in the ATL (interlude)",
+      "Gangsta Shit",
+      "Toilet Tisha",
+      "Slum Beautiful",
+      "Pre-Nump (interlude)",
+      "Stankonia (Stanklove)"
+    ]
+  },
+  {
+    "artist": "Pink Floyd",
+    "album": "The Dark Side of the Moon",
+    "cover": "covers/PinkFloydTheDarkSideoftheMoon.webp",
+    "tracks": [
+      "Speak to Me",
+      "Breathe (in the Air)",
+      "On the Run",
+      "Time",
+      "The Great Gig in the Sky",
+      "Money",
+      "Us and Them",
+      "Any Colour You Like",
+      "Brain Damage",
+      "Eclipse"
+    ]
+  },
+  {
     "artist": "Porter Robinson",
     "album": "Nurture",
     "cover": "covers/PorterRobinsonNurture.webp",
@@ -2278,6 +3255,29 @@
       "I Would Die 4 U",
       "Baby I’m a Star",
       "Purple Rain"
+    ]
+  },
+  {
+    "artist": "Public Enemy",
+    "album": "It Takes a Nation of Millions to Hold Us Back",
+    "cover": "covers/PublicEnemyItTakesaNationofMillionstoHoldUsBack.webp",
+    "tracks": [
+      "Countdown to Armageddon",
+      "Bring the Noise",
+      "Don’t Believe the Hype",
+      "Cold Lampin’ With Flavor",
+      "Terminator X to the Edge of Panic",
+      "Mind Terrorist",
+      "Louder Than a Bomb",
+      "Caught, Can We Get a Witness?",
+      "Show ’em Whatcha Got",
+      "She Watch Channel Zero?!",
+      "Night of the Living Baseheads",
+      "Black Steel in the Hour of Chaos",
+      "Security of the First World",
+      "Rebel Without a Pause",
+      "Prophets of Rage",
+      "Party for Your Right to Fight"
     ]
   },
   {
@@ -2340,6 +3340,25 @@
     "cover": "covers/RAYEWHEREISMYHUSBAND.webp",
     "tracks": [
       "WHERE IS MY HUSBAND!"
+    ]
+  },
+  {
+    "artist": "Rick Ross",
+    "album": "Teflon Don",
+    "cover": "covers/RickRossTeflonDon.webp",
+    "tracks": [
+      "I’m Not a Star",
+      "Free Mason",
+      "Tears of Joy",
+      "Maybach Music III",
+      "Live Fast, Die Young",
+      "Super High",
+      "No. 1",
+      "MC Hammer",
+      "B.M.F. (Blowin’ Money Fast)",
+      "Aston Martin Music",
+      "All the Money in the World",
+      "Audio Meth"
     ]
   },
   {
@@ -2527,7 +3546,7 @@
   {
     "artist": "Simon & Garfunkel",
     "album": "Bookends",
-    "cover": "covers/SimonandGarfunkelBookends.webp",
+    "cover": "covers/SimonGarfunkelBookends.webp",
     "tracks": [
       "Bookends Theme",
       "Save the Life of My Child",
@@ -2541,6 +3560,39 @@
       "Mrs. Robinson",
       "A Hazy Shade of Winter",
       "At the Zoo"
+    ]
+  },
+  {
+    "artist": "Simon and Garfunkel",
+    "album": "Bridge Over Troubled Water",
+    "cover": "covers/SimonandGarfunkelBridgeOverTroubledWater.webp",
+    "tracks": [
+      "Bridge Over Troubled Water",
+      "El cóndor pasa",
+      "Cecilia",
+      "Keep the Customer Satisfied",
+      "So Long, Frank Lloyd Wright",
+      "The Boxer",
+      "Baby Driver",
+      "The Only Living Boy in New York",
+      "Why Don’t You Write Me",
+      "Bye Bye Love",
+      "Song for the Asking"
+    ]
+  },
+  {
+    "artist": "Stevie Wonder",
+    "album": "Innervisions",
+    "cover": "covers/StevieWonderInnervisions.webp",
+    "tracks": [
+      "Too High",
+      "Visions",
+      "Living for the City",
+      "Golden Lady",
+      "Higher Ground",
+      "All in Love Is Fair",
+      "Don't You Worry 'bout a Thing",
+      "He's Misstra Know-It-All"
     ]
   },
   {
@@ -2569,6 +3621,35 @@
       "Ordinary Pain",
       "All Day Sucker",
       "Easy Goin’ Evening (My Mama’s Call)"
+    ]
+  },
+  {
+    "artist": "Sufjan Stevens",
+    "album": "Illinois",
+    "cover": "covers/SufjanStevensIllinois.webp",
+    "tracks": [
+      "Concerning the UFO Sighting Near Highland, Illinois",
+      "The Black Hawk War, or, How to Demolish an Entire Civilization and Still Feel Good About Yourself in the Morning, or, We Apologize for the Inconvenience but You’re Going to Have to Leave Now, or, “I Have Fought the Big Knives and Will Continue to Fight Them Until They Are Off Our Lands!”",
+      "Come On! Feel the Illinoise! Part I: The World’s Columbian Exposition, Part II: Carl Sandburg Visits Me in a Dream",
+      "John Wayne Gacy, Jr.",
+      "Jacksonville",
+      "A Short Reprise for Mary Todd, Who Went Insane, but for Very Good Reasons",
+      "Decatur, or, Round of Applause for Your Stepmother!",
+      "One Last “Whoo‐Hoo!” for the Pullman",
+      "Chicago",
+      "Casimir Pulaski Day",
+      "To the Workers of the Rockford River Valley Region, I Have an Idea Concerning Your Predicament",
+      "The Man of Metropolis Steals Our Hearts",
+      "Prairie Fire That Wanders About",
+      "A Conjunction of Drones Simulating the Way in Which Sufjan Stevens Has an Existential Crisis in the Great Godfrey Maze",
+      "The Predatory Wasp of the Palisades Is Out to Get Us!",
+      "They Are Night Zombies!! They Are Neighbors!! They Have Come Back From the Dead!! Ahhhh!",
+      "Let’s Hear That String Part Again, Because I Don’t Think They Heard It All the Way Out in Bushnell",
+      "In This Temple as in the Hearts of Man for Whom He Saved the Earth",
+      "The Seer’s Tower",
+      "The Tallest Man, the Broadest Shoulders, Part I: The Great Frontier, Part II: Come to Me Only With Playthings Now",
+      "Riffs and Variations on a Single Note for Jelly Roll, Earl Hines, Louis Armstrong, Baby Dodds, and the King of Swing, to Name a Few",
+      "Out of Egypt, Into the Great Laugh of Mankind, and I Shake the Dirt From My Sandals as I Run"
     ]
   },
   {
@@ -2636,6 +3717,157 @@
     ]
   },
   {
+    "artist": "The Beatles",
+    "album": "Abbey Road",
+    "cover": "covers/TheBeatlesAbbeyRoad.webp",
+    "tracks": [
+      "Come Together (2019 stereo mix)",
+      "I Want You (She’s So Heavy) (Trident recording session & reduction mix)",
+      "Come Together (take 5)",
+      "Something (2019 stereo mix)",
+      "Goodbye (home demo)",
+      "The End (take 3)",
+      "Maxwell’s Silver Hammer (2019 stereo mix)",
+      "Something (studio demo)",
+      "Come and Get It (studio demo)",
+      "The Ballad of John and Yoko (take 7)",
+      "Sun King (take 20)",
+      "Octopus’s Garden (2019 stereo mix)",
+      "Old Brown Shoe (take 2)",
+      "Mean Mr Mustard (take 20)",
+      "I Want You (She’s So Heavy) (2019 stereo mix)",
+      "Oh! Darling (take 4)",
+      "Polythene Pam (take 27)",
+      "Here Comes the Sun (2019 stereo mix)",
+      "Octopus’s Garden (take 9)",
+      "She Came In Through the Bathroom Window (take 27)",
+      "Because (2019 stereo mix)",
+      "Because (take 1 / instrumental)",
+      "You Never Give Me Your Money (2019 stereo mix)",
+      "The Long One: You Never Give Me Your Money / Sun King / Mean Mr Mustard / Her Majesty / Polythene Pam / She Came In Through the Bathroom Window (trial edit & mix – 30 July 1969)",
+      "Sun King (2019 stereo mix)",
+      "Golden Slumbers / Carry That Weight (takes 1–3 / medley)",
+      "Something (take 39 / instrumental / strings only)",
+      "Mean Mr Mustard (2019 stereo mix)",
+      "Here Comes the Sun (take 9)",
+      "Golden Slumbers / Carry That Weight (take 17 / instrumental / strings & brass only)",
+      "Maxwell’s Silver Hammer (take 12)",
+      "She Came In Through the Bathroom Window (2019 stereo mix)",
+      "Golden Slumbers (2019 stereo mix)",
+      "Carry That Weight (2019 stereo mix)",
+      "The End (2019 stereo mix)",
+      "Her Majesty (2019 stereo mix)"
+    ]
+  },
+  {
+    "artist": "The Beatles",
+    "album": "Revolver",
+    "cover": "covers/TheBeatlesRevolver.webp",
+    "tracks": [
+      "Taxman",
+      "Eleanor Rigby",
+      "I’m Only Sleeping",
+      "Love You To",
+      "Here, There and Everywhere",
+      "Yellow Submarine",
+      "She Said She Said",
+      "Good Day Sunshine",
+      "And Your Bird Can Sing",
+      "For No One",
+      "Doctor Robert",
+      "I Want to Tell You",
+      "Got to Get You Into My Life",
+      "Tomorrow Never Knows"
+    ]
+  },
+  {
+    "artist": "The Beatles",
+    "album": "The Beatles",
+    "cover": "covers/TheBeatlesTheBeatles.webp",
+    "tracks": [
+      "Back in the U.S.S.R.",
+      "Back in the U.S.S.R.",
+      "Birthday",
+      "Birthday",
+      "Dear Prudence",
+      "Dear Prudence",
+      "Yer Blues",
+      "Yer Blues",
+      "Glass Onion",
+      "Glass Onion",
+      "Mother Nature’s Son",
+      "Mother Nature's Son",
+      "Everybody’s Got Something to Hide Except Me and My Monkey",
+      "Everybody's Got Something to Hide Except Me and My Monkey",
+      "Ob‐La‐Di, Ob‐La‐Da",
+      "Ob-La-Di, Ob-La-Da",
+      "Sexy Sadie",
+      "Sexy Sadie",
+      "Wild Honey Pie",
+      "Wild Honey Pie",
+      "Helter Skelter",
+      "Helter Skelter",
+      "The Continuing Story of Bungalow Bill",
+      "The Continuing Story of Bungalow Bill",
+      "Long, Long, Long",
+      "Long, Long, Long",
+      "While My Guitar Gently Weeps",
+      "While My Guitar Gently Weeps",
+      "Happiness Is a Warm Gun",
+      "Happiness Is a Warm Gun",
+      "Revolution 1",
+      "Revolution 1",
+      "Honey Pie",
+      "Honey Pie",
+      "Martha My Dear",
+      "Martha My Dear",
+      "I’m So Tired",
+      "I'm So Tired",
+      "Savoy Truffle",
+      "Savoy Truffle",
+      "Blackbird",
+      "Blackbird",
+      "Cry Baby Cry",
+      "Cry Baby Cry",
+      "Piggies",
+      "Piggies",
+      "Revolution 9",
+      "Revolution 9",
+      "Good Night",
+      "Good Night",
+      "Rocky Raccoon",
+      "Rocky Racoon",
+      "Don’t Pass Me By",
+      "Don't Pass Me By",
+      "Why Don’t We Do It in the Road?",
+      "Why Don't We Do It in the Road",
+      "I Will",
+      "I Will",
+      "Julia",
+      "Julia"
+    ]
+  },
+  {
+    "artist": "The Notorious B.I.G.",
+    "album": "Life After Death",
+    "cover": "covers/TheNotoriousBIGLifeAfterDeath.webp",
+    "tracks": [
+      "Notorious Thugs",
+      "Miss U",
+      "Hypnotize",
+      "Another",
+      "Going Back to Cali",
+      "Ten Crack Commandments",
+      "Playa Hater",
+      "I Love the Dough",
+      "Nasty Boy",
+      "Sky’s the Limit",
+      "B.I.G. Interlude",
+      "Mo Money Mo Problems",
+      "You’re Nobody (Til Somebody Kills You)"
+    ]
+  },
+  {
     "artist": "The Notorious B.I.G.",
     "album": "Ready to Die",
     "cover": "covers/TheNotoriousBIGReadytoDie.webp",
@@ -2658,6 +3890,31 @@
       "Suicidal Thoughts",
       "Who Shot Ya",
       "Just Playing (Dreams)"
+    ]
+  },
+  {
+    "artist": "The Roots",
+    "album": "Things Fall Apart",
+    "cover": "covers/TheRootsThingsFallApart.webp",
+    "tracks": [
+      "Act Won (Things Fall Apart)",
+      "Table of Contents, Parts 1 & 2",
+      "The Next Movement",
+      "Step Into the Realm",
+      "The Spark",
+      "Dynamite!",
+      "Without a Doubt",
+      "Ain’t Sayin’ Nothin’ New",
+      "Double Trouble",
+      "Act Too (The Love of My Life)",
+      "100% Dundee",
+      "Diedre vs. Dice",
+      "Adrenaline!",
+      "3rd Acts: ? vs. Scratch 2… Electric Boogaloo",
+      "You Got Me",
+      "Don’t See Us",
+      "The Return to Innocence Lost",
+      "Act Fore… The End?"
     ]
   },
   {
@@ -2693,6 +3950,28 @@
       "I’ll Be Your Mirror",
       "The Black Angel’s Death Song",
       "European Son"
+    ]
+  },
+  {
+    "artist": "Thundercat",
+    "album": "Distracted",
+    "cover": "covers/ThundercatDistracted.webp",
+    "tracks": [
+      "Candlelight",
+      "No More Lies",
+      "She Knows Too Much",
+      "I Did This to Myself",
+      "Funny Friends",
+      "What Is Left to Say",
+      "I Wish I Didn’t Waste Your Time",
+      "Anakin Learns His Fate",
+      "Walking on the Moon",
+      "This Thing We Call Love",
+      "ThunderWave",
+      "Pozole",
+      "A.D.D. Through the Roof",
+      "Great Americans",
+      "You Left Without Saying Goodbye"
     ]
   },
   {
@@ -2742,6 +4021,31 @@
       "Alright for Now",
       "A Mind With a Heart of Its Own",
       "Zombie Zoo"
+    ]
+  },
+  {
+    "artist": "Tom Petty & the Heartbreakers",
+    "album": "Greatest Hits",
+    "cover": "covers/TomPettytheHeartbreakersGreatestHits.webp",
+    "tracks": [
+      "American Girl",
+      "Breakdown",
+      "Listen to Her Heart",
+      "I Need to Know",
+      "Refugee",
+      "Don’t Do Me Like That",
+      "Even the Losers",
+      "Here Comes My Girl",
+      "The Waiting",
+      "You Got Lucky",
+      "Don’t Come Around Here No More",
+      "I Won’t Back Down",
+      "Runnin’ Down a Dream",
+      "Free Fallin’",
+      "Learning to Fly",
+      "Into the Great Wide Open",
+      "Mary Jane’s Last Dance",
+      "Something in the Air"
     ]
   },
   {
@@ -2853,6 +4157,23 @@
   },
   {
     "artist": "Tyler, The Creator",
+    "album": "DON’T TAP THE GLASS",
+    "cover": "covers/TylerTheCreatorDONTTAPTHEGLASS.webp",
+    "tracks": [
+      "Big Poe",
+      "Sugar on My Tongue",
+      "Sucka Free",
+      "Mommanem",
+      "Stop Playing With Me",
+      "Ring Ring Ring",
+      "Don’t You Worry Baby",
+      "I’ll Take Care of You",
+      "Down Bad",
+      "Tell Me What It Is"
+    ]
+  },
+  {
+    "artist": "Tyler, The Creator",
     "album": "Flower Boy",
     "cover": "covers/TylerTheCreatorFlowerBoy.webp",
     "tracks": [
@@ -2905,1456 +4226,6 @@
       "C.R.E.A.M.",
       "Protect Ya Neck",
       "Tearz"
-    ]
-  },
-  {
-    "artist": "Billie Eilish",
-    "album": "HIT ME HARD AND SOFT",
-    "cover": "covers/BillieEilishHITMEHARDANDSOFT.webp",
-    "tracks": [
-      "SKINNY",
-      "LUNCH",
-      "CHIHIRO",
-      "BIRDS OF A FEATHER",
-      "WILDFLOWER",
-      "THE GREATEST",
-      "L’AMOUR DE MA VIE",
-      "THE DINER",
-      "BITTERSUITE",
-      "BLUE"
-    ]
-  },
-  {
-    "artist": "Boston",
-    "album": "Boston",
-    "cover": "covers/BostonBoston.webp",
-    "tracks": [
-      "More Than a Feeling",
-      "Foreplay / Long Time",
-      "Rock & Roll Band",
-      "Smokin'",
-      "Hitch a Ride",
-      "Something About You",
-      "Let Me Take You Home Tonight"
-    ]
-  },
-  {
-    "artist": "Erykah Badu",
-    "album": "Mama’s Gun",
-    "cover": "covers/MamasGun.webp",
-    "tracks": [
-      "Penitentiary Philosophy",
-      "Didn’t Cha Know",
-      "My Life",
-      "… & On",
-      "Cleva",
-      "Hey Sugah",
-      "Booty",
-      "Kiss Me on My Neck (Hesi)",
-      "A.D. 2000",
-      "Orange Moon",
-      "In Love With You",
-      "Bag Lady",
-      "Time’s a Wastin",
-      "Green Eyes"
-    ]
-  },
-  {
-    "artist": "The Jimi Hendrix Experience",
-    "album": "Electric Ladyland",
-    "cover": "covers/jimi_hendrix_electric_ladyland.webp",
-    "tracks": [
-      "…And the Gods Made Love",
-      "Have You Ever Been (to Electric Ladyland)",
-      "Crosstown Traffic",
-      "Voodoo Chile",
-      "Little Miss Strange",
-      "Long Hot Summer Night",
-      "Come On (Let the Good Times Roll)",
-      "Gypsy Eyes",
-      "Burning of the Midnight Lamp",
-      "1983… (A Merman I Should Turn to Be)",
-      "Moon, Turn the Tides… gently gently away",
-      "Still Raining, Still Dreaming",
-      "House Burning Down",
-      "All Along the Watchtower",
-      "Voodoo Child (slight return)"
-    ]
-  },
-  {
-    "artist": "Jim Croce",
-    "album": "I Got a Name",
-    "cover": "covers/JimCroceIGotaName.webp",
-    "tracks": [
-      "I Got a Name",
-      "Lover's Cross",
-      "Five Short Minutes",
-      "Age",
-      "Workin' at the Car Wash Blues",
-      "I'll Have to Say I Love You in a Song",
-      "Salon and Saloon",
-      "Thursday",
-      "Top Hat Bar and Grille",
-      "Recently",
-      "The Hard Way Every Time"
-    ]
-  },
-  {
-    "artist": "Jim Croce",
-    "album": "You Don’t Mess Around With Jim",
-    "cover": "covers/JimCroceYouDontMessAroundWithJim.webp",
-    "tracks": [
-      "You Don’t Mess Around With Jim",
-      "Tomorrow’s Gonna Be a Brighter Day",
-      "New York’s Not My Home",
-      "Hard Time Losin’ Man",
-      "A Long Time Ago",
-      "Walkin’ Back to Georgia",
-      "Operator (That’s Not the Way It Feels)",
-      "Time in a Bottle",
-      "Rapid Roy (The Stock Car Boy)",
-      "Box #10",
-      "Photographs and Memories",
-      "Hey Tomorrow"
-    ]
-  },
-  {
-    "artist": "Kendrick Lamar",
-    "album": "untitled unmastered.",
-    "cover": "covers/KendrickLamaruntitledunmastered.webp",
-    "tracks": [
-      "untitled 01 | 08.19.2014.",
-      "untitled 02 | 06.23.2014.",
-      "untitled 03 | 05.28.2013.",
-      "untitled 04 | 08.14.2014.",
-      "untitled 05 | 09.21.2014.",
-      "untitled 06 | 06.30.2014.",
-      "untitled 07 | 2014 - 2016",
-      "untitled 08 | 09.06.2014."
-    ]
-  },
-  {
-    "artist": "Killer Mike",
-    "album": "R.A.P. Music",
-    "cover": "covers/KillerMikeRAPMusic.webp",
-    "tracks": [
-      "Big Beast",
-      "Untitled",
-      "Go!",
-      "Southern Fried",
-      "Jojo's Chillin",
-      "Reagan",
-      "Don't Die",
-      "Ghetto Gospel",
-      "Butane (Champion's Anthem)",
-      "Anywhere But Here",
-      "Willie Burke Sherwood",
-      "R.A.P. Music"
-    ]
-  },
-  {
-    "artist": "Lana Del Rey",
-    "album": "Norman Fucking Rockwell!",
-    "cover": "covers/LanaDelReyNormanFuckingRockwell.webp",
-    "tracks": [
-      "California",
-      "Norman fucking Rockwell",
-      "Mariners apartment complex",
-      "The Next Best American Record",
-      "The greatest",
-      "Venice bitch",
-      "Bartender",
-      "Doin’ time",
-      "Happiness is a butterfly",
-      "hope is a dangerous thing for a woman like me to have – but I have it",
-      "Love song",
-      "Cinnamon Girl",
-      "How to disappear"
-    ]
-  },
-  {
-    "artist": "Lupe Fiasco",
-    "album": "Samurai",
-    "cover": "covers/LupeFiascoSamurai.webp",
-    "tracks": [
-      "Samurai",
-      "Mumble Rap",
-      "Cake",
-      "Palaces",
-      "No. 1 Headband",
-      "Bigfoot",
-      "Outside",
-      "Til Eternity"
-    ]
-  },
-  {
-    "artist": "Metallica",
-    "album": "Master of Puppets",
-    "cover": "covers/MetallicaMasterofPuppets.webp",
-    "tracks": [
-      "Battery",
-      "Master of Puppets",
-      "Leper Messiah",
-      "The Thing That Should Not Be",
-      "Orion",
-      "Welcome Home (Sanitarium)",
-      "Damage, Inc."
-    ]
-  },
-  {
-    "artist": "Neil Young",
-    "album": "Harvest Moon",
-    "cover": "covers/NeilYoungHarvestMoon.webp",
-    "tracks": [
-      "Unknown Legend",
-      "From Hank to Hendrix",
-      "You and Me",
-      "Harvest Moon",
-      "War of Man",
-      "One of These Days",
-      "Such a Woman",
-      "Old King",
-      "Dreamin’ Man",
-      "Natural Beauty"
-    ]
-  },
-  {
-    "artist": "Neutral Milk Hotel",
-    "album": "In the Aeroplane Over the Sea",
-    "cover": "covers/NeutralMilkHotelIntheAeroplaneOvertheSea.webp",
-    "tracks": [
-      "The King of Carrot Flowers, Pt. One",
-      "The King of Carrot Flowers, Pts. Two & Three",
-      "In the Aeroplane Over the Sea",
-      "Two-Headed Boy",
-      "The Fool",
-      "Holland, 1945",
-      "Communist Daughter",
-      "Oh Comely",
-      "Ghost",
-      "[untitled]",
-      "Two-Headed Boy, Pt. Two"
-    ]
-  },
-  {
-    "artist": "Nirvana",
-    "album": "Nevermind",
-    "cover": "covers/NirvanaNevermind.webp",
-    "tracks": [
-      "Smells Like Teen Spirit",
-      "In Bloom",
-      "Come as You Are",
-      "Breed",
-      "Lithium",
-      "Polly",
-      "Territorial Pissings",
-      "Drain You",
-      "Lounge Act",
-      "Stay Away",
-      "On a Plain",
-      "Something in the Way",
-      "Endless, Nameless"
-    ]
-  },
-  {
-    "artist": "OutKast",
-    "album": "Stankonia",
-    "cover": "covers/OutKastStankonia.webp",
-    "tracks": [
-      "Intro",
-      "Gasoline Dreams",
-      "I'm Cool (interlude)",
-      "So Fresh, So Clean",
-      "Ms. Jackson",
-      "Snappin' & Trappin'",
-      "D.F. (interlude)",
-      "Spaghetti Junction",
-      "Kim & Cookie (interlude)",
-      "I'll Call Before I Come",
-      "B.O.B.",
-      "Xplosion",
-      "Good Hair (interlude)",
-      "We Luv Deez Hoez",
-      "Humble Mumble",
-      "Drinkin' Again (interlude)",
-      "?",
-      "Red Velvet",
-      "Cruisin' in the ATL (interlude)",
-      "Gangsta Shit",
-      "Toilet Tisha",
-      "Slum Beautiful",
-      "Pre-Nump (interlude)",
-      "Stankonia (Stanklove)"
-    ]
-  },
-  {
-    "artist": "Rick Ross",
-    "album": "Teflon Don",
-    "cover": "covers/RickRossTeflonDon.webp",
-    "tracks": [
-      "I’m Not a Star",
-      "Free Mason",
-      "Tears of Joy",
-      "Maybach Music III",
-      "Live Fast, Die Young",
-      "Super High",
-      "No. 1",
-      "MC Hammer",
-      "B.M.F. (Blowin’ Money Fast)",
-      "Aston Martin Music",
-      "All the Money in the World",
-      "Audio Meth"
-    ]
-  },
-  {
-    "artist": "Simon and Garfunkel",
-    "album": "Bridge Over Troubled Water",
-    "cover": "covers/SimonandGarfunkelBridgeOverTroubledWater.webp",
-    "tracks": [
-      "Bridge Over Troubled Water",
-      "El cóndor pasa",
-      "Cecilia",
-      "Keep the Customer Satisfied",
-      "So Long, Frank Lloyd Wright",
-      "The Boxer",
-      "Baby Driver",
-      "The Only Living Boy in New York",
-      "Why Don’t You Write Me",
-      "Bye Bye Love",
-      "Song for the Asking"
-    ]
-  },
-  {
-    "artist": "Stevie Wonder",
-    "album": "Innervisions",
-    "cover": "covers/StevieWonderInnervisions.webp",
-    "tracks": [
-      "Too High",
-      "Visions",
-      "Living for the City",
-      "Golden Lady",
-      "Higher Ground",
-      "All in Love Is Fair",
-      "Don't You Worry 'bout a Thing",
-      "He's Misstra Know-It-All"
-    ]
-  },
-  {
-    "artist": "The Beatles",
-    "album": "Abbey Road",
-    "cover": "covers/TheBeatlesAbbeyRoad.webp",
-    "tracks": [
-      "Come Together (2019 stereo mix)",
-      "I Want You (She’s So Heavy) (Trident recording session & reduction mix)",
-      "Come Together (take 5)",
-      "Something (2019 stereo mix)",
-      "Goodbye (home demo)",
-      "The End (take 3)",
-      "Maxwell’s Silver Hammer (2019 stereo mix)",
-      "Something (studio demo)",
-      "Come and Get It (studio demo)",
-      "The Ballad of John and Yoko (take 7)",
-      "Sun King (take 20)",
-      "Octopus’s Garden (2019 stereo mix)",
-      "Old Brown Shoe (take 2)",
-      "Mean Mr Mustard (take 20)",
-      "I Want You (She’s So Heavy) (2019 stereo mix)",
-      "Oh! Darling (take 4)",
-      "Polythene Pam (take 27)",
-      "Here Comes the Sun (2019 stereo mix)",
-      "Octopus’s Garden (take 9)",
-      "She Came In Through the Bathroom Window (take 27)",
-      "Because (2019 stereo mix)",
-      "Because (take 1 / instrumental)",
-      "You Never Give Me Your Money (2019 stereo mix)",
-      "The Long One: You Never Give Me Your Money / Sun King / Mean Mr Mustard / Her Majesty / Polythene Pam / She Came In Through the Bathroom Window (trial edit & mix – 30 July 1969)",
-      "Sun King (2019 stereo mix)",
-      "Golden Slumbers / Carry That Weight (takes 1–3 / medley)",
-      "Something (take 39 / instrumental / strings only)",
-      "Mean Mr Mustard (2019 stereo mix)",
-      "Here Comes the Sun (take 9)",
-      "Golden Slumbers / Carry That Weight (take 17 / instrumental / strings & brass only)",
-      "Maxwell’s Silver Hammer (take 12)",
-      "She Came In Through the Bathroom Window (2019 stereo mix)",
-      "Golden Slumbers (2019 stereo mix)",
-      "Carry That Weight (2019 stereo mix)",
-      "The End (2019 stereo mix)",
-      "Her Majesty (2019 stereo mix)"
-    ]
-  },
-  {
-    "artist": "The Notorious B.I.G.",
-    "album": "Life After Death",
-    "cover": "covers/TheNotoriousBIGLifeAfterDeath.webp",
-    "tracks": [
-      "Notorious Thugs",
-      "Miss U",
-      "Hypnotize",
-      "Another",
-      "Going Back to Cali",
-      "Ten Crack Commandments",
-      "Playa Hater",
-      "I Love the Dough",
-      "Nasty Boy",
-      "Sky’s the Limit",
-      "B.I.G. Interlude",
-      "Mo Money Mo Problems",
-      "You’re Nobody (Til Somebody Kills You)"
-    ]
-  },
-  {
-    "artist": "The Roots",
-    "album": "Things Fall Apart",
-    "cover": "covers/TheRootsThingsFallApart.webp",
-    "tracks": [
-      "Act Won (Things Fall Apart)",
-      "Table of Contents, Parts 1 & 2",
-      "The Next Movement",
-      "Step Into the Realm",
-      "The Spark",
-      "Dynamite!",
-      "Without a Doubt",
-      "Ain’t Sayin’ Nothin’ New",
-      "Double Trouble",
-      "Act Too (The Love of My Life)",
-      "100% Dundee",
-      "Diedre vs. Dice",
-      "Adrenaline!",
-      "3rd Acts: ? vs. Scratch 2… Electric Boogaloo",
-      "You Got Me",
-      "Don’t See Us",
-      "The Return to Innocence Lost",
-      "Act Fore… The End?"
-    ]
-  },
-  {
-    "artist": "Tom Petty & the Heartbreakers",
-    "album": "Greatest Hits",
-    "cover": "covers/TomPettytheHeartbreakersGreatestHits.webp",
-    "tracks": [
-      "American Girl",
-      "Breakdown",
-      "Listen to Her Heart",
-      "I Need to Know",
-      "Refugee",
-      "Don’t Do Me Like That",
-      "Even the Losers",
-      "Here Comes My Girl",
-      "The Waiting",
-      "You Got Lucky",
-      "Don’t Come Around Here No More",
-      "I Won’t Back Down",
-      "Runnin’ Down a Dream",
-      "Free Fallin’",
-      "Learning to Fly",
-      "Into the Great Wide Open",
-      "Mary Jane’s Last Dance",
-      "Something in the Air"
-    ]
-  },
-  {
-    "artist": "Tyler, The Creator",
-    "album": "DON’T TAP THE GLASS",
-    "cover": "covers/TylerTheCreatorDONTTAPTHEGLASS.webp",
-    "tracks": [
-      "Big Poe",
-      "Sugar on My Tongue",
-      "Sucka Free",
-      "Mommanem",
-      "Stop Playing With Me",
-      "Ring Ring Ring",
-      "Don’t You Worry Baby",
-      "I’ll Take Care of You",
-      "Down Bad",
-      "Tell Me What It Is"
-    ]
-  },
-  {
-    "artist": "Charli xcx",
-    "album": "Brat and it’s completely different but also still brat",
-    "cover": "covers/CharlixcxBratanditscompletelydifferentbutalsostillbrat.webp",
-    "tracks": [
-      "360",
-      "360",
-      "Club classics",
-      "Club classics",
-      "Sympathy is a knife",
-      "Sympathy is a knife",
-      "I might say something stupid",
-      "I might say something stupid",
-      "Talk talk",
-      "Talk talk",
-      "Von dutch a. g. cook remix",
-      "Von dutch",
-      "Everything is romantic",
-      "Everything is romantic",
-      "Rewind",
-      "Rewind",
-      "So I",
-      "So I",
-      "Girl, so confusing",
-      "Girl, so confusing",
-      "Apple",
-      "Apple",
-      "B2b",
-      "B2b",
-      "Mean girls",
-      "Mean girls",
-      "I think about it all the time",
-      "I think about it all the time",
-      "365",
-      "365",
-      "Guess",
-      "Hello goodbye",
-      "Guess",
-      "Spring breakers"
-    ]
-  },
-  {
-    "artist": "Cameron Winter",
-    "album": "Heavy Metal",
-    "cover": "covers/CameronWinterHeavyMetal.webp",
-    "tracks": [
-      "The Rolling Stones",
-      "Nausicaä (Love Will Be Revealed)",
-      "Love Takes Miles",
-      "Drinking Age",
-      "Cancer of the Skull",
-      "Try as I May",
-      "We’re Thinking the Same Thing",
-      "Nina + Field of Cops",
-      "$0",
-      "Can’t Keep Anything"
-    ]
-  },
-  {
-    "artist": "Charli xcx",
-    "album": "Charli",
-    "cover": "covers/CharlixcxCharli.webp",
-    "tracks": [
-      "Next Level Charli",
-      "Gone",
-      "Cross You Out",
-      "1999",
-      "Click",
-      "Warm",
-      "Thoughts",
-      "Blame It on Your Love",
-      "White Mercedes",
-      "Silver Cross",
-      "I Don’t Wanna Know",
-      "Official",
-      "Shake It",
-      "February 2017",
-      "2099"
-    ]
-  },
-  {
-    "artist": "Deep Purple",
-    "album": "Machine Head",
-    "cover": "covers/DeepPurpleMachineHead.webp",
-    "tracks": [
-      "Highway Star",
-      "Maybe I’m a Leo",
-      "Pictures of Home",
-      "Never Before",
-      "Smoke on the Water",
-      "Lazy",
-      "Space Truckin’"
-    ]
-  },
-  {
-    "artist": "J Dilla",
-    "album": "Donuts",
-    "cover": "covers/JDillaDonuts.webp",
-    "tracks": [
-      "Donuts (outro)",
-      "Workinonit",
-      "Waves",
-      "Light My Fire",
-      "The New",
-      "Stop",
-      "People",
-      "The Diff’rence",
-      "Mash",
-      "Time: The Donut of the Heart",
-      "Glazed",
-      "Airworks",
-      "Lightworks",
-      "Stepson of the Clapper",
-      "The Twister (Huh, What)",
-      "One Eleven",
-      "Two Can Win",
-      "Don’t Cry",
-      "Anti‐American Graffiti",
-      "Geek Down",
-      "Thunder",
-      "Gobstopper",
-      "One for Ghost",
-      "Dilla Says Go",
-      "Walkinonit",
-      "The Factory",
-      "U‐Love",
-      "Hi.",
-      "Bye.",
-      "Last Donut of the Night",
-      "Welcome to the Show"
-    ]
-  },
-  {
-    "artist": "Lily Allen",
-    "album": "Alright, Still",
-    "cover": "covers/LilyAllenAlrightStill.webp",
-    "tracks": [
-      "Smile",
-      "Knock ’em Out",
-      "LDN",
-      "Everything’s Just Wonderful",
-      "Not Big",
-      "Friday Night",
-      "Shame for You",
-      "Littlest Things",
-      "Take What You Take",
-      "Friend of Mine",
-      "Alfie"
-    ]
-  },
-  {
-    "artist": "Lynyrd Skynyrd",
-    "album": "(pronounced ’lĕh‐’nérd ’skin‐’nérd)",
-    "cover": "covers/LynyrdSkynyrdpronouncedlhnrdskinnrd.webp",
-    "tracks": [
-      "I Ain’t the One",
-      "Tuesday’s Gone",
-      "Gimme Three Steps",
-      "Simple Man",
-      "Things Goin’ On",
-      "Mississippi Kid",
-      "Poison Whiskey",
-      "Free Bird"
-    ]
-  },
-  {
-    "artist": "Mötley Crüe",
-    "album": "Dr. Feelgood",
-    "cover": "covers/MtleyCreDrFeelgood.webp",
-    "tracks": [
-      "T.N.T. (Terror 'n Tinseltown)",
-      "Dr. Feelgood",
-      "Slice of Your Pie",
-      "Rattlesnake Shake",
-      "Kickstart My Heart",
-      "Without You",
-      "Same Ol' Situation (S.O.S.)",
-      "Sticky Sweet",
-      "She Goes Down",
-      "Don't Go Away Mad (Just Go Away)",
-      "Time for Change"
-    ]
-  },
-  {
-    "artist": "Pink Floyd",
-    "album": "The Dark Side of the Moon",
-    "cover": "covers/PinkFloydTheDarkSideoftheMoon.webp",
-    "tracks": [
-      "Speak to Me",
-      "Breathe (in the Air)",
-      "On the Run",
-      "Time",
-      "The Great Gig in the Sky",
-      "Money",
-      "Us and Them",
-      "Any Colour You Like",
-      "Brain Damage",
-      "Eclipse"
-    ]
-  },
-  {
-    "artist": "The Beatles",
-    "album": "Revolver",
-    "cover": "covers/TheBeatlesRevolver.webp",
-    "tracks": [
-      "Taxman",
-      "Eleanor Rigby",
-      "I’m Only Sleeping",
-      "Love You To",
-      "Here, There and Everywhere",
-      "Yellow Submarine",
-      "She Said She Said",
-      "Good Day Sunshine",
-      "And Your Bird Can Sing",
-      "For No One",
-      "Doctor Robert",
-      "I Want to Tell You",
-      "Got to Get You Into My Life",
-      "Tomorrow Never Knows"
-    ]
-  },
-  {
-    "artist": "Gorillaz",
-    "album": "Demon Days",
-    "cover": "covers/GorillazDemonDays.webp",
-    "tracks": [
-      "Intro",
-      "Last Living Souls",
-      "Kids With Guns",
-      "O Green World",
-      "Dirty Harry",
-      "Feel Good Inc.",
-      "El mañana",
-      "Every Planet We Reach Is Dead",
-      "November Has Come",
-      "All Alone",
-      "White Light",
-      "DARE",
-      "Fire Coming Out of the Monkey’s Head",
-      "Don’t Get Lost in Heaven",
-      "Demon Days"
-    ]
-  },
-  {
-    "artist": "Gorillaz",
-    "album": "Gorillaz",
-    "cover": "covers/GorillazGorillaz.webp",
-    "tracks": [
-      "Re-Hash",
-      "5/4",
-      "Tomorrow Comes Today",
-      "New Genious (Brother)",
-      "Clint Eastwood",
-      "Man Research (Clapper)",
-      "Punk",
-      "Sound Check (Gravity)",
-      "Double Bass",
-      "Rock the House",
-      "19-2000",
-      "Latin Simone (Qué pasa contigo)",
-      "Starshine",
-      "Slow Country",
-      "M1 A1",
-      "Clint Eastwood (Ed Case/Sweetie Irie refix) (edit)",
-      "19-2000 (Soulchild remix)"
-    ]
-  },
-  {
-    "artist": "Gorillaz",
-    "album": "Plastic Beach",
-    "cover": "covers/GorillazPlasticBeach.webp",
-    "tracks": [
-      "Orchestral Intro",
-      "Welcome to the World of the Plastic Beach",
-      "White Flag",
-      "Rhinestone Eyes",
-      "Stylo",
-      "Superfast Jellyfish",
-      "Empire Ants",
-      "Glitter Freeze",
-      "Some Kind of Nature",
-      "On Melancholy Hill",
-      "Broken",
-      "Sweepstakes",
-      "Plastic Beach",
-      "To Binge",
-      "Cloud of Unknowing",
-      "Pirate Jet"
-    ]
-  },
-  {
-    "artist": "James Blake",
-    "album": "Trying Times",
-    "cover": "covers/JamesBlakeTryingTimes.webp",
-    "tracks": [
-      "Walk Out Music",
-      "Death of Love",
-      "I Had a Dream She Took My Hand",
-      "Trying Times",
-      "Make Something Up",
-      "Didn’t Come to Argue",
-      "Days Go By",
-      "Doesn’t Just Happen",
-      "Obsession",
-      "Rest of Your Life",
-      "Through the High Wire",
-      "Feel It Again",
-      "Just a Little Higher"
-    ]
-  },
-  {
-    "artist": "Daft Punk",
-    "album": "Discovery",
-    "cover": "covers/DaftPunkDiscovery.webp",
-    "tracks": [
-      "One More Time",
-      "Aerodynamic",
-      "Digital Love",
-      "Harder, Better, Faster, Stronger",
-      "Crescendolls",
-      "Nightvision",
-      "Superheroes",
-      "High Life",
-      "Something About Us",
-      "Voyager",
-      "Veridis Quo",
-      "Short Circuit",
-      "Face to Face",
-      "Too Long"
-    ]
-  },
-  {
-    "artist": "Fiona Apple",
-    "album": "Fetch the Bolt Cutters",
-    "cover": "covers/FionaAppleFetchtheBoltCutters.webp",
-    "tracks": [
-      "I Want You to Love Me",
-      "Ladies",
-      "Heavy Balloon",
-      "Shameika",
-      "Cosmonauts",
-      "Fetch the Bolt Cutters",
-      "For Her",
-      "Under the Table",
-      "Drumset",
-      "Relay",
-      "On I Go",
-      "Rack of His",
-      "Newspaper"
-    ]
-  },
-  {
-    "artist": "the Microphones",
-    "album": "the Glow, pt. 2",
-    "cover": "covers/theMicrophonestheGlowpt2.webp",
-    "tracks": [
-      "I Want Wind to Blow",
-      "the Glow, pt. 2",
-      "the Moon",
-      "Headless Horseman",
-      "My Roots Are Strong and Deep",
-      "instrumental",
-      "the Mansion",
-      "(something)",
-      "(something)",
-      "I’ll Not Contain You",
-      "the Gleam, pt. 2",
-      "Map",
-      "You’ll Be in the Air",
-      "I Want to Be Cold",
-      "I Am Bored",
-      "I Felt My Size",
-      "instrumental",
-      "I Felt Your Shape",
-      "Samurai Sword",
-      "My Warm Blood"
-    ]
-  },
-  {
-    "artist": "Sufjan Stevens",
-    "album": "Illinois",
-    "cover": "covers/SufjanStevensIllinois.webp",
-    "tracks": [
-      "Concerning the UFO Sighting Near Highland, Illinois",
-      "The Black Hawk War, or, How to Demolish an Entire Civilization and Still Feel Good About Yourself in the Morning, or, We Apologize for the Inconvenience but You’re Going to Have to Leave Now, or, “I Have Fought the Big Knives and Will Continue to Fight Them Until They Are Off Our Lands!”",
-      "Come On! Feel the Illinoise! Part I: The World’s Columbian Exposition, Part II: Carl Sandburg Visits Me in a Dream",
-      "John Wayne Gacy, Jr.",
-      "Jacksonville",
-      "A Short Reprise for Mary Todd, Who Went Insane, but for Very Good Reasons",
-      "Decatur, or, Round of Applause for Your Stepmother!",
-      "One Last “Whoo‐Hoo!” for the Pullman",
-      "Chicago",
-      "Casimir Pulaski Day",
-      "To the Workers of the Rockford River Valley Region, I Have an Idea Concerning Your Predicament",
-      "The Man of Metropolis Steals Our Hearts",
-      "Prairie Fire That Wanders About",
-      "A Conjunction of Drones Simulating the Way in Which Sufjan Stevens Has an Existential Crisis in the Great Godfrey Maze",
-      "The Predatory Wasp of the Palisades Is Out to Get Us!",
-      "They Are Night Zombies!! They Are Neighbors!! They Have Come Back From the Dead!! Ahhhh!",
-      "Let’s Hear That String Part Again, Because I Don’t Think They Heard It All the Way Out in Bushnell",
-      "In This Temple as in the Hearts of Man for Whom He Saved the Earth",
-      "The Seer’s Tower",
-      "The Tallest Man, the Broadest Shoulders, Part I: The Great Frontier, Part II: Come to Me Only With Playthings Now",
-      "Riffs and Variations on a Single Note for Jelly Roll, Earl Hines, Louis Armstrong, Baby Dodds, and the King of Swing, to Name a Few",
-      "Out of Egypt, Into the Great Laugh of Mankind, and I Shake the Dirt From My Sandals as I Run"
-    ]
-  },
-  {
-    "artist": "Bo Burnham",
-    "album": "THE INSIDE OUTTAKES",
-    "cover": "covers/BoBurnhamTHEINSIDEOUTTAKES.webp",
-    "tracks": [
-      "Bezos III",
-      "The Future",
-      "WTFIGO",
-      "1985",
-      "Feel Good",
-      "Five Years",
-      "Biden",
-      "Microwave Popcorn",
-      "Bezos IV",
-      "Spider",
-      "This Isn’t A Joke",
-      "The Chicken"
-    ]
-  },
-  {
-    "artist": "Fiona Apple",
-    "album": "The Idler Wheel Is Wiser Than the Driver of the Screw and Whipping Cords Will Serve You More Than Ropes Will Ever Do",
-    "cover": "covers/FionaAppleTheIdlerWheelIsWiserThantheDriveroftheScrewandWhippingCordsWillServeYouMoreThanRopesWillEverDo.webp",
-    "tracks": [
-      "Every Single Night",
-      "Daredevil",
-      "Valentine",
-      "Jonathan",
-      "Left Alone",
-      "Werewolf",
-      "Periphery",
-      "Regret",
-      "Anything We Want",
-      "Hot Knife",
-      "Largo"
-    ]
-  },
-  {
-    "artist": "Fiona Apple",
-    "album": "When the Pawn",
-    "cover": "covers/FionaAppleWhenthePawn.webp",
-    "tracks": [
-      "On the Bound",
-      "To Your Love",
-      "Limp",
-      "Love Ridden",
-      "Paper Bag",
-      "A Mistake",
-      "Fast as You Can",
-      "The Way Things Are",
-      "Get Gone",
-      "I Know"
-    ]
-  },
-  {
-    "artist": "The Beatles",
-    "album": "The Beatles",
-    "cover": "covers/TheBeatlesTheBeatles.webp",
-    "tracks": [
-      "Back in the U.S.S.R.",
-      "Back in the U.S.S.R.",
-      "Birthday",
-      "Birthday",
-      "Dear Prudence",
-      "Dear Prudence",
-      "Yer Blues",
-      "Yer Blues",
-      "Glass Onion",
-      "Glass Onion",
-      "Mother Nature’s Son",
-      "Mother Nature's Son",
-      "Everybody’s Got Something to Hide Except Me and My Monkey",
-      "Everybody's Got Something to Hide Except Me and My Monkey",
-      "Ob‐La‐Di, Ob‐La‐Da",
-      "Ob-La-Di, Ob-La-Da",
-      "Sexy Sadie",
-      "Sexy Sadie",
-      "Wild Honey Pie",
-      "Wild Honey Pie",
-      "Helter Skelter",
-      "Helter Skelter",
-      "The Continuing Story of Bungalow Bill",
-      "The Continuing Story of Bungalow Bill",
-      "Long, Long, Long",
-      "Long, Long, Long",
-      "While My Guitar Gently Weeps",
-      "While My Guitar Gently Weeps",
-      "Happiness Is a Warm Gun",
-      "Happiness Is a Warm Gun",
-      "Revolution 1",
-      "Revolution 1",
-      "Honey Pie",
-      "Honey Pie",
-      "Martha My Dear",
-      "Martha My Dear",
-      "I’m So Tired",
-      "I'm So Tired",
-      "Savoy Truffle",
-      "Savoy Truffle",
-      "Blackbird",
-      "Blackbird",
-      "Cry Baby Cry",
-      "Cry Baby Cry",
-      "Piggies",
-      "Piggies",
-      "Revolution 9",
-      "Revolution 9",
-      "Good Night",
-      "Good Night",
-      "Rocky Raccoon",
-      "Rocky Racoon",
-      "Don’t Pass Me By",
-      "Don't Pass Me By",
-      "Why Don’t We Do It in the Road?",
-      "Why Don't We Do It in the Road",
-      "I Will",
-      "I Will",
-      "Julia",
-      "Julia"
-    ]
-  },
-  {
-    "artist": "Alice Coltrane",
-    "album": "Journey in Satchidananda",
-    "cover": "covers/AliceColtraneJourneyinSatchidananda.webp",
-    "tracks": [
-      "Journey in Satchidananda",
-      "Shiva‐Loka",
-      "Stopover Bombay",
-      "Something About John Coltrane",
-      "Isis and Osiris"
-    ]
-  },
-  {
-    "artist": "Aphex Twin",
-    "album": "Selected Ambient Works 85–92",
-    "cover": "covers/AphexTwinSelectedAmbientWorks8592.webp",
-    "tracks": [
-      "Xtal",
-      "Tha",
-      "Pulsewidth",
-      "Ageispolis",
-      "i",
-      "Green Calx",
-      "Heliosphan",
-      "We are the music makers",
-      "Schottkey 7th Path",
-      "Ptolemy",
-      "Hedphelym",
-      "Delphium",
-      "Actium"
-    ]
-  },
-  {
-    "artist": "Captain Beefheart & His Magic Band",
-    "album": "Trout Mask Replica",
-    "cover": "covers/CaptainBeefheartHisMagicBandTroutMaskReplica.webp",
-    "tracks": [
-      "Frownland",
-      "The Dust Blows Forward ’n the Dust Blows Back",
-      "Dachau Blues",
-      "Ella Guru",
-      "Hair Pie: Bake 1",
-      "Moonlight on Vermont",
-      "Pachuco Cadaver",
-      "Bills Corpse",
-      "Sweet Sweet Bulbs",
-      "Neon Meate Dream of a Octafish",
-      "China Pig",
-      "My Human Gets Me Blues",
-      "Dali’s Car",
-      "Hair Pie: Bake 2",
-      "Pena",
-      "Well",
-      "When Big Joan Sets Up",
-      "Fallin’ Ditch",
-      "Sugar ’n Spikes",
-      "Ant Man Bee",
-      "Orange Claw Hammer",
-      "Wild Life",
-      "She’s Too Much for My Mirror",
-      "Hobo Chang Ba",
-      "The Blimp (Mousetrapreplica)",
-      "Steal Softly Thru Snow",
-      "Old Fart at Play",
-      "Veteran’s Day Poppy"
-    ]
-  },
-  {
-    "artist": "D’Angelo",
-    "album": "Brown Sugar",
-    "cover": "covers/DAngeloBrownSugar.webp",
-    "tracks": [
-      "Brown Sugar",
-      "Alright",
-      "Jonz in My Bonz",
-      "Me and Those Dreamin’ Eyes of Mine",
-      "Smooth",
-      "Cruisin’",
-      "When We Get By",
-      "Lady",
-      "Higher"
-    ]
-  },
-  {
-    "artist": "De La Soul",
-    "album": "3 Feet High and Rising",
-    "cover": "covers/DeLaSoul3FeetHighandRising.webp",
-    "tracks": [
-      "Intro",
-      "The Magic Number",
-      "Change in Speak",
-      "Cool Breeze on the Rocks",
-      "Can U Keep a Secret",
-      "Jenifa Taught Me (Derwin’s Revenge)",
-      "Ghetto Thang",
-      "Transmitting Live From Mars",
-      "Eye Know",
-      "Take It Off",
-      "A Little Bit of Soap",
-      "Tread Water",
-      "Say No Go",
-      "Do as De La Does",
-      "Plug Tunin’ (Last Chance to Comprehend)",
-      "Da La Orgee",
-      "Buddy",
-      "Description",
-      "Me Myself and I",
-      "This Is a Recording 4 Living in a Full Time Era (L.I.F.E.)",
-      "I Can Do Anything (Delacratic)",
-      "D.A.I.S.Y. Age",
-      "Potholes in My Lawn"
-    ]
-  },
-  {
-    "artist": "De La Soul",
-    "album": "De La Soul Is Dead",
-    "cover": "covers/DeLaSoulDeLaSoulIsDead.webp",
-    "tracks": [
-      "Intro",
-      "Oodles of O’s",
-      "Talkin’ Bout Hey Love",
-      "Pease Porridge",
-      "Skit 1",
-      "Johnny’s Dead a.k.a. Vincent Mason (live from the BK Lounge)",
-      "A Roller Skating Jam Named “Saturdays”",
-      "WRMS’ Dedication to the Bitty",
-      "Bitties in the BK Lounge",
-      "Skit 2",
-      "My Brother’s a Basehead",
-      "Let, Let Me In",
-      "Afro Connections at a Hi 5 (In the Eye of the Hoodlum)",
-      "Rap De Rap Show",
-      "Millie Pulled a Pistol on Santa",
-      "Who Do U Worship",
-      "Skit 3",
-      "Kicked Out the House",
-      "Pass the Plugs",
-      "Not Over Till the Fat Lady Plays the Demo",
-      "Ring Ring Ring (Ha Ha Hey)",
-      "WRMS: Cat’s in Control",
-      "Skit 4",
-      "Shwingalokate",
-      "Fanatic of the B Word",
-      "Keepin’ the Faith",
-      "Skit 5"
-    ]
-  },
-  {
-    "artist": "DMX",
-    "album": "It’s Dark and Hell Is Hot",
-    "cover": null,
-    "tracks": [
-      "Intro",
-      "Ruff Ryders’ Anthem",
-      "The Storm (skit)",
-      "Look Thru My Eyes",
-      "Get at Me Dog",
-      "Let Me Fly",
-      "X‐Is Coming",
-      "Damien",
-      "How’s It Goin’ Down",
-      "Mickey (skit)",
-      "Crime Story",
-      "Stop Being Greedy",
-      "ATF",
-      "For My Dogs",
-      "I Can Feel It",
-      "Prayer (skit)",
-      "The Convo",
-      "Niggaz Done Started Something"
-    ]
-  },
-  {
-    "artist": "Jill Scott",
-    "album": "Who Is Jill Scott? Words and Sounds, Vol. 1",
-    "cover": "covers/JillScottWhoIsJillScottWordsandSoundsVol1.webp",
-    "tracks": [
-      "Jilltro",
-      "Do You Remember",
-      "Exclusively",
-      "Gettin’ in the Way",
-      "A Long Walk",
-      "I Think It’s Better",
-      "He Loves Me (Lyzel in E‐Flat)",
-      "It’s Love",
-      "The Way",
-      "Honey Molasses",
-      "Love Rain",
-      "The Roots (interlude)",
-      "Slowly Surely",
-      "One Is the Magic #",
-      "Watching Me",
-      "Brotha",
-      "Show Me",
-      "Try",
-      "Love Rain (Head Nod mix)"
-    ]
-  },
-  {
-    "artist": "JPEGMAFIA & Danny Brown",
-    "album": "SCARING THE HOES",
-    "cover": "covers/JPEGMAFIADannyBrownSCARINGTHEHOES.webp",
-    "tracks": [
-      "LEAN BEEF PATTY",
-      "STEPPA PIG",
-      "SCARING THE HOES",
-      "GARBAGE PALE KIDS",
-      "FENTANYL TESTER",
-      "BURFICT!",
-      "SHUT YO BITCH ASS UP",
-      "ORANGE JUICE JONES",
-      "KINGDOM HEARTS KEY",
-      "GOD LOVES YOU",
-      "RUN THE JEWELS",
-      "JACK HARLOW COMBO MEAL",
-      "HOE (HEAVEN AND EARTH)",
-      "WHERE YA GET YA COKE FROM"
-    ]
-  },
-  {
-    "artist": "Lana Del Rey",
-    "album": "Did you know that there’s a tunnel under Ocean Blvd",
-    "cover": "covers/LanaDelReyDidyouknowthattheresatunnelunderOceanBlvd.webp",
-    "tracks": [
-      "The Grants",
-      "Did you know that there’s a tunnel under Ocean Blvd",
-      "Sweet",
-      "A&W",
-      "Judah Smith Interlude",
-      "Candy Necklace",
-      "Jon Batiste Interlude",
-      "Kintsugi",
-      "Fingertips",
-      "Paris, Texas",
-      "Grandfather please stand on the shoulders of my father while he’s deep‐sea fishing",
-      "Let the Light In",
-      "Margaret",
-      "Fishtail",
-      "Peppers",
-      "Taco Truck × VB"
-    ]
-  },
-  {
-    "artist": "Leon Thomas",
-    "album": "MUTT",
-    "cover": "covers/LeonThomasMUTT.webp",
-    "tracks": [
-      "HOW FAST",
-      "SAFE PLACE",
-      "DANCING WITH DEMONS",
-      "VIBES DON'T LIE",
-      "LUCID DREAMS",
-      "FEELINGS ON SILENT",
-      "ANSWER YOUR PHONE",
-      "YES IT IS",
-      "FAR FETCHED",
-      "SOONER OR LATER",
-      "MUTT",
-      "I DO",
-      "I USED TO",
-      "MUTT (REMIX)"
-    ]
-  },
-  {
-    "artist": "MF DOOM",
-    "album": "Born Like This",
-    "cover": "covers/MFDOOMBornLikeThis.webp",
-    "tracks": [
-      "Supervillain",
-      "Supervillain",
-      "Gazzillion Ear",
-      "Gazzillion Ear",
-      "Gazzillion Ear",
-      "Gazzillion Ear",
-      "Ballskin",
-      "Yessir!",
-      "Absolutely",
-      "Rap Ambush",
-      "Lightworks",
-      "Batty Boyz",
-      "Angelz",
-      "Cellz",
-      "Still Dope",
-      "Microwave Mayo",
-      "More Rhymin’",
-      "More Rhymin’",
-      "More Rhymin’",
-      "That’s That",
-      "Thank Ya"
-    ]
-  },
-  {
-    "artist": "MF DOOM",
-    "album": "MM..FOOD",
-    "cover": "covers/MFDOOMMMFOOD.webp",
-    "tracks": [
-      "Beef Rapp",
-      "Fig Leaf Bi‐Carbonate",
-      "Hoe Cakes",
-      "Kon Karne",
-      "Guinesses",
-      "Potholderz",
-      "Kon Queso",
-      "One Beer",
-      "Deep Fried Frenz",
-      "Rapp Snitch Knishes",
-      "Poo‐Putt Platter",
-      "Vomitspit",
-      "Fillet‐O‐Rapper",
-      "Kookies",
-      "Gumbo"
-    ]
-  },
-  {
-    "artist": "MF DOOM",
-    "album": "Operation: Doomsday",
-    "cover": "covers/MFDOOMOperationDoomsday.webp",
-    "tracks": [
-      "The Time We Faced DOOM (skit)",
-      "Doomsday",
-      "Doomsday",
-      "I Hear Voices, Part One (instrumental)",
-      "Rhymes Like Dimes",
-      "Rhymes Like Dimes",
-      "The Finest",
-      "The Finest",
-      "Back in the Days (skit)",
-      "Go With the Flow",
-      "Go With the Flow",
-      "Go With the Flow",
-      "Tick, Tick…",
-      "Tick, Tick…",
-      "Red and Gold",
-      "Red and Gold",
-      "Red and Gold",
-      "The Hands of DOOM (skit)",
-      "The Hands of DOOM (skit)",
-      "Who You Think I Am?",
-      "Who You Think I Am?",
-      "DOOM, Are You Awake? (skit)",
-      "Hey!",
-      "Hey!",
-      "Hey!",
-      "Operation: Greenbacks",
-      "Operation: Greenbacks",
-      "Operation: Greenbacks",
-      "The Mic",
-      "The Mic",
-      "The Mystery of DOOM (skit)",
-      "Dead Bent",
-      "Dead Bent",
-      "Dead Bent",
-      "Dead Bent",
-      "Gas Drawls",
-      "Gas Drawls",
-      "Gas Drawls",
-      "Gas Drawls",
-      "?",
-      "I Hear Voices, Part One",
-      "I Hear Voices",
-      "I Hear Voices"
-    ]
-  },
-  {
-    "artist": "Mobb Deep",
-    "album": "The Infamous…",
-    "cover": "covers/MobbDeepTheInfamous.webp",
-    "tracks": [
-      "The Start of Your Ending (41st Side)",
-      "Trife Life",
-      "Q.U. - Hectic",
-      "[The Infamous Prelude]",
-      "Right Back at You",
-      "Survival of the Fittest",
-      "Eye for an Eye (Your Beef Is Mines)",
-      "[The Grave Prelude]",
-      "Cradle to the Grave",
-      "[Just Step Prelude]",
-      "Drink Away the Pain (Situations)",
-      "Give Up the Goods (Just Step)",
-      "Give Up the Goods (Just Step)",
-      "Shook Ones, Pt. II",
-      "Temperature’s Rising",
-      "Party Over",
-      "Up North Trip"
-    ]
-  },
-  {
-    "artist": "Public Enemy",
-    "album": "It Takes a Nation of Millions to Hold Us Back",
-    "cover": "covers/PublicEnemyItTakesaNationofMillionstoHoldUsBack.webp",
-    "tracks": [
-      "Countdown to Armageddon",
-      "Bring the Noise",
-      "Don’t Believe the Hype",
-      "Cold Lampin’ With Flavor",
-      "Terminator X to the Edge of Panic",
-      "Mind Terrorist",
-      "Louder Than a Bomb",
-      "Caught, Can We Get a Witness?",
-      "Show ’em Whatcha Got",
-      "She Watch Channel Zero?!",
-      "Night of the Living Baseheads",
-      "Black Steel in the Hour of Chaos",
-      "Security of the First World",
-      "Rebel Without a Pause",
-      "Prophets of Rage",
-      "Party for Your Right to Fight"
-    ]
-  },
-  {
-    "artist": "Kendrick Lamar",
-    "album": null,
-    "cover": "covers/KendrickLamarNone.webp",
-    "tracks": [
-      "euphoria",
-      "Future, Metro Boomin, Kendrick Lamar - Like That (Official Audio)",
-      "Kendrick Lamar - 6:16 IN LA (Drake Diss)",
-      "Kendrick Lamar - Control (Lyrics HD) (Kendrick Verse ONLY)",
-      "meet the grahams",
-      "Not Like Us"
-    ]
-  },
-  {
-    "artist": "Neurosis",
-    "album": "An Undying Love for a Burning World",
-    "cover": "covers/NeurosisAnUndyingLoveforaBurningWorld.webp",
-    "tracks": [
-      "We Are Torn Wide Open",
-      "Mirror Deep",
-      "First Red Rays",
-      "Blind",
-      "Seething and Scattered",
-      "Untethered",
-      "In the Waiting Hours",
-      "Last Light"
-    ]
-  },
-  {
-    "artist": "Thundercat",
-    "album": "Distracted",
-    "cover": "covers/ThundercatDistracted.webp",
-    "tracks": [
-      "Candlelight",
-      "No More Lies",
-      "She Knows Too Much",
-      "I Did This to Myself",
-      "Funny Friends",
-      "What Is Left to Say",
-      "I Wish I Didn’t Waste Your Time",
-      "Anakin Learns His Fate",
-      "Walking on the Moon",
-      "This Thing We Call Love",
-      "ThunderWave",
-      "Pozole",
-      "A.D.D. Through the Roof",
-      "Great Americans",
-      "You Left Without Saying Goodbye"
     ]
   },
   {
@@ -4781,303 +4652,6 @@
     ]
   },
   {
-    "artist": "KNEECAP",
-    "album": "3cag",
-    "cover": "covers/KNEECAP3cag.webp",
-    "tracks": [
-      "Your All Legitimate Targets",
-      "Amach Anocht",
-      "Amach Anocht",
-      "Tá na Baggies ar an Talamh",
-      "Incognito",
-      "Ceacht Mo Chara",
-      "Your Sniffer Dogs Are Shite",
-      "Bouncers"
-    ]
-  },
-  {
-    "artist": "KNEECAP",
-    "album": "Fine Art",
-    "cover": "covers/KNEECAPFineArt.webp",
-    "tracks": [
-      "3CAG",
-      "Fine Art",
-      "Interlude: Making Headlines",
-      "I bhFiacha Linne",
-      "Interlude: Never Gets a Round",
-      "I’m Flush",
-      "Interlude: State of Ya",
-      "Better Way to Live",
-      "Sick in the Head",
-      "Love Making",
-      "Interlude: Amhrán na Scadán",
-      "Drug Dealin Pagans",
-      "Interlude: KNEECAP Chaps",
-      "Harrow Road",
-      "Parful",
-      "Rhino Ket",
-      "Interlude: Last Orders",
-      "Way Too Much"
-    ]
-  },
-  {
-    "artist": "Vince Staples",
-    "album": "Big Fish Theory",
-    "cover": "covers/VinceStaplesBigFishTheory.webp",
-    "tracks": [
-      "Crabs in a Bucket",
-      "Big Fish",
-      "Alyssa Interlude",
-      "Love Can Be…",
-      "745",
-      "Ramona Park is Yankee Stadium",
-      "Yeah Right",
-      "Homage",
-      "Samo",
-      "Party People",
-      "BagBak",
-      "Rain Come Down"
-    ]
-  },
-  {
-    "artist": "Vince Staples",
-    "album": "Dark Times",
-    "cover": "covers/VinceStaplesDarkTimes.webp",
-    "tracks": [
-      "Close Your Eyes and Swing",
-      "Black&Blue",
-      "Government Cheese",
-      "Children’s Song",
-      "Shame on the Devil",
-      "Étouffée",
-      "Liars",
-      "Justin",
-      "\"Radio\"",
-      "Nothing Matters",
-      "Little Homies",
-      "Freeman",
-      "Why Won’t the Sun Come Out?"
-    ]
-  },
-  {
-    "artist": "Vince Staples",
-    "album": "RAMONA PARK BROKE MY HEART",
-    "cover": "covers/VinceStaplesRAMONAPARKBROKEMYHEART.webp",
-    "tracks": [
-      "THE BEACH",
-      "AYE! (FREE THE HOMIES)",
-      "DJ QUIK",
-      "MAGIC",
-      "NAMELESS",
-      "WHEN SPARKS FLY",
-      "EAST POINT PRAYER",
-      "SLIDE",
-      "PAPERCUTS",
-      "LEMONADE",
-      "PLAYER WAYS",
-      "MAMA’S BOY",
-      "BANG THAT",
-      "THE SPIRIT OF MONSTER KODY",
-      "ROSE STREET",
-      "THE BLUES"
-    ]
-  },
-  {
-    "artist": "Vince Staples",
-    "album": "Summertime ’06",
-    "cover": "covers/VinceStaplesSummertime06.webp",
-    "tracks": [
-      "Ramona Park Legend, Pt. 1",
-      "Ramona Park Legend, Pt. 2",
-      "3230",
-      "Lift Me Up",
-      "Norf Norf",
-      "Surf",
-      "Birds & Bees",
-      "Might Be Wrong",
-      "Get Paid",
-      "Loca",
-      "Lemme Know",
-      "Street Punks",
-      "Dopeman",
-      "Hang N’ Bang",
-      "C.N.B.",
-      "Jump off the Roof",
-      "Like It Is",
-      "Señorita",
-      "’06",
-      "Summertime"
-    ]
-  },
-  {
-    "artist": "Vince Staples",
-    "album": "Vince Staples",
-    "cover": "covers/VinceStaplesVinceStaples.webp",
-    "tracks": [
-      "ARE YOU WITH THAT?",
-      "LAW OF AVERAGES",
-      "SUNDOWN TOWN",
-      "THE SHINING",
-      "TAKING TRIPS",
-      "THE APPLE & THE TREE",
-      "TAKE ME HOME",
-      "LIL FADE",
-      "LAKEWOOD MALL",
-      "MHM"
-    ]
-  },
-  {
-    "artist": "IDK",
-    "album": "BRAVADO INTiMO…",
-    "cover": "covers/IDKBRAVADOINTiMO.webp",
-    "tracks": [
-      "…",
-      "HELLO",
-      "CELiNE iN THE TRAP (B)",
-      "MARiO COiNS (B)",
-      "S.U (B)",
-      "TiFFANY (B)",
-      "KiCKiN! (B)",
-      "STiLL i (i) (DENiM DEMO)",
-      "DENiM (B)",
-      "MiLES TRUMPET 2 (i)",
-      "MiLES TRUMPET (i)",
-      "RiCH MAN DREAMS (i)",
-      "CHECK! (B)",
-      "FLOW (B.i)",
-      "PAPERCUTS (i)",
-      "SWiTCH (i)",
-      "SUPERNOVA (i)",
-      "SEE YOU AGAiN (B.i.)",
-      "GOODBi",
-      "SUPERNOVA (acoustic)"
-    ]
-  },
-  {
-    "artist": "IDK",
-    "album": "F65",
-    "cover": "covers/IDKF65.webp",
-    "tracks": [
-      "Cape Coast",
-      "Pit Stop",
-      "Thug Tear",
-      "Champs-Élysées",
-      "Salty",
-      "D.S.T.P",
-      "Mr. Police",
-      "Pinot Noir",
-      "Paperchaser",
-      "Elmina",
-      "Georgetown",
-      "Radioactive",
-      "Know Interlude",
-      "Télé Couleur",
-      "Rabbit Stew",
-      "850 (We on Top)",
-      "Middle Passage",
-      "Still Your Man",
-      "St. Nicholas & 118th",
-      "Up the Score",
-      "Superwoman",
-      "Freetown"
-    ]
-  },
-  {
-    "artist": "IDK",
-    "album": "Simple.",
-    "cover": "covers/IDKSimple.webp",
-    "tracks": [
-      "Drugstore",
-      "Southeast to Paris",
-      "Dog Food",
-      "Zaza Tree",
-      "Breathe",
-      "Taco",
-      "The Code",
-      "Paris to Southeast"
-    ]
-  },
-  {
-    "artist": "JPEGMAFIA",
-    "album": "EXPERIMENTAL RAP",
-    "cover": "covers/JPEGMAFIAEXPERIMENTALRAP.webp",
-    "tracks": [
-      "投影の芸術",
-      "babygirl",
-      "Burning Hammer",
-      "$ (Money)",
-      "Pop this Heat",
-      "Meet the Dealers",
-      "head",
-      "Degenerates Prayer",
-      "The Ghost of Emmett Till",
-      "Since I Met Ye",
-      "¥ (Yen)",
-      "GYBB",
-      "TSAR BOMBA",
-      "Mask On",
-      "His Will",
-      "Lights",
-      "New Era",
-      "One Day it Will Be Over",
-      "War Over Land",
-      "Bridges on Fire",
-      "No Strippers in Heaven",
-      "內戰",
-      "Chat",
-      "The 1st Amendment",
-      "You will always lose money chasing women, but you will never lose women chasing money"
-    ]
-  },
-  {
-    "artist": "Tune-Yards",
-    "album": "I Love Boosters (Original Motion Picture Score)",
-    "cover": "covers/TuneYardsILoveBoostersOriginalMotionPictureScore.webp",
-    "tracks": [
-      "Hi Ho",
-      "Lonely Plunk",
-      "Bossa Plunk",
-      "Pinky Ring Dude",
-      "Documentary Muzak",
-      "Clown Theme",
-      "Dr. Jack",
-      "Corvasieracy",
-      "Boosting",
-      "Hi Ho Wild Vamp",
-      "The Stolen Design",
-      "You Don't Have a Plan?",
-      "Metrofunk",
-      "Jianhu",
-      "Situational Accelerator",
-      "Skinless",
-      "Epic Chase, Pt. 1",
-      "Epic Chase, Pt. 2",
-      "Mall Rage",
-      "Foot Chase",
-      "Three Devices",
-      "Triumph",
-      "Touching the World",
-      "Hi Ho (Extended)"
-    ]
-  },
-  {
-    "artist": "Vince Staples",
-    "album": "Cry Baby",
-    "cover": "covers/VinceStaplesCryBaby.webp",
-    "tracks": [
-      "Blackberry Marmalade",
-      "Go! Go! Gorilla",
-      "White Flag",
-      "The Running Man",
-      "TV Guide",
-      "The Big Bad Wolf",
-      "Only in America",
-      "Do You Know the Devil",
-      "Cotton",
-      "7 in the Morning"
-    ]
-  },
-  {
     "artist": "Common",
     "album": "Be",
     "cover": "covers/CommonBe.webp",
@@ -5222,6 +4796,149 @@
     ]
   },
   {
+    "artist": "IDK",
+    "album": "BRAVADO INTiMO…",
+    "cover": "covers/IDKBRAVADOINTiMO.webp",
+    "tracks": [
+      "…",
+      "HELLO",
+      "CELiNE iN THE TRAP (B)",
+      "MARiO COiNS (B)",
+      "S.U (B)",
+      "TiFFANY (B)",
+      "KiCKiN! (B)",
+      "STiLL i (i) (DENiM DEMO)",
+      "DENiM (B)",
+      "MiLES TRUMPET 2 (i)",
+      "MiLES TRUMPET (i)",
+      "RiCH MAN DREAMS (i)",
+      "CHECK! (B)",
+      "FLOW (B.i)",
+      "PAPERCUTS (i)",
+      "SWiTCH (i)",
+      "SUPERNOVA (i)",
+      "SEE YOU AGAiN (B.i.)",
+      "GOODBi",
+      "SUPERNOVA (acoustic)"
+    ]
+  },
+  {
+    "artist": "IDK",
+    "album": "F65",
+    "cover": "covers/IDKF65.webp",
+    "tracks": [
+      "Cape Coast",
+      "Pit Stop",
+      "Thug Tear",
+      "Champs-Élysées",
+      "Salty",
+      "D.S.T.P",
+      "Mr. Police",
+      "Pinot Noir",
+      "Paperchaser",
+      "Elmina",
+      "Georgetown",
+      "Radioactive",
+      "Know Interlude",
+      "Télé Couleur",
+      "Rabbit Stew",
+      "850 (We on Top)",
+      "Middle Passage",
+      "Still Your Man",
+      "St. Nicholas & 118th",
+      "Up the Score",
+      "Superwoman",
+      "Freetown"
+    ]
+  },
+  {
+    "artist": "IDK",
+    "album": "Simple.",
+    "cover": "covers/IDKSimple.webp",
+    "tracks": [
+      "Drugstore",
+      "Southeast to Paris",
+      "Dog Food",
+      "Zaza Tree",
+      "Breathe",
+      "Taco",
+      "The Code",
+      "Paris to Southeast"
+    ]
+  },
+  {
+    "artist": "JPEGMAFIA",
+    "album": "EXPERIMENTAL RAP",
+    "cover": "covers/JPEGMAFIAEXPERIMENTALRAP.webp",
+    "tracks": [
+      "投影の芸術",
+      "babygirl",
+      "Burning Hammer",
+      "$ (Money)",
+      "Pop this Heat",
+      "Meet the Dealers",
+      "head",
+      "Degenerates Prayer",
+      "The Ghost of Emmett Till",
+      "Since I Met Ye",
+      "¥ (Yen)",
+      "GYBB",
+      "TSAR BOMBA",
+      "Mask On",
+      "His Will",
+      "Lights",
+      "New Era",
+      "One Day it Will Be Over",
+      "War Over Land",
+      "Bridges on Fire",
+      "No Strippers in Heaven",
+      "內戰",
+      "Chat",
+      "The 1st Amendment",
+      "You will always lose money chasing women, but you will never lose women chasing money"
+    ]
+  },
+  {
+    "artist": "KNEECAP",
+    "album": "3cag",
+    "cover": "covers/KNEECAP3cag.webp",
+    "tracks": [
+      "Your All Legitimate Targets",
+      "Amach Anocht",
+      "Amach Anocht",
+      "Tá na Baggies ar an Talamh",
+      "Incognito",
+      "Ceacht Mo Chara",
+      "Your Sniffer Dogs Are Shite",
+      "Bouncers"
+    ]
+  },
+  {
+    "artist": "KNEECAP",
+    "album": "Fine Art",
+    "cover": "covers/KNEECAPFineArt.webp",
+    "tracks": [
+      "3CAG",
+      "Fine Art",
+      "Interlude: Making Headlines",
+      "I bhFiacha Linne",
+      "Interlude: Never Gets a Round",
+      "I’m Flush",
+      "Interlude: State of Ya",
+      "Better Way to Live",
+      "Sick in the Head",
+      "Love Making",
+      "Interlude: Amhrán na Scadán",
+      "Drug Dealin Pagans",
+      "Interlude: KNEECAP Chaps",
+      "Harrow Road",
+      "Parful",
+      "Rhino Ket",
+      "Interlude: Last Orders",
+      "Way Too Much"
+    ]
+  },
+  {
     "artist": "Olivia Rodrigo",
     "album": "GUTS (spilled)",
     "cover": "covers/OliviaRodrigoGUTSspilled.webp",
@@ -5287,6 +5004,160 @@
     ]
   },
   {
+    "artist": "Tune-Yards",
+    "album": "I Love Boosters (Original Motion Picture Score)",
+    "cover": "covers/TuneYardsILoveBoostersOriginalMotionPictureScore.webp",
+    "tracks": [
+      "Hi Ho",
+      "Lonely Plunk",
+      "Bossa Plunk",
+      "Pinky Ring Dude",
+      "Documentary Muzak",
+      "Clown Theme",
+      "Dr. Jack",
+      "Corvasieracy",
+      "Boosting",
+      "Hi Ho Wild Vamp",
+      "The Stolen Design",
+      "You Don't Have a Plan?",
+      "Metrofunk",
+      "Jianhu",
+      "Situational Accelerator",
+      "Skinless",
+      "Epic Chase, Pt. 1",
+      "Epic Chase, Pt. 2",
+      "Mall Rage",
+      "Foot Chase",
+      "Three Devices",
+      "Triumph",
+      "Touching the World",
+      "Hi Ho (Extended)"
+    ]
+  },
+  {
+    "artist": "Vince Staples",
+    "album": "Big Fish Theory",
+    "cover": "covers/VinceStaplesBigFishTheory.webp",
+    "tracks": [
+      "Crabs in a Bucket",
+      "Big Fish",
+      "Alyssa Interlude",
+      "Love Can Be…",
+      "745",
+      "Ramona Park is Yankee Stadium",
+      "Yeah Right",
+      "Homage",
+      "Samo",
+      "Party People",
+      "BagBak",
+      "Rain Come Down"
+    ]
+  },
+  {
+    "artist": "Vince Staples",
+    "album": "Cry Baby",
+    "cover": "covers/VinceStaplesCryBaby.webp",
+    "tracks": [
+      "Blackberry Marmalade",
+      "Go! Go! Gorilla",
+      "White Flag",
+      "The Running Man",
+      "TV Guide",
+      "The Big Bad Wolf",
+      "Only in America",
+      "Do You Know the Devil",
+      "Cotton",
+      "7 in the Morning"
+    ]
+  },
+  {
+    "artist": "Vince Staples",
+    "album": "Dark Times",
+    "cover": "covers/VinceStaplesDarkTimes.webp",
+    "tracks": [
+      "Close Your Eyes and Swing",
+      "Black&Blue",
+      "Government Cheese",
+      "Children’s Song",
+      "Shame on the Devil",
+      "Étouffée",
+      "Liars",
+      "Justin",
+      "\"Radio\"",
+      "Nothing Matters",
+      "Little Homies",
+      "Freeman",
+      "Why Won’t the Sun Come Out?"
+    ]
+  },
+  {
+    "artist": "Vince Staples",
+    "album": "RAMONA PARK BROKE MY HEART",
+    "cover": "covers/VinceStaplesRAMONAPARKBROKEMYHEART.webp",
+    "tracks": [
+      "THE BEACH",
+      "AYE! (FREE THE HOMIES)",
+      "DJ QUIK",
+      "MAGIC",
+      "NAMELESS",
+      "WHEN SPARKS FLY",
+      "EAST POINT PRAYER",
+      "SLIDE",
+      "PAPERCUTS",
+      "LEMONADE",
+      "PLAYER WAYS",
+      "MAMA’S BOY",
+      "BANG THAT",
+      "THE SPIRIT OF MONSTER KODY",
+      "ROSE STREET",
+      "THE BLUES"
+    ]
+  },
+  {
+    "artist": "Vince Staples",
+    "album": "Summertime ’06",
+    "cover": "covers/VinceStaplesSummertime06.webp",
+    "tracks": [
+      "Ramona Park Legend, Pt. 1",
+      "Ramona Park Legend, Pt. 2",
+      "3230",
+      "Lift Me Up",
+      "Norf Norf",
+      "Surf",
+      "Birds & Bees",
+      "Might Be Wrong",
+      "Get Paid",
+      "Loca",
+      "Lemme Know",
+      "Street Punks",
+      "Dopeman",
+      "Hang N’ Bang",
+      "C.N.B.",
+      "Jump off the Roof",
+      "Like It Is",
+      "Señorita",
+      "’06",
+      "Summertime"
+    ]
+  },
+  {
+    "artist": "Vince Staples",
+    "album": "Vince Staples",
+    "cover": "covers/VinceStaplesVinceStaples.webp",
+    "tracks": [
+      "ARE YOU WITH THAT?",
+      "LAW OF AVERAGES",
+      "SUNDOWN TOWN",
+      "THE SHINING",
+      "TAKING TRIPS",
+      "THE APPLE & THE TREE",
+      "TAKE ME HOME",
+      "LIL FADE",
+      "LAKEWOOD MALL",
+      "MHM"
+    ]
+  },
+  {
     "artist": "Weezer",
     "album": "Pinkerton",
     "cover": "covers/WeezerPinkerton.webp",
@@ -5318,6 +5189,137 @@
       "In the Garage",
       "Holiday",
       "Only in Dreams"
+    ]
+  },
+  {
+    "artist": "Beyoncé, Dolly Parton",
+    "album": "COWBOY CARTER",
+    "cover": "covers/BeyoncDollyPartonCOWBOYCARTER.webp",
+    "tracks": [
+      "DOLLY P",
+      "SMOKE HOUR II",
+      "SMOKE HOUR ★ WILLIE NELSON",
+      "THE LINDA MARTELL SHOW"
+    ]
+  },
+  {
+    "artist": "Ab‐Soul",
+    "album": "Control System",
+    "cover": "covers/AbSoulControlSystem.webp",
+    "tracks": [
+      "Soulo Ho3",
+      "Track Two",
+      "Bohemian Grove",
+      "Terrorist Threats",
+      "Pineal Gland",
+      "Double Standards",
+      "Mixed Emotions",
+      "Sopa",
+      "Lust Demons",
+      "Illuminate",
+      "A Rebellion",
+      "Showin’ Love",
+      "Empathy",
+      "Nothing’s Something",
+      "Beautiful Death",
+      "The Book of Soul",
+      "Black Lip Bastard (remix)"
+    ]
+  },
+  {
+    "artist": "Björk",
+    "album": "Vespertine",
+    "cover": "covers/BjrkVespertine.webp",
+    "tracks": [
+      "Hidden Place",
+      "Cocoon",
+      "It’s Not Up to You",
+      "Undo",
+      "Frosti",
+      "Aurora",
+      "An Echo, a Stain",
+      "Sun in My Mouth",
+      "Heirloom",
+      "Harm of Will",
+      "Unison"
+    ]
+  },
+  {
+    "artist": "Phoebe Bridgers",
+    "album": "Lost Weekend",
+    "cover": "covers/PhoebeBridgersLostWeekend.webp",
+    "tracks": [
+      "The Outside",
+      "Lost Boys",
+      "Kill Me",
+      "Kill Me",
+      "The Governor’s Waltz",
+      "Bobby",
+      "Lost Weekend",
+      "Haunted",
+      "Panorama",
+      "Still Standing",
+      "Liberty Tree",
+      "Never Going Back!",
+      "Other Plans",
+      "Lost Parade",
+      "I Can’t Wait",
+      "As Above",
+      "Lost Weekend (reprise)"
+    ]
+  },
+  {
+    "artist": "Steve Lacy",
+    "album": "Oh yeah?",
+    "cover": "covers/SteveLacyOhyeah.webp",
+    "tracks": [
+      "Oh Yeah?",
+      "Is It Cool?",
+      "The Feeling",
+      "Pure Colour",
+      "Show You Me",
+      "Doom",
+      "Nothing",
+      "Lovesexdrugbomb",
+      "Nice Shoes / In Your World",
+      "Bebe"
+    ]
+  },
+  {
+    "artist": "Talking Heads",
+    "album": "Remain in Light",
+    "cover": "covers/TalkingHeadsRemaininLight.webp",
+    "tracks": [
+      "Born Under Punches (The Heat Goes on)",
+      "Crosseyed and Painless",
+      "The Great Curve",
+      "Once in a Lifetime",
+      "Houses in Motion",
+      "Seen and Not Seen",
+      "Listening Wind",
+      "The Overload"
+    ]
+  },
+  {
+    "artist": "twisted teens",
+    "album": "Florida Water Blues",
+    "cover": "covers/twistedteensFloridaWaterBlues.webp",
+    "tracks": [
+      "In Nocte Perpetua - El Rey de Halloween (Álbum completo 2024)",
+      "In Nocte Perpetua - El Rey de Halloween (Álbum completo 2024)",
+      "Why Did You Miss It?",
+      "Hand Me A Cigarette",
+      "Swamp",
+      "Florida Water Blues",
+      "Guided Thunder",
+      "Top Of The World Hwy No. 2",
+      "Concealed Weeping",
+      "Riding",
+      "Business",
+      "Javelina",
+      "Weather The Season",
+      "Dancer",
+      "Sun Go Down"
     ]
   }
 ]

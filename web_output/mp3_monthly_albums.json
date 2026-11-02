@@ -1,46 +1,46 @@
 {
-  "month": "August 2026",
-  "updated": "2026-09-02T17:31:44.301496",
+  "month": "October 2026",
+  "updated": "2026-10-04T13:30:44.461246",
   "albums": [
-    {
-      "artist": "Genesis Owusu",
-      "album": "Smiling With No Teeth",
-      "plays": 65,
-      "minutes": 230.8,
-      "score": 114.75010500000002,
-      "cover": "covers/GenesisOwusuSmilingwithNoTeeth.webp"
-    },
-    {
-      "artist": "TylerTheCreator",
-      "album": "CALL ME IF YOU GET LOSTï¼š The Estate Sale",
-      "plays": 38,
-      "minutes": 128.4,
-      "score": 65.10589,
-      "cover": ""
-    },
-    {
-      "artist": "Olivia Rodrigo",
-      "album": "You Seem Pretty Sad For a Girl in Love",
-      "plays": 29,
-      "minutes": 110.2,
-      "score": 53.37036499999999,
-      "cover": ""
-    },
-    {
-      "artist": "Radiohead",
-      "album": "ok-computer 202506",
-      "plays": 24,
-      "minutes": 106.9,
-      "score": 48.866949999999996,
-      "cover": ""
-    },
     {
       "artist": "Gorillaz",
       "album": "Plastic Beach",
-      "plays": 28,
-      "minutes": 96.9,
-      "score": 48.66424,
+      "plays": 17,
+      "minutes": 58.1,
+      "score": 29.319704999999995,
       "cover": "covers/GorillazPlasticBeach.webp"
+    },
+    {
+      "artist": "Freddie Gibbs",
+      "album": "Piñata",
+      "plays": 16,
+      "minutes": 59.5,
+      "score": 29.061479999999996,
+      "cover": ""
+    },
+    {
+      "artist": "MF Doom",
+      "album": "MM..FOOD",
+      "plays": 15,
+      "minutes": 47.5,
+      "score": 24.760559999999998,
+      "cover": "covers/MFDOOMMMFOOD.webp"
+    },
+    {
+      "artist": "Leon Thomas",
+      "album": "MUTT",
+      "plays": 14,
+      "minutes": 47.2,
+      "score": 23.950999999999997,
+      "cover": "covers/LeonThomasMUTT.webp"
+    },
+    {
+      "artist": "Olivia Rodrigo",
+      "album": "Guts (Spilled)",
+      "plays": 14,
+      "minutes": 44.0,
+      "score": 23.002315,
+      "cover": "covers/OliviaRodrigoGUTSspilled.webp"
     }
   ]
 }
