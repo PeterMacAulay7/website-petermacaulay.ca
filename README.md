@@ -1,4 +1,4 @@
-# This is the repository for my personal website: <a href = "petermacaulay.ca"> PeterMacAulay.ca </a>
+# This is the repository for my personal website: <a href = "https://petermacaulay.ca"> PeterMacAulay.ca </a>
 This is place for me to learn web development while simulataneously giving me a place to host my essays, projects, blog posts, or anything I want to share with the world. 
 
 You can learn more about my motivation behind this website by perusing the actual site. That being said, the short of it is that I think a project like building a website gives me an excuse to create things I care about and actually share them with the world in the way I want to.
