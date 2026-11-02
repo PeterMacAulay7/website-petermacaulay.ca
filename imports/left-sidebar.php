@@ -10,6 +10,10 @@ $currentBooks = getCurrentlyReading(); // or 2–3 depending on layout
     <h2>Currently Reading:</h2>
     <div class="scroll-box">
       <ul>
+        <li>Giovanni's Room - James Baldwin</li>
+        <li>Man and His Symbols - Carl Jung</li>
+      </ul>
+      <ul>
         <?php foreach ($currentBooks as $b): ?>
             <li>
                 <?php echo htmlspecialchars($b["title"]); ?> - 
