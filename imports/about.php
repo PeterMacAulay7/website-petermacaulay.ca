@@ -21,7 +21,7 @@
     <div class="contentbox text-only">
       <div class="text">
         <p>
-          Hello, my name is Peter MacAulay. I'm currently a fourth year student at Mount Allison University. I'm majoring in Computer Science and minoring in Philosophy and Mathematics.
+          Hello, my name is Peter MacAulay. I recently graduated from Mount Allison University with a Bachelor of Science with a major in Computer Science and minors in Philosophy and Mathematics.
         </p>
       </div>
     </div>
